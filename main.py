@@ -51,26 +51,64 @@ def display_menu_screen(menu_title, selection, menu):
             # print('{t.normal}{title}'.format(t=term, title=m[0]))
 
 def test():
+    test_started = False
+    pressed_wrong_key = False
+    start_time = 0.0
+    time_elapsed = 0.0
     test_string = "the quick brown fox jumped over the lazy dog"
-    test_string2 = "the cat over there just took a pee in the plant my aunt gave me\n"
-    test_strings = [test_string, test_string2]
+    # test_string2 = "the cat over there just took a pee in the plant my aunt gave me\n"
+    # test_strings = [test_string, test_string2]
     print(term.home + term.clear)
     print(term.cyan(term.center("QUICK TEST")) + term.move_down(1))
-    print(term.white_on_black("(1)") + term.move_down(3))
-    print(term.white_on_black(test_string) + term.move_up(2))
-    keys_pressed = []
-    with term.raw():
-        for index in range(len(test_string)):
+    print(term.white_on_black("(1)") + term.move_down(2))
+    print(term.white_on_black(test_string) + term.move_up(1))
+    correct_pressed_keys = []
+    incorrect_pressed_keys = []
+
+    with term.raw(), term.hidden_cursor():
+        while True:
+        # for index in range(len(test_string)):
+            if test_started == False:
+                start_time = time.time()
+                test_started = True
             pressed_key = term.inkey()
+            if len(correct_pressed_keys) >= len(test_string):
+                time_elapsed = max(time.time() - start_time, 1)
+                wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
+                wpm_string = str(wpm) + ' words per minute\n'
+                total_characters = len(test_string)
+                mistyped_characters = len(incorrect_pressed_keys)
+                correct_characters = total_characters - mistyped_characters
+                accuracy = round(correct_characters / total_characters * 100, 2)
+                accuracy_string = str(accuracy) + '% Accuracy\n'
+                print(term.home + term.clear + term.move_y(term.height // 2))
+                print(term.black_on_green(term.center('Test Complete\n')))
+                print(term.black_on_green(term.center(accuracy_string)))
+                print(term.black_on_green(term.center(wpm_string)))
+                return
+
             if pressed_key == '\x03':
                 exit()
-            if pressed_key == test_string[index]:
-                print(term.green(pressed_key) + term.move_up(1))
+
+            target_character = test_string[len(correct_pressed_keys)]
+            if pressed_key == target_character:
+
+                if pressed_wrong_key == False:
+                    print(term.green(pressed_key) + term.move_up(1))
+
+                if pressed_wrong_key == True:
+                    if pressed_key == ' ':
+                        print(term.red_on_red('x') + term.move_up(1))
+                    else:
+                        print(term.red(pressed_key) + term.move_up(1))
+
+                correct_pressed_keys.append(pressed_key)
+                pressed_wrong_key = False
+
+
             else:
-                print(term.red(pressed_key) + term.move_up(1))
-
-        # print(term.cyan("b"))
-
+                pressed_wrong_key = True
+                incorrect_pressed_keys.append(pressed_key)
 
 
 def run_selection(selection, menu):
@@ -81,12 +119,6 @@ def run_selection(selection, menu):
         display_menu_screen(banner_title, selection, menu)
         time.sleep(1)
         test()
-
-
-# with term.cbreak(), term.hidden_cursor():
-#     while True:
-#         inp = term.inkey()
-#         print(term.move_down(1) + 'You pressed ' + term.bold(repr(inp)))
 
 
 def make_selection(menu):
