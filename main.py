@@ -117,7 +117,14 @@ def run_selection(selection, menu):
     with open(title_file, 'r') as f:
         banner_title = f.read()
         display_menu_screen(banner_title, selection, menu)
-        time.sleep(1)
+        test()
+
+def run_lesson_menu(selection, menu):
+    dir = f"lessons/{menu[selection]['directory']}"
+    title_file = f"{dir}/title"
+    with open(title_file, 'r') as f:
+        banner_title = f.read()
+        display_menu_screen(banner_title, selection, menu)
         test()
 
 
@@ -143,12 +150,15 @@ def make_selection(menu):
             display_menu_screen("Series selection menu", selection, menu)
     return selection
 
-
-def main():
-    with term.fullscreen():
+def run_main_menu():
+    selection = 0
+    with term.fullscreen(), term.hidden_cursor():
         selection = make_selection(MAIN_MENU)
 
     run_selection(selection, MAIN_MENU)
 
+def main():
+    run_main_menu()
 
 main()
+
