@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
+import json
 import time
 from blessed import Terminal
 
 
 term = Terminal()
 
+MAIN_MENU_TITLE = 'Series selection menu'
 MAIN_MENU = [
     {
         "title": "Series Q    Quick QWERTY course  (Q1 - Q5) ",
@@ -38,17 +40,6 @@ MAIN_MENU = [
 ]
 
 
-def display_menu_screen(menu_title, selection, menu):
-    print(term.home + term.clear)
-    print(term.cyan(term.center(menu_title)) + term.move_y(term.height // 2))
-
-    for index, menu_item in enumerate(menu):
-        if index == selection:
-            print(term.black_on_cyan(term.center(menu_item["title"])))
-            # print('{t.bold_red_reverse}{title}'.format(t=term, title=m[0]))
-        else:
-            print(term.center(menu_item["title"]))
-            # print('{t.normal}{title}'.format(t=term, title=m[0]))
 
 def test():
     test_started = False
@@ -110,8 +101,19 @@ def test():
                 pressed_wrong_key = True
                 incorrect_pressed_keys.append(pressed_key)
 
+def display_menu_screen(menu_title, selection, menu):
+    print(term.home + term.clear)
+    print(term.cyan(term.center(menu_title)) + term.move_y(term.height // 2))
 
-def run_selection(selection, menu):
+    for index, menu_item in enumerate(menu):
+        if index == selection:
+            print(term.black_on_cyan(term.center(menu_item["title"])))
+            # print('{t.bold_red_reverse}{title}'.format(t=term, title=m[0]))
+        else:
+            print(term.center(menu_item["title"]))
+            # print('{t.normal}{title}'.format(t=term, title=m[0]))
+
+def get_lesson_selection(selection, menu):
     dir = f"lessons/{menu[selection]['directory']}"
     title_file = f"{dir}/title"
     with open(title_file, 'r') as f:
@@ -119,19 +121,10 @@ def run_selection(selection, menu):
         display_menu_screen(banner_title, selection, menu)
         test()
 
-def run_lesson_menu(selection, menu):
-    dir = f"lessons/{menu[selection]['directory']}"
-    title_file = f"{dir}/title"
-    with open(title_file, 'r') as f:
-        banner_title = f.read()
-        display_menu_screen(banner_title, selection, menu)
-        test()
-
-
-def make_selection(menu):
+def menu_selection(menu_title, menu):
     selection = 0
     # draws menu screen the first time
-    display_menu_screen("Series selection menu", selection, menu)
+    display_menu_screen(menu_title, selection, menu)
     selection_inprogress = True
     with term.cbreak():
         while selection_inprogress:
@@ -147,18 +140,36 @@ def make_selection(menu):
             selection = selection % len(menu)
 
             # needs to redraw menu screen every time selection is changed to highlight new selection
-            display_menu_screen("Series selection menu", selection, menu)
+            display_menu_screen(menu_title, selection, menu)
     return selection
 
-def run_main_menu():
-    selection = 0
-    with term.fullscreen(), term.hidden_cursor():
-        selection = make_selection(MAIN_MENU)
+def run_lesson_menu(lesson_selection):
+    # selection = 0
+    dir = f"lessons/{MAIN_MENU[lesson_selection]['directory']}"
+    title_file = f"{dir}/title"
+    menu_file = f"{dir}/menu.json"
+    print(menu_file)
+    with open(menu_file, 'r') as f:
+        menu = json.load(f)
+        print(menu)
+        print(json.dumps(menu))
+    with open(title_file, 'r') as f:
+        menu_title = f.read()
 
-    run_selection(selection, MAIN_MENU)
+    menu_selection(menu_title, menu)
+
+    # display_menu_screen(menu_title, lesson_selection, menu)
+    test()
+
+def run_main_menu():
+    with term.fullscreen(), term.hidden_cursor():
+        selection = menu_selection(MAIN_MENU_TITLE, MAIN_MENU)
+
+    return selection
 
 def main():
-    run_main_menu()
+    lesson_selection = run_main_menu()
+    run_lesson_menu(lesson_selection)
 
 main()
 
