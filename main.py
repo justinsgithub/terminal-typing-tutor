@@ -4,7 +4,6 @@ import json
 import time
 from blessed import Terminal
 
-
 term = Terminal()
 
 MAIN_MENU_TITLE = 'Series selection menu'
@@ -173,7 +172,11 @@ def display_info_screen(banner_title, content):
     action = 'next'
     print(term.home + term.clear)
     print(term.black_on_cyan(term.center(banner_title)))
-    print(content)
+    for line in content.split('\n'):
+        even_line = line
+        while len(even_line) < 80:
+            even_line += ' '
+        print(term.center(even_line))
     print(term.home + term.move_xy(0, term.height - 1))
     print(term.black_on_white(" Press RETURN or SPACE to continue, ESC to return to the menu ") + term.move_up(1))
     info_str = ' Info '
@@ -191,6 +194,7 @@ def display_info_screen(banner_title, content):
 
 
 def run_lesson(lesson_dir):
+    show_menu = False
     data_file = f"{lesson_dir}/data.json"
     with open(data_file, 'r') as f:
         lesson_data = json.load(f)
@@ -208,19 +212,20 @@ def run_lesson(lesson_dir):
         action = display_info_screen('blah', content)
         if action == 'next':
             current += 1
+        if action == 'menu':
+            show_menu = True
+            break
 
-    return lesson_data
+    return show_menu
 
 def main():
     series_selected = run_series_menu()
     series_name = MAIN_MENU[series_selected]['series']
-    lesson_selected = run_lesson_menu(series_name)
-    lesson_dir = f"lessons/{series_name}/{str(lesson_selected)}"
-    run_lesson(lesson_dir)
-    test()
+    show_menu = True
+    while show_menu:
+        lesson_selected = run_lesson_menu(series_name)
+        lesson_dir = f"lessons/{series_name}/{str(lesson_selected)}"
+        show_menu = run_lesson(lesson_dir)
+        # test()
 
 main()
-
-
-
-
