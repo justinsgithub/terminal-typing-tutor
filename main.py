@@ -169,9 +169,25 @@ def run_series_menu() -> int:
     return selection
 
 def display_info_screen(banner_title, content):
+    display_info = True
+    action = 'next'
     print(term.home + term.clear)
-    print(term.cyan(term.center(banner_title)) + term.move_y(2))
+    print(term.black_on_cyan(term.center(banner_title)))
     print(content)
+    print(term.home + term.move_xy(0, term.height - 1))
+    print(term.black_on_white(" Press RETURN or SPACE to continue, ESC to return to the menu ") + term.move_up(1))
+    info_str = ' Info '
+    print(term.move_right(term.width - len(info_str)) + term.black_on_white(info_str) + term.move_up(1))
+    with term.cbreak():
+        while display_info:
+            key = term.inkey()
+            if key.name == "KEY_ESCAPE":
+                action = 'menu'
+                display_info = False
+            if key.name == "KEY_ENTER" or key == ' ':
+                display_info = False
+
+    return action
 
 
 def run_lesson(lesson_dir):
@@ -189,10 +205,9 @@ def run_lesson(lesson_dir):
         with open(file, 'r') as f:
             content = f.read()
 
-        display_info_screen('blah', content)
-        time.sleep(0.25)
-        current += 1
-
+        action = display_info_screen('blah', content)
+        if action == 'next':
+            current += 1
 
     return lesson_data
 
