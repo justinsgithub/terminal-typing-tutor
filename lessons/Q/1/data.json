@@ -1,0 +1,59 @@
+[
+  {
+    "type": "info",
+    "file": "1"
+  },
+  {
+    "type": "info",
+    "file": "2"
+  },
+  {
+    "type": "info",
+    "file": "3"
+  },
+  {
+    "type": "drill",
+    "file": "4",
+    "title": "(1) Try this:"
+  },
+  {
+    "type": "drill",
+    "file": "5",
+    "title": "Now this (use 'k' finger for 'i' and 'd' finger for 'e'):"
+  },
+  {
+    "type": "drill",
+    "file": "6",
+    "title": "(2) Some more:"
+  },
+  {
+    "type": "drill",
+    "file": "7",
+    "title": "(3) Hang in there; let's do some sentences... \n To get capitals use your ';' finger on [right-SHIFT]"
+  },
+  {
+    "type": "drill",
+    "file": "8",
+    "title": "(4) Now try [left-SHIFT] usage (for 'L') and [right-SHIFT]!"
+  },
+  {
+    "type": "drill",
+    "file": "9",
+    "title": "(5)"
+  },
+  {
+    "type": "drill",
+    "file": "10",
+    "title": "(6)"
+  },
+  {
+    "type": "drill",
+    "file": "11",
+    "title": "(7)"
+  },
+  {
+    "type": "drill",
+    "file": "12",
+    "title": "(8)"
+  }
+]

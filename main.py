@@ -11,31 +11,31 @@ MAIN_MENU_TITLE = 'Series selection menu'
 MAIN_MENU = [
     {
         "title": "Series Q    Quick QWERTY course  (Q1 - Q5) ",
-        "directory": "q",
+        "series": "Q",
     },
     {
         "title": "Series R    Long QWERTY course  (R1 - R14) ",
-        "directory": "r",
+        "series": "R",
     },
     {
         "title": "Series T    QWERTY touch typing  (T1 - T16)",
-        "directory": "t",
+        "series": "T",
     },
     {
         "title": "Series V    Yet more QWERTY  (V1 - V19)    ",
-        "directory": "v",
+        "series": "V",
     },
     {
         "title": "Series U    QWERTY Review  (U1 - U13)      ",
-        "directory": "u",
+        "series": "U",
     },
     {
         "title": "Series M    Typing drills  (M1 - M11)      ",
-        "directory": "m",
+        "series": "M",
     },
     {
         "title": "Series S    Speed drills  (S1 - S4)        ",
-        "directory": "s",
+        "series": "S",
     },
 ]
 
@@ -108,20 +108,18 @@ def display_menu_screen(menu_title, selection, menu):
     for index, menu_item in enumerate(menu):
         if index == selection:
             print(term.black_on_cyan(term.center(menu_item["title"])))
-            # print('{t.bold_red_reverse}{title}'.format(t=term, title=m[0]))
         else:
             print(term.center(menu_item["title"]))
-            # print('{t.normal}{title}'.format(t=term, title=m[0]))
 
-def get_lesson_selection(selection, menu):
-    dir = f"lessons/{menu[selection]['directory']}"
-    title_file = f"{dir}/title"
-    with open(title_file, 'r') as f:
-        banner_title = f.read()
-        display_menu_screen(banner_title, selection, menu)
-        test()
+# def get_lesson_selection(selection, menu):
+#     dir = f"lessons/{menu[selection]['directory']}"
+#     title_file = f"{dir}/title"
+#     with open(title_file, 'r') as f:
+#         banner_title = f.read()
+#         display_menu_screen(banner_title, selection, menu)
+#         test()
 
-def menu_selection(menu_title, menu):
+def menu_selection(menu_title, menu) -> int:
     selection = 0
     # draws menu screen the first time
     display_menu_screen(menu_title, selection, menu)
@@ -143,33 +141,71 @@ def menu_selection(menu_title, menu):
             display_menu_screen(menu_title, selection, menu)
     return selection
 
-def run_lesson_menu(lesson_selection):
-    # selection = 0
-    dir = f"lessons/{MAIN_MENU[lesson_selection]['directory']}"
+def run_lesson_menu(series_name) -> int:
+    dir = f"lessons/{series_name}"
     title_file = f"{dir}/title"
     menu_file = f"{dir}/menu.json"
     print(menu_file)
     with open(menu_file, 'r') as f:
         menu = json.load(f)
-        print(menu)
-        print(json.dumps(menu))
+        # print(menu)
+        # print(json.dumps(menu))
     with open(title_file, 'r') as f:
         menu_title = f.read()
 
-    menu_selection(menu_title, menu)
+    # lessons start at 1 not 0
+    lesson_selected = menu_selection(menu_title, menu) + 1
+    # lesson_selected = menu[selection]['lesson']
+    # return lesson_selected
+    return lesson_selected
 
     # display_menu_screen(menu_title, lesson_selection, menu)
-    test()
+    # test()
 
-def run_main_menu():
+def run_series_menu() -> int:
     with term.fullscreen(), term.hidden_cursor():
         selection = menu_selection(MAIN_MENU_TITLE, MAIN_MENU)
 
     return selection
 
+def display_info_screen(banner_title, content):
+    print(term.home + term.clear)
+    print(term.cyan(term.center(banner_title)) + term.move_y(2))
+    print(content)
+
+
+def run_lesson(lesson_dir):
+    data_file = f"{lesson_dir}/data.json"
+    with open(data_file, 'r') as f:
+        lesson_data = json.load(f)
+
+    current = 0
+
+    # while True:
+    while current < len(lesson_data):
+        data = lesson_data[current]
+        filename = str(current + 1)
+        file = f"{lesson_dir}/{filename}"
+        with open(file, 'r') as f:
+            content = f.read()
+
+        display_info_screen('blah', content)
+        time.sleep(0.25)
+        current += 1
+
+
+    return lesson_data
+
 def main():
-    lesson_selection = run_main_menu()
-    run_lesson_menu(lesson_selection)
+    series_selected = run_series_menu()
+    series_name = MAIN_MENU[series_selected]['series']
+    lesson_selected = run_lesson_menu(series_name)
+    lesson_dir = f"lessons/{series_name}/{str(lesson_selected)}"
+    run_lesson(lesson_dir)
+    test()
 
 main()
+
+
+
 
