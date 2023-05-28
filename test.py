@@ -10,11 +10,15 @@ with term.cbreak(), term.hidden_cursor(), term.raw():
         key = term.inkey()
         if key == '\x03':
             exit()
+        if key == '\n':
+            print(term.red('KEY IS KEY_ENTER'))
         if key.is_sequence:
             print(term.green('KEY IS SEQUENCE'))
         if key.name == 'KEY_BACKSPACE':
             print(term.green('KEY IS KEY_BACKSPACE'))
-        print(term.green('KEY ' +  str(key)))
+        if key.name == 'KEY_ENTER':
+            print(term.green('KEY IS KEY_ENTER'))
+        print(term.green('term.inkey() = ' +  key))
         print(term.green('KEY NAME' +  str(key.name)))
         print(term.green('KEY CODE' +  str(key.code)))
         print(term.green(str('\x03' == repr(key))))

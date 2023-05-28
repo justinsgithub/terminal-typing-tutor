@@ -4,10 +4,12 @@ from typing import Literal
 import yaml
 import json
 import time
+
 # from constants import MAIN_MENU, MAIN_MENU_TITLE
 from blessed import Terminal
 
 term = Terminal()
+
 
 def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
     with open(file, "r") as f:
@@ -17,16 +19,33 @@ def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
             return json.load(f)
         return f.read()
 
+
 lesson_dir = f"./lessons/Q/1"
 data_file = f"{lesson_dir}/data.yaml"
 lesson_data = file_content(data_file, "yaml")
 total_segments = lesson_data["total_segments"]
 segments = lesson_data["segments"]
-content = segments[5]["content"]
+content = segments[12]["content"]
+
+
+def end_drill(start_time, test_string, incorrect_pressed_keys):
+    time_elapsed = max(time.time() - start_time, 1)
+    wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
+    wpm_string = str(wpm) + " words per minute\n"
+    total_characters = len(test_string)
+    mistyped_characters = len(incorrect_pressed_keys)
+    correct_characters = total_characters - mistyped_characters
+    accuracy = round(correct_characters / total_characters * 100, 2)
+    accuracy_string = str(accuracy) + "% Accuracy\n"
+    print(term.home + term.clear + term.move_y(term.height // 2))
+    print(term.black_on_green(term.center("Test Complete\n")))
+    print(term.black_on_green(term.center(accuracy_string)))
+    print(term.black_on_green(term.center(wpm_string)))
+    return
 
 
 def run_drill():
-    test_started = False
+    drill_started = False
     pressed_wrong_key = False
     start_time = 0.0
     time_elapsed = 0.0
@@ -35,17 +54,23 @@ def run_drill():
     # test_strings = [test_string, test_string2]
     print(term.home + term.clear)
     print(term.cyan(term.center("QUICK TEST")) + term.move_down(1))
-    print(term.white_on_black("(1)") + term.move_down(2))
-    print(term.white_on_black(test_string) + term.move_up(1))
+    print(term.white_on_black(term.center("(1)")) + term.move_down(2))
+    print(test_string + term.move_up(2))
+    for _ in test_string.split('\n'):
+        print(term.move_up(2))
+    print(term.move_down(1))
     correct_pressed_keys = []
     incorrect_pressed_keys = []
+    drill_over = False
 
-    with term.raw(), term.hidden_cursor():
-        while True:
+    # with term.raw(), term.hidden_cursor(): HIDDEN CURSOR OFF DURING DEBUGGING
+    with term.raw():
+        while not drill_over:
             pressed_key = term.inkey()
-            if test_started == False:
+            # we want to start the timer after user starts test (after first key is pressed)
+            if drill_started == False:
                 start_time = time.time()
-                test_started = True
+                drill_started = True
             if len(correct_pressed_keys) >= len(test_string):
                 time_elapsed = max(time.time() - start_time, 1)
                 wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
@@ -65,13 +90,26 @@ def run_drill():
                 exit()
 
             target_character = test_string[len(correct_pressed_keys)]
-            if pressed_key == target_character:
+            line_break = target_character == "\n"
+            pressed_enter = pressed_key.name == "KEY_ENTER"
+            pressed_space = pressed_key == " "
+            hit_target1 = pressed_key == target_character
+            hit_target2 = line_break and pressed_enter
+
+            if hit_target1 or hit_target2:
                 if pressed_wrong_key == False:
-                    print(term.green(pressed_key) + term.move_up(1))
+                    if pressed_enter:
+                        # go to beginning of next line after line break
+                        print(term.move_x(0))
+                    else:
+                        print(term.green(pressed_key) + term.move_up(1))
 
                 if pressed_wrong_key == True:
-                    if pressed_key == " ":
+                    if pressed_space:
                         print(term.red_on_red("x") + term.move_up(1))
+                    elif pressed_enter:
+                        # may not want term.move_down here
+                        print(term.red_on_red("x") + term.move_down(1) + term.move_x(0))
                     else:
                         print(term.red(pressed_key) + term.move_up(1))
 
@@ -81,7 +119,6 @@ def run_drill():
             else:
                 pressed_wrong_key = True
                 incorrect_pressed_keys.append(pressed_key)
-
 
 
 run_drill()
