@@ -71,7 +71,7 @@ def run_drill():
             if drill_started == False:
                 start_time = time.time()
                 drill_started = True
-            if len(correct_pressed_keys) >= len(test_string):
+            if len(correct_pressed_keys) == len(test_string) - 1:
                 time_elapsed = max(time.time() - start_time, 1)
                 wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
                 wpm_string = str(wpm) + " words per minute\n"
