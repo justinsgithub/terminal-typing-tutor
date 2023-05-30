@@ -1,0 +1,99 @@
+total_segments:
+
+segments:
+  0: 
+    type: info
+    intro: | 
+      (y r c , ? : p)
+    content: |
+      You learned first the letters that are most frequently used in the English
+      language.  They are repeated over and over again.
+
+      One space always follows a comma.  Don't forget there are two spaces between
+      sentences, no matter what punctuation mark closes the sentence.
+
+      The colon (:) introduces a list and is followed by two spaces.  Finger usage:
+
+       'j' for 'y', 'f' for 'r', 'k' for ',', 'd' for 'c', ';' for '?', 'p' and ':'
+  1: 
+    type: drill
+    intro: | 
+      (1) Rhythm Drill
+    content: |
+      deki frju dck, dcl. frju ftjy deki frju dck, dcl. frju ftjy
+      fgjh ;p;? jujy dedc lol. kik, fgju ;:;: frfk jujy dedc kik,
+  2: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      ag ac ar al ap at ay af ug uc ur ul up ut eg ec er el ep et
+      ey ef og or ol op ot of ig ic ir il ip if ga ca ra la pa fa
+      gu cu ru lu pu fu ge ce re le pe ye fe go co ro lo po yo fo
+      gi ci ri li fi gn pl gh ld sy rd ty ct ft ch nc dy dr ph ng
+      s?  d?  e?  f?  r?  f?  t?  j?  n?  s:  d:  e:  r:  t:  n:
+      k, i, d, e, f, r, k, u, f, t, k, y, d, c, k, n, k, h, l, o,
+  3: 
+    type: drill 
+    intro: |
+      (3) Continuous Copy
+    content: |
+      Chance can aid a nice choice.  It can teach one to count his
+      costs too.  In each such case a chance cause can hit costs.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      At his age a good song is the thing as he gets his dog and
+      gun.  He is going to hunt again.  As night ends he sets out.
+  0: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      As soon as papa is deep in a nap Pat happens to pound in his
+      shop and the phone sounds.  Pat is to paint and pass up noise.
+  0: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      I hear there is an error in her other order.  The store sent
+      her red dress to our door.  She is sure that it is too dear.
+  0: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      I shall hold those ideal hotel lots at least until all land
+      is sold.  Late sales still total less than the one old deal.
+  0: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      Sunday is too soon.  It is not easy to stay and study this
+      dandy day.  I need to study.  It is not easy on the eyes.
+  0: 
+    type: drill
+    intro: | 
+      (9)
+    content: |
+      One needs to use faith if one fishes often.  It is fun to sit
+      on soft sod and fish.  It is fun to feel a fish dash out fast.
+  0: 
+    type: drill
+    intro: | 
+      (9A)
+    content: |
+      Hello, is this Dan?  Hello, Dan, this is Ann.  No, Ann.  Did
+      you see Ted?  Is Nan at the house?  Then dash to the house.
+      Is he at the house?  Has he his auto?  Did he tie on those
+      odds and ends:  used suits, sun hats, shoes, and side tent?
+  0: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      Papa can not plan to get us all there in such a car as this.

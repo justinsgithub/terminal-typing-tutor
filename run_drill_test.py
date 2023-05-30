@@ -25,7 +25,7 @@ data_file = f"{lesson_dir}/data.yaml"
 lesson_data = file_content(data_file, "yaml")
 total_segments = lesson_data["total_segments"]
 segments = lesson_data["segments"]
-content = segments[12]["content"]
+content = segments[11]["content"]
 
 
 def end_drill(start_time, test_string, incorrect_pressed_keys):
@@ -53,8 +53,12 @@ def run_drill():
     # test_string2 = "the cat over there just took a pee in the plant my aunt gave me\n"
     # test_strings = [test_string, test_string2]
     print(term.home + term.clear)
+    with term.location():
+        print(term.home + term.move_xy(0, term.height))
+        info_str = "   Drill   "
+        print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
     print(term.cyan(term.center("QUICK TEST")) + term.move_down(1))
-    print(term.white_on_black(term.center("(1)")) + term.move_down(2))
+    print(term.white(term.center("(1)")) + term.move_down(2))
     print(test_string + term.move_up(2))
     for _ in test_string.split('\n'):
         print(term.move_up(2))
@@ -71,19 +75,25 @@ def run_drill():
             if drill_started == False:
                 start_time = time.time()
                 drill_started = True
+            # end drill after all characters are typed
             if len(correct_pressed_keys) == len(test_string) - 1:
                 time_elapsed = max(time.time() - start_time, 1)
                 wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
-                wpm_string = str(wpm) + " words per minute\n"
+                wpm_string = str(wpm) + " words per minute"
                 total_characters = len(test_string)
                 mistyped_characters = len(incorrect_pressed_keys)
                 correct_characters = total_characters - mistyped_characters
                 accuracy = round(correct_characters / total_characters * 100, 2)
-                accuracy_string = str(accuracy) + "% Accuracy\n"
-                print(term.home + term.clear + term.move_y(term.height // 2))
-                print(term.black_on_green(term.center("Test Complete\n")))
-                print(term.black_on_green(term.center(accuracy_string)))
-                print(term.black_on_green(term.center(wpm_string)))
+                accuracy_string = str(accuracy) + "% Accuracy"
+                # print(term.home + term.clear + term.move_y(term.height // 2))
+                print(term.move_xy(0, round(term.height // 2)))
+                # print(term.green_on_black(term.center("Drill Complete")))
+                print(term.green_on_black(term.center(accuracy_string)))
+                print(term.green_on_black(term.center(wpm_string)))
+                print(term.home + term.move_xy(0, term.height - 1))
+                print(term.black_on_white(" Press R to repeat, N for next exercise or E to exit "))
+                # info_str = "   Stats   "
+                # print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
                 return
 
             if pressed_key == "\x03":
