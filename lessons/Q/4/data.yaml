@@ -1,3 +1,102 @@
-total_segments:
+total_segments: 13
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      (m w v z x b q ' -)
+    content: |
+      Self control is important in learning to type.  Concentrate on using the
+      correct finger for each key.  In this lesson you learn the seven remaining
+      letters of the alphabet.
+
+      The semicolon (;), like the comma, is followed by one space in a sentence.
+
+      Fingers:  'j' for 'm', 's' for 'w' and 'x', 'f' for 'v' and 'b',
+      ';' for ' and '-', 'a' for 'z' and 'q'
+  1: 
+    type: drill
+    intro: | 
+      (1) Rhythm Drill
+    content: |
+      dedc kik, frfv jujm swsx lol. aqaz ;p;p frfv jujm ftfb jyjn
+      aqsw az;p sxl. fvjm fvjn fbjn aqsw az;p sxl. fvjm fvjn fbjn
+  2: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      am aw av az ak ax ab um ub em ew ev ez ek eq ex om ow ov oz
+      ok ob im iv iz ix ib ma wa va za ka ja xa ba mu ju qu bu me
+      we ve ze ke je xe be mo wo vo zo ko jo bo mi wi vi zi ki xi
+      bi xt sm sk sw kn ms nk wh tw ks wn dv s; o; n; d; l; e; t;
+  3: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      Iowa was white with snow when we two went down town and saw
+      a show.  We wanted to see news and not the widow who was wed.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      John has to use a tan and jet auto.  He joined Jane in its
+      joint use.  Jane just intends to use it in June on a jaunt.
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      Smith is his name.  He is on some Maine team.  I am to meet
+      him and Miss Smith.  I must see them some time this month.
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      Kate uses ink to send a note south to Kansas kin.  She asks
+      to use a kodak to take along on these keen skates and skis.
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      I advise Eva in vain to avoid an auto visit in seven states.
+      Nevada is so vivid that Eva votes to have this visit saved.
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      She has questions and unique ideas to quote us.  So she is
+      quite the queen in this quiet set and sets us quaint quotas.
+  9: 
+    type: drill
+    intro: | 
+      (9)
+    content: |
+      The zoo is shut.  His zest is dashed.  Dan dozes.  One sneeze
+      and then a dozen seize Dan.  In a daze he sees the zoo seized.
+  10: 
+    type: drill
+    intro: | 
+      (9A)
+    content: |
+      The boat has been best to Boston.  On this basis no doubt one
+      is bound to be a bit behind but boats beat both dust and heat.
+  11: 
+    type: drill
+    intro: | 
+      (9B)
+    content: |
+      Nan is in Texas.  She is anxious to dine at six.  She sees a
+      taxi stand next to the sixth exit.  Taxis exist to aid one.
+  12: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      Two of the boys are to do it today and two of them next week.
+      Ask them to let us have the car if they both go to the show.

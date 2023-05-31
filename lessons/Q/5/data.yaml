@@ -1,3 +1,72 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Now you know all of the alphabet.
+    content: |
+      In this lesson we add the hyphen (-) and the apostrophe (').
+  1: 
+    type: drill
+    intro: | 
+      (1) Rhythm Drill
+    content: |
+      dedc kik, frfv jujm swsx lol. aqaz ;p;p frfv jujm ftfb jyjn
+      frfk fvfb jujy jmjn aqsw azsw azsx ;plo ;p;- kik, ;p;-
+  2: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      ad ar an al am ab ee st ed er en el es em ex om on or un up
+      id ic ir in im se sy le ly re ry ec fy ty de be my by bi di
+      l-t o-d s-c p-t o-d n-y r-o g-d r-h d-g n't t's l's y's I'l
+  3: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy -- Review
+    content: |
+      It is a good thing papa has gone.  Pat gets up a deep song.
+      Yet Ann says an easy song any day is a sign to guess again.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      They often need funds but don't think it is any fun to study.
+      Ann is keen to ask him to use his kodak at the same time.
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      Ted notes an odd noise.  Dan is in the seas and needs aid.
+      He sheds his suit and shoes on the sand and is out in haste.
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      A good visit East is Ann's next quest.  Ann seems to seize
+      on this idea with zest.  She has set seven visits as a quota.
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      She is to adjust her six visits to have a snow-white Maine
+      Christmas.  An Iowa aunt asks Ann to take in that state, too.
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      It's a tax on time, but it's quite a new zone to Ann who is
+      in just the mood to end her quota of visits in sixteen weeks.
+  9: 
+    type: drill
+    intro: | 
+      (9) Rhythmic Review
+    content: |
+      Two of the boys are to do it today and two of them next week.

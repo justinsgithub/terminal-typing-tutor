@@ -1,4 +1,4 @@
-total_segments:
+total_segments: 12
 
 segments:
   0: 
@@ -47,42 +47,42 @@ segments:
     content: |
       At his age a good song is the thing as he gets his dog and
       gun.  He is going to hunt again.  As night ends he sets out.
-  0: 
+  5: 
     type: drill
     intro: | 
       (5)
     content: |
       As soon as papa is deep in a nap Pat happens to pound in his
       shop and the phone sounds.  Pat is to paint and pass up noise.
-  0: 
+  6: 
     type: drill
     intro: | 
       (6)
     content: |
       I hear there is an error in her other order.  The store sent
       her red dress to our door.  She is sure that it is too dear.
-  0: 
+  7: 
     type: drill
     intro: | 
       (7)
     content: |
       I shall hold those ideal hotel lots at least until all land
       is sold.  Late sales still total less than the one old deal.
-  0: 
+  8: 
     type: drill
     intro: | 
       (8)
     content: |
       Sunday is too soon.  It is not easy to stay and study this
       dandy day.  I need to study.  It is not easy on the eyes.
-  0: 
+  9: 
     type: drill
     intro: | 
       (9)
     content: |
       One needs to use faith if one fishes often.  It is fun to sit
       on soft sod and fish.  It is fun to feel a fish dash out fast.
-  0: 
+  10: 
     type: drill
     intro: | 
       (9A)
@@ -91,7 +91,7 @@ segments:
       you see Ted?  Is Nan at the house?  Then dash to the house.
       Is he at the house?  Has he his auto?  Did he tie on those
       odds and ends:  used suits, sun hats, shoes, and side tent?
-  0: 
+  11: 
     type: drill
     intro: | 
       (10) Rhythmic Review
