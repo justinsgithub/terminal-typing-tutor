@@ -1,3 +1,136 @@
-total_segments:
+total_segments: 21
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      About this lesson
+    content: | 
+      We will practice some quotes by some famous (and not so famous) people.
+  1: 
+    type: drill
+    intro: | 
+      Marcus Aurelius
+    content: |
+      A man can live well even in a palace.
+  2: 
+    type: drill
+    intro: | 
+      Ralph Waldo Emerson
+    content: |
+      My chief want in life is someone who shall make me do what I can.
+  3: 
+    type: drill
+    intro: | 
+      Elizabeth Barrett Browning
+    content: |
+      No man can be called friendless when he has God and the
+      companionship of good books.
+  4: 
+    type: drill
+    intro: | 
+      Ralph Waldo Emerson
+    content: |
+      I like the silent church before the service begins better than any preaching.
+  5: 
+    type: drill
+    intro: | 
+      George Washington
+    content: |
+      True friendship is a plant of slow growth.
+  6: 
+    type: drill
+    intro: | 
+      Aristotle
+    content: |
+      There is a foolish corner in the brain of the wisest men.
+  7: 
+    type: drill
+    intro: | 
+      Goethe
+    content: |
+      Tell me what you are busy about, and I will tell you what you are.
+  8: 
+    type: drill
+    intro: | 
+      Gelett Burgess
+    content: |
+      If in the last few years you haven't discarded a major opinion or
+      acquired a new one, check your pulse.  You may be dead.
+  9: 
+    type: drill
+    intro: | 
+      James B. Conant
+    content: |
+      Democracy is a small hard core of common agreement, surrounded
+      by a rich variety of individual differences.
+  10: 
+    type: drill
+    intro: | 
+      Albert Einstein
+    content: |
+      I never think of the future.  It comes soon enough.
+  11: 
+    type: drill
+    intro: | 
+      Harry S. Truman
+    content: |
+      Men often mistake notoriety for fame, and would rather be
+      remarked for their vices than not be noticed at all.
+  12: 
+    type: drill
+    intro: | 
+      Will Rogers
+    content: |
+      I could study all my life and not think up half the amount
+      of funny things they can think of in one session of Congress.
+  13: 
+    type: drill
+    intro: | 
+      Ralph Waldo Emerson
+    content: |
+      Hospitality consists in a little fire, a little food and an immense quiet.
+  14: 
+    type: drill
+    intro: | 
+      H. L. Mencken
+    content: |
+      Puritanism is the haunting fear that someone, somewhere, may be happy.
+  15: 
+    type: drill
+    intro: | 
+      William James
+    content: |
+      When you have to make a choice and don't make it, that is in itself a choice.
+  16: 
+    type: drill
+    intro: | 
+      James Holt McGravran.
+    content: |
+      There is a way of transferring funds that is even faster
+      than electronic banking.  It is called marriage.
+  17: 
+    type: drill
+    intro: | 
+      Woody Allen
+    content: |
+      Showing up is 80 percent of life.
+  18: 
+    type: drill
+    intro: | 
+      Robert Frost
+    content: |
+      A poem begins in delight and ends in wisdom.
+  19: 
+    type: drill
+    intro: | 
+      Louis Pasteur
+    content: |
+      When I approach a child, he inspires in me two sentiments:  tenderness
+      for what he is, and respect for what he may become.
+  20: 
+    type: drill
+    intro: | 
+      E. Joseph Crossman
+    content: |
+      The best bridge between despair and hope is a good night's sleep.

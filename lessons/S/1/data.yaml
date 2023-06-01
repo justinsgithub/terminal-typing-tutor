@@ -1,3 +1,87 @@
-total_segments:
+total_segments: 6
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      SPEED PRACTICE SERIES
+    content: |
+      The S series of lessons is designed to help you improve your typing speed
+      and accuracy.  It is assumed that you have already learned how to touch
+      type either from a previous course in touch typing or from the T series of
+      these lessons.
+
+      You can use this series even if you do not know how to touch type.  But, it is
+      recommended that you at least learn to touch type most of the letters of the
+      alphabet before starting this series.  When you encounter a letter or symbol
+      which you have not learned, you will have to look.  This is a very bad habit to
+      get into and is hard to break.  (You needn't worry if you only need to glance
+      down for unusual keys, like the dollar sign.)
+  1: 
+    type: drill
+    intro: | 
+      First, a quick warm-up.
+    content: |
+      The quick brown fox jumped over the lazy dogs.
+  2: 
+    type: drill
+    intro: | 
+      Once more:
+    content: |
+      The quick brown fox jumped over the lazy dogs.
+  3: 
+    type: drill
+    intro: | 
+      If the cursor is on a blank line, type return to skip it
+    content: |
+      Dear Sirs:
+
+      I have just purchased a Heathkit H89 computer system and would
+      like to order two boxes of diskettes for it.  This system uses
+      5 1/4 inch, hard-sectored, ten-sector, single-sided, single-
+      density diskettes.
+
+      Enclosed is my check for $45.00.  Please rush this order, as I
+      can not use my system before they arrive.
+
+      Sincerely,
+
+      Mr. Smith
+  4: 
+    type: drill
+    intro: | 
+      ()
+    content: | 
+      Dear Sirs:
+
+      Thank you for sending the diskettes so promptly.  How-
+      ever, the diskettes which you sent are for soft-sectored
+      drives.  As I stated in my original letter my system
+      accepts only ten-sector, hard-sectored diskettes.
+
+      I will return these two boxes as soon as I receive the
+      correct ones.
+
+      Sincerely,
+
+      Mr. Smith
+  5: 
+    type: drill
+    intro: | 
+      ()
+    content: | 
+      Dear Mr. Smith:
+
+      Thank you for informing us that the diskettes which you pur-
+      chased from us are not satisfactory.  We are sorry for the
+      inconvenience you have been caused in this transaction.
+
+      We shall be glad to replace the diskettes you now have or to
+      allow you to select a different brand.  If you will let us know
+      your wishes we shall be glad to give the matter our immediate
+      attention.
+
+      We hope you will give us the opportunity to prove to you that
+      this incident is most unusual and that we do strive to render
+      to our customers an efficient and courteous service at all
+      times.

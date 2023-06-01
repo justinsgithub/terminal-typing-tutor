@@ -1,3 +1,85 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      In this lesson you will be given several excerpts from the classics.
+    content: |
+      Take your time and type them carefully.
+  1: 
+    type: drill
+    intro: | 
+      A Christmas Carol, Stave One, Marley's Ghost
+    content: |
+      Now, it is a fact, that there was nothing at all par-
+      ticular about the knocker on the door, except that it
+      was very large.  It is also a fact, that Scrooge had
+      seen it, night and morning, during his whole residence
+      in that place; also that Scrooge has as little of what
+      is called fancy about him as any man in the city of
+      London, even including--which is a bold word--the
+      corporation, aldermen, and livery.  Let it also be
+      borne in mind that Scrooge had not bestowed one
+      thought on Marley, since his last mention of his
+      seven year's dead partner that afternoon.  And then
+      let any man explain to me, if he can, how it happened
+      that Scrooge, having his key in the lock of the door,
+      saw in the knocker, without its undergoing any inter-
+      mediate process of change--not a knocker, but Mar-
+      ley's face.
+  2: 
+    type: drill
+    intro: | 
+      Gulliver's Travels, Chapter One, A Voyage to Lilliput
+    content: |
+      When I awaked it was just daylight.  I attempted to rise, but I
+      found my arms and legs were strongly fastened on each side to
+      the ground; and my hair, which was long and thick, tied to the
+      ground in the same manner.  I likewise felt several slender
+      ligatures across my body, from my armpits to my thighs.  I
+      could only look upward; the sun began to grow hot, and the
+      light offended my eyes.  I heard a confused noise about me;
+      but in the posture I lay could see nothing except the sky.  In a
+      little time I felt something alive moving on my left leg,
+      which, advancing gently forward over my breast, came almost up
+      to my chin; when bending my eyes downward as much as I could, I
+      perceived it to be a human creature not six inches high, with a
+      bow and arrow in his hands, and a quiver at his back.  In the
+      mean time I felt at least forty more of the same kind (as I
+      conjectured) following the first.
+  3: 
+    type: drill
+    intro: | 
+      Treasure Island, Chapter IV, "The Sea Chest", by Stevenson.
+    content: |
+      I lost no time, of course, in telling my mother all that
+      I knew, and perhaps should have told her long before,
+      and we saw ourselves at once in a difficult and dangerous
+      position.  Some of the man's money--if he had any--was
+      certainly due to us; but it was not likely that our
+      captain's shipmates, above all the two specimens seen by
+      me, Black Dog and the blind beggar, would be inclined to
+      give up their booty in payment of the dead man's debts.
+      The captain's order to mount at once and ride for Dr.
+      Livesey would have left my mother alone and unprotected,
+      which was not to be thought of.  Indeed, it seemed
+      impossible for either of us to remain much longer in the
+      house:  the fall of coals in the kitchen grate, the very
+      ticking of the clock, filled us with alarms.
+  4: 
+    type: drill
+    intro: | 
+      Treasure Island, Chapter IV, "The Sea Chest", by Stevenson.
+    content: |
+      The neighborhood, to our ears, seemed haunted by
+      approaching footsteps; and what between the dead
+      body of the captain on the parlor floor, and the thought
+      of that detestable blind beggar hovering near at hand,
+      and ready to return, there were moments when, as the
+      saying goes, I jumped in my skin for terror.  Something
+      must speedily be resolved upon; and it occurred to us at
+      last to go forth together and seek help in the neighbor-
+      ing hamlet.  No sooner said than done.  Bareheaded as we
+      were, we ran out at once in the gathering evening and
+      the frosty fog.
