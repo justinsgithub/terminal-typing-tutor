@@ -1,3 +1,81 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      About this lesson
+    content: |
+      In this lesson we start on the top row, which has the numerals and
+      4-key and the 5-key; the J-finger presses the 7-key and the 8-key.
+      Either the F-finger or the J-finger may press the 6-key.
+  1: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      She can tell us all there is to say on her side and what to do.
+  2: 
+    type: drill
+    intro: | 
+      (2) Rhythm and Keyboard Drill
+    content: |
+      ki9 de3 ju8 fr4 ju7 fr5 jy6 ft6 lo0 sw2 ju7 fr5 jy6 ft6 ;p-
+      k9 d3 j8 f4 j7 f5 f6 l0 s2 j8 f4 j7 f5 j6 f6 k9 d3 ;- s2
+  3: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      To buy an air-mail stamp I save 1, 2, 4, and at last 6 cents.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      In two years my dollar earns 1, 3, 5, 7, and perhaps 8 cents.
+      Buy at once:  4 candy balls,9 bars, 6 or 8 of gum, 2 cakes.
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      2 and 2 are 4; 3 and 3 are 6; 4 and 4 are 8; 5 and 0 are 5.
+      3 and 4 are 7; 5 and 4 are 9; 2 and 6 are 8; 7 and 0 are 7.
+      1 and 1 are 2; 3 and 1 are 4; 5 and 1 are 6; 7 and 1 are 8.
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      I have finished Grade 9B.  In my first weeks of typing in
+      Grade 10A, I learned to use all the keys in Lessons 3 and 4.
+      In Lessons 1 and 2, and in part of No.5, I tried my hands on
+      the home row.  Both Lessons 6 and 7 were in the bank above.
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      Typing is clerical work.  Twenty years ago less than 5 per
+      cent of all those at work had clerical jobs; today, about 8
+      per cent have such jobs.  Does it interest you that of all
+      paid typists only 3 per cent are more than 44 years of age?
+      Most of the 810,000 typists in the last census are young.
+  8: 
+    type: drill
+    intro: | 
+      (8-9)
+    content: |
+      To throw a carriage do you take 6 or 7 times--or to shift for
+      a capital, 2 or 3 times--as long as to hit one letter?  And
+      do you know the common keys?  One common pair of letters is used
+      for every 3 or 4 other pairs, even though there are more than
+      600 other pairs.  The digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+      You will spell these out more often than you will type them.
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      I am vexed if my prize went to my old address, 55 Fifth Avenue.

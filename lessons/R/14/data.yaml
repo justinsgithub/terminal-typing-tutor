@@ -1,3 +1,93 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      I trust that you will be able to call upon us very soon.
+  1: 
+    type: drill
+    intro: | 
+      (2) Rhythm and Keyboard Drill
+    content: |
+      k( d# j* f$ j& f% j& f^ l) s@ ;_ d# ;` f% ;` f$ j^ s@
+      (3 8% #9 2) @0 [@ *4 2_ $8 [% 3 1/5 3 @ 5 & 3^ $7 5* $8 `)
+      as" nt" et" re" us" me" is" de" it" t." e." r," o," ?" ?" ?"
+
+      t( e# h* u$ h& u% h& u^ n) o@ s~ e# s/ u% s/ u$ h^ o@
+      (3 8% #9 2) @0 [@ *4 2_ $8 [% 3 1/5 3 @ 5 & 3^ $7 5* $8 `)
+      as" nt" et" re" us" me" is" de" it" t." e." r," o," ?" ?" ?"
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      The Herald, the Daily News, and the Post reported the story.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Read "National Affairs" in Time for December 6, 1940.  You
+      may think that Snappy Stories has more news than Time.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      He goes November 6, on Train #2 (North Coast), at 9:15 p.m.
+      Train #35-4 (Southern Route) leaves at 6:00 but stops often.
+      He likes to go by bus (Overland Route), but it goes at 2:10.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      "Good morning," said the clerk.  "May I be of help to you?"
+      "Thank you," she replied, "but I must wait to see Mr. Burd."
+      "He will be in his office at 10:20," the clerk assured her.
+      "That will be fine," the clerk said, "I'll wait for him, too."
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      SOIL--Remove to depth of 9" under house and 5' on all sides.
+      FRAME WORK--Beams 2" x 8"; braces 2" x 4"; rafters 2" x 6".
+      ROOF--Use 18", #1 cedar shingles, laid 5" to the weather.
+      PLUMBING--Use #1 materials; 4" cast iron pipe; sink 2' x 6'.
+      LATH AND PLASTER--Use #1 spruce 3/8 x 1.5"; 2 coats plaster.
+  7: 
+    type: drill
+    intro: | 
+      (8) Pointed Paragraph (a o)
+    content: | 
+      To attain a personal association with so popular an
+      author is an approved social ambition.  To loan him money or
+      catalog his books we consider a favor.  Today his tailor, later
+      with a coat, loads on him a thousand pardons.  A normal Mon-
+      day program allows a lazy forenoon to ocean and boat; after-
+      noon to various auto roads in orange season; night to play
+      contract or follow the local opera.  As soon as he can account
+      for another book, our author is anxious to go abroad.
+  8: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      "Has #4-4 gone?" she asked, rushing in out of the cold.
+      "No--why $4?" the station agent* answered (he had won- 
+      dered why she was so worried).  But he wasn't to find out--
+      for a white hand pushed back $15 and picked up an old copy
+      of Good Housekeeping from a seat.  She began to read.  When
+      he noted she had chosen "Winter Comfort" he was 100% amused.
+      ------------------------------------------------------------
+      *Red Wild (heir to $750,000 at 5%, working on the B. & O.).
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      I said, "There is the city and this bus won't be long now."

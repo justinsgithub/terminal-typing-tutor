@@ -1,3 +1,84 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      How do I lose if I read a book that doesn't have much in it?
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      non ana dis dia cle pan ard pur ern eer off age suf ame amb
+      ess ean ist ian cel apo col ary tra neo sur ity sub ele mis
+  2: 
+    type: drill
+    intro: | 
+      (3) Four-letter words (a to d)
+    content: |
+      Dear Dan,
+
+           Yes, I came out of the corn, back to the city, both to
+      draw and to do copy on the new cars.  To date I am able to
+      put cash in the bank and bear a bill or two.  The new deed
+      has done it.
+
+           The city has been busy but cold for two days.  Dear baby
+      has been to see her best aunt.  A band came by the door.
+      Baby let the bird cage drop down with a blow.  The bird died.
+      Boys put its dead body deep in a dark card case.  Baby also
+      has a ball and blue book to drop.  I put the boat away.  Its
+      deck did burn, but I care not as it does not cost a cent.
+
+           Come, call on me at the club.
+
+      Yours sincerely,
+  3: 
+    type: drill
+    intro: | 
+      (4) Four-letter words (e to g)
+    content: |
+      Dear Bea,
+
+           I am glad you feel so for the farm in the East.  Even
+      as a girl of four or five I was ever so glad to find the
+      farm.  In my eyes it was all as good as gold.  Even my feet
+      felt good.  A girl can gain and grow fast on farm food and
+      the fine free air.  Why else did face and form grow full
+      and fair so fast?
+
+           On each foot of my farm I felt free from fear.  It
+      gave me my fill of fun.  I felt no fear of any fire in the
+      fall.  Now the fire is a fact and my farm is gone.  Give me
+      my full life, etc.  The game goes on.
+
+      Yours sincerely,
+  4: 
+    type: drill
+    intro: | 
+      (5) Four-letter words (h to l)
+    content: |
+      Dear Hal,
+
+           Just a line to say I am lost if I cannot fly.  I
+      have to keep on here.  I knew it was but a hope last May.
+      It was just my last idea in June.  Yet I held my head high
+      and did not lose hope.
+
+           Why not fly up in the air a half hour or less and
+      look at my lake and our home on the hill?  I left it late
+      last July with one item on my list.  Bill gave me half an
+      hour of help.  Like the lady of the lake I met the king.
+      Bill was a kind king, too.
+
+           To lead off into the air and see all our lake so
+      long and lots of land so low, was to live a high hour.  I
+      kept my hand at my ear so as to help hear.  In the air my
+      hair was a loss.  It did not kill me.  I have to fly to know
+      life can be less hard.  I like to hold on and help Bill.  I
+      love to fly.
+
+      Yours sincerely,

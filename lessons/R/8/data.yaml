@@ -1,3 +1,89 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      I don't know why he can't have a large-sized order for you.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      sen aze hen ose hat ous had ize tte see hin oze to- zoo n't
+      e'l e's u'l h's d's n's s's e'r a's t's y's r's n't m's es'
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      I'd never call Dan lazy; still, I can't say he wins prizes.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Doesn't Dan know how to make an exclamation point?  He'll
+      have to hold down the spacer and hit the apostrophe and period.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      Owing to Dan's zeal, he'll get the point; he'll realize it's
+      faster.  He'll use it when amazed, as:  Whiz!  He'll use it
+      when he feels real zest, as:  Zip!  Let's go!  It's a fire!
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      A dozen small-sized craft frozen in the ice are afire under
+      a cold azure sky.  It's near zero in the fire zone; and over
+      the ships now razed to the water's edge, a light haze hangs.
+      I'm dazed as I gaze at my own ship; I'd never recognize that
+      crazy maze of still fizzing ruins as a deck.  What a fizzle!
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      Isn't there a lot of zip and zest to your work on a paper of
+      this size?  Don't you like to seize some amazing news item
+      that's good for the first page?  If Tom's hazy fire story is
+      a fizzle, why won't you squeeze it to a dozen lines?  Isn't
+      that easy for you?  I've wanted to see my name in print; I
+      guess I'll sail in a zeppelin to see if you'll print that.
+  7: 
+    type: drill
+    intro: | 
+      (8) Pointed Paragraph (r n)
+    content: | 
+      A note from Ann says her friend prefers to change her
+      return to Arizona from next February to November.  The reason
+      is an error of the owner of the ranch who will not refund
+      her rent.  The janitor is running some errand, for he has
+      worked in the rain near the northern entrance during dinner.
+      I hear that now neither her friends from North Carolina nor
+      Virginia can remain an afternoon and refrain from a quarrel.
+  8: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      I'll admit I seize a chance to go with these dozen
+      people.  We left under an azure sky, yet today it's rainy
+      and hazy.  That Dr. Tedd is odd; he won't play; he's doing
+      a report on how to zone cities of any size; so he won't let
+      us dance to radio jazz.  Tonight we're to try a play that
+      hasn't any zest or zip.  Its prize is Tom's money, and he'll
+      not stay; he feels it's a fizzle.  My zeal for gazing on the
+      crowd is at zero.  They don't and can't pass any play quiz.
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      It's crazy for me to type news items on paper of this size!

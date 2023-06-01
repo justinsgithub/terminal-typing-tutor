@@ -1,3 +1,82 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      This is the R series.
+    content: | 
+      In these lessons we work on speed and accuracy.
+  1: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      Up to date I can not see that the thing is as good as this one.
+  2: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      uch pos oug ept ing ope hic ati sch cou get ice con goo ght
+  3: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      Nan is cute.  She can sing and dance.  She can tap a piano.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Tonight Nan opens the piano.  She sings such good songs and
+      soon dashes into a dance.  Nan can dance.  The noise stops.
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      Nan gets us going.  The dance is on.  Ted pounds the piano
+      as Ann stops to go to the phone.  She has to get the gang.
+      This chance scene passes too soon.  I hope it happens again.
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      At eight papa said that he ought to put out his good pipe
+      and then get a good nap.  Soon papa is snug in a deep nap.
+      At eight ten I guess the dance gets going.  At ten it stops.
+      As papa put it, such singing upsets him enough for one night.
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      Get the gang.  Catch this sign.  Get going.  Go up this high
+      post and put a sign on top.  Put these copies on each post.
+      I guess no one intends to stop us.  The cast is set.  Each
+      scene is set.  Each act can open in good shape.  I hope that
+      enough cash is paid in so the cast need not stand the costs.
+  8: 
+    type: drill
+    intro: | 
+      (8) Pointer Paragraph (o e)
+    content: | 
+      Only too well do we know about your house.  Mother told
+      me you hope to be settled there quite soon.  Of course she
+      would enjoy seeing the whole house next week.  Before then
+      please write her a letter to let her know how to get there
+      from here.  We know you have moved to a very cozy new home.
+  9: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      The High dance opens at eight and the gang is going.
+      So Ted shuts the piano and stops at the phone to catch Ann.
+      I ought to post Ted that he pounds the piano as I once did.
+      I guess he is upset.  He has to catch Dad to get the cash.
+      He has to see Ann to each dance.  This is not a noisy night.
+      His auto is a cheap one and no good on a night such as this.

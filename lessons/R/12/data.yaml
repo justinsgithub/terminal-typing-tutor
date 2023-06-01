@@ -1,3 +1,87 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      I should like to arrange to have you see me here next week.
+  1: 
+    type: drill
+    intro: | 
+      (2) Rhythm and Keyboard Drill
+    content: |
+      k9 d3 j8 f4 j7 f5 f6 j6 10 s2 j8 f4 j7 f5 f6 j6 k9 d3 ;- s2
+      k98 d34 j87 f45 109 s23 k93 d39 j84 f48 j75 f57 j76 f56 102
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      As soon as you can type at 12 words a minute, jump to 24;
+      later to 30, 36, 42, 48, or other rate that seems to fit.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      On one day in June the heat ran to 106, 103, 98, 95, 92, in
+      some cities, but only to 40, 43, 47, 50, 51, 52, 60 in other
+      cities.  Rain fell from .00 or .04 to .40 or to .68 inches.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      The next step in better typing is to learn to graph a curve.
+      If your test score each week rises from 22 to 28, 32, 37,
+      40, 44, 48, 51, 53, and 55 words a minute, put these on a
+      chart.  See this curve grow higher each week.  Or use bars.
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      The usual test scores point to waste in many a class.  After
+      all the work of a first term, girls may reach only 25 words
+      a minute, boys only 22 words.  At the end of 34 weeks these
+      usual scores might be 29 or 31 or 34.  Indeed, 25 to 33 per
+      cent of the students may type less than 20 words per minute.
+  7: 
+    type: drill
+    intro: | 
+      (8) Pointed Paragraph (n v)
+    content: | 
+      Eleven invitations for Thanksgiving vacation arrived in
+      advance of November.  In vain have a dozen relatives invited
+      me to visit Vermont, Virginia, and Nevada.  I love being
+      invited and I believe in never avoiding an invitation to any
+      Thanksgiving banquet.  I even plan to have the sixth to the
+      seventeenth of November for varied ventures and to visit
+      that novel Denver University on my vacation.
+  8: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      How much do you weigh?  A young boy who is 5 feet tall
+      may weigh 112 pounds; with an extra inch, 115 pounds.  Add 3
+      pounds for any inch added.  Thus if 5 feet and 4 inches, he
+      may weigh 124.  If taller, add 4 pounds for each added inch.
+      If 5 feet and 7 inches, he may weigh 136; if 5 feet and 9
+      inches, 144; if 5 feet and 10 inches, he may weigh 148.  Now
+      add 5 pounds for each added inch.  Thus to stand 6 feet tall
+      may mean 158 pounds.  It is better to be a little over-weight.
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      In order to park on Sixth at 11:05 we have to beat 135 cars!

@@ -1,3 +1,74 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      Get any piece, since I can't guess the color he always used.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      anti thin atic fast hypo ness your ther fore ship cial ible
+      ette hter here mber ough over eive with ived just ever mono
+  2: 
+    type: drill
+    intro: | 
+      (3) Four-letter words (t to z)
+    content: |
+      Dear Tris,
+
+           It is so very warm at this time of year, I told my wife
+      that you and I wish to go west for a week or two.  Did I
+      tell you what a wind we had?  I went to town to vote for the
+      one man whom I want.  I took a well-used tire.  When it went
+      down on a bad turn, in the woods, I had to walk.  Then the
+      wind more than set in, and I had to wait by a wall.  It got
+      our old tree.
+
+           I saw two men and set them to work on the car, till
+      they told me it was no use.  If I were to turn it in, is it
+      true that you can take your car?  I want a wide view and I
+      want to talk with you.  Thus I wait upon your word.  Wire
+      yes if you will take this trip.
+
+      Yours sincerely,
+  3: 
+    type: drill
+    intro: | 
+      (4) Five-letter words (a to c)
+    content: |
+      Dear "Cab,"
+
+           Could you apply to the court to allow my claim as agent
+      for Mr. Blank?  I could bring in his books and see about his
+      bills.  If asked, he can cover the costs by checks on a bank
+      that did not break.
+
+           Will you allow your child to come alone to see me?  He
+      can have every apple he can carry.  By the way, being clean
+      and above board, you must be above bad cases, but you began
+      to bring in off-color cases after April.
+
+           I agree you do not cross the law, but why let men win
+      in a black cause on any basis?  Why not build up your cases
+      from among men of our own class?  Close the awful cases you
+      now carry along to court, and begin again.
+
+      Sincerely yours,
+  4: 
+    type: drill
+    intro: | 
+      (5) Pointed Paragraph (r t)
+    content: | 
+      In our motor party on the return trip an attractive
+      quartet first tried to tell thirty or forty short travel
+      stories.  By turns they transferred to the theater, to art
+      matters, to court trial stories.  In the latter a certain
+      doctor is hurt by a first truck, another truck is struck,
+      and three contractors are thrown to the street.  The girl's
+      strong brother has been hurt.  Further, there are arrests
+      and the sort of extra details that enter into true stories.

@@ -1,3 +1,86 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      It seems to me that we want to know what was said just now.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      ent ake mon mak tim kin orm omp rom ork mys kno com ome Mr.
+      ant may was way now job wit toi wri jus wil jul whi wou whe
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      Let me have a horse where the wide West still runs wild.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      I must see the warm colors, and feel the wind on that land.
+      I want to see a few cows among great rocks and sage brush.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      I like to hear a horse stamp.  I like the sweat on a horse.
+      I want to keep a camp, close to water, miles from any crowd.
+      At night, I want to enjoy a moon that shines on all the land.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      Yet I am in this city room to type news items for the paper.
+      I know the ins and outs of my city--its mayor, judge, jail.
+      I know how some men keep in power, and some get only kicks.
+      I am sick of dark ways to make money, of bribery and fraud.
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      I want to hear the talk of folks who know hot sun and stock.
+      I like to join in jokes with men whose names I do not ask.
+      So had I just an old motor car and some gas to make it jump,
+      I would come at forty miles an hour, past fields of wheat,
+      till the grade grows high and rough, in keen air out West.
+  7: 
+    type: drill
+    intro: | 
+      (8) Pointed Paragraph (p y)
+    content: | 
+      Please report the people who study typing.  You may
+      truly say that money paid for this study is happily spent.
+      Today typing plays a very practical part in acquiring a
+      paying position.  We can use plenty of these days for exact
+      work in typing:  Monday, Tuesday, Wednesday, Thursday, Friday,
+      and Saturday.  Have you this sized type to print your copy?
+  8: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      Were you the judge in a case like this, could you do the
+      just thing?  An old woman who keeps rooms hides her money
+      under a clock.  A man using one of the rooms motors rapidly
+      away.  The old woman says her money is gone.  We join in a
+      hunt for the man who is found in the West.  We take from him
+      the same sum of money.  We try to make him sweat and talk.
+      I use my power to set his term at ten years.  After he is put
+      in jail, the old woman finds her money still under the clock.
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      How do we know which way so wild a horse will kick or jump?

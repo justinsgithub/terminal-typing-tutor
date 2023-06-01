@@ -1,3 +1,95 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      As a rule call earlier on all orders as long as this one.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      als ple gla ulo clo ile ill oul all eas onl ion tle lea ndl
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      As a rule it is the real line drill that helps one to learn.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      It helps to read a line as soon as one can.  It helps to see
+      its sense.  This, indeed, helps to hold each line until done.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      As soon as one hits a hard place then one plans to drill on
+      this part.  Later one can drill this hard part again.  In
+      order to end an error one can drill all the old line again.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      Learn the sound as one uses loose hands to type out a line.
+      As one types his usual rate he ought to learn its sound until
+      at this rate all the line has the usual, clean, clear sound.
+      As soon as the usual rate is lost one can hear it as a slip.
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      Total lines that one turns out tell all that one is young.
+      In order that this class also can print a large line total,
+      it still helps to spell; it also helps to print all the line
+      as one line, and it helps less and less to drill single
+      letters.  Each one in the class can tell his total lines.
+  7: 
+    type: drill
+    intro: | 
+      (8) One- to three-letter words (a to l)
+    content: |
+      Dear Ted,
+
+           A day ago Ann got a bad cut on her arm and a few by her
+      eye and ear.  It is an act of God she did not die.  Her car
+      did the job.  It is the end of her car.  She has no use for a
+      car.  The fee is to be big.  She is in bed, but she can not
+      eat.  She can not eat a bit of egg.  It is no fun at all.
+
+           It is hot.  It is too hot for her fur hat, but I can buy
+      a box for it.  I am due any day.  I can cut a day if I fly.
+      It is not far if I go by air.  If I go by car, I add a day.
+
+           How is Dan?  Did he get his job?  Dan had to beg for it
+      if he did.  He is big and fat but not bad.  The boy can do
+      it if he can act to fit his age.  Ask him not to act as a kid.
+
+      Yours sincerely,
+  8: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      To tell this class all there is to learn is not a real
+      help later.  Let the class plan the loose ease that can hold
+      each hand in place, or plan to end this or that poor slip,
+      or plan to do its total lines in less hours.  As a rule, to
+      plan and to do are also to learn.  The class plans to drop
+      the old action to clear the road.  Those old slips are lost.
+      The class has large plans; gains in hours and less slips.
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      To learn to read or spell a rule helps less than to drill.

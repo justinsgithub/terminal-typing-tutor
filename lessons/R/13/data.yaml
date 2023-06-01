@@ -1,3 +1,91 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      In this lesson
+    content: |
+      We will learn the rest of the special characters
+  1: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      If you do not hear soon, I want you to write again and again.
+  2: 
+    type: drill
+    intro: | 
+      (2) Rhythm and Keyboard Drill
+    content: |
+      k9( d3# j8* f4$ j7& f5% f6^ j6^ l0) s2@ ;-_ ;[] ;`~ d3# ;/?
+      k( d# j* f$ j& f% j^ f^ l) s@ ;_ s@ ;{ d# ;@ f% ;? f^ j^ s@
+      "A "S "O "W "E "C "P "F "I "M "E "B e5" t4" u3" h2" u1' n6'
+  3: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      Send at once:  Form #93* @ $18.50 per dozen, 12% discount.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Sold to Smith & Sons, terms 1%, 10 days; 8 doz. 3" screws @
+      5.25 cents, 42 cents; 16 files @ 5-3/8 cents, 86 cents; 3 #9 drills
+      @ 75 cents, $2.75.
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      Arrange to have A. C. Whitman & Co. deliver to our Seattle
+      office, Wednesday, October, 26:  30 reams white paper, #99,
+      @ 75 cents, $22.50; 4 files, Style 6**, @ $9 each, $26.....$58.50.
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      In his speech on "Can a Business Man Be Honest?" he proved:
+
+      (1) There are many ways, some hardly honest, to make money.
+      (2) It may pay to treat fairly a business rival or employee.
+      (3) Saving time and material often leads to a large profit.
+      (4) The most desirable kinds of success are gained honestly.
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      The common stock has paid from 8% to 27% cash before 1929.
+      Both the common and the "B" stocks have received 12% this
+      year, or $3 per share.  The class "B" stock has made a new
+      record, the range in price being 38.5 high and 32.25 low.  As
+      the market improves the common and "B" stocks may pay 15%.
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      A. C. White & Company
+      Idaho Falls, Idaho
+
+      Gentlemen:
+
+      Ship to our general office, by express, the following order:
+
+      75 boxes, style 2**, 14.25" x 18.5", @ 60 cents each . . . . .$45.00
+       5 boxes, style 3**, 16.25" x 20.5", @ 65 cents each . . . . .  3.25
+       9 dozen boxes, style #7, @ $2 a doz. (less 10%) . . . . . . . 16.20
+
+      We will send our check January 4; less 2% for cash.
+
+      Very truly yours,
+  9: 
+    type: drill
+    intro: | 
+      (9) Rhythmic Review
+    content: |
+      He said, "I long to get home after seven days in the country."

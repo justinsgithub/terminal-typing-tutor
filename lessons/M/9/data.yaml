@@ -1,3 +1,90 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      Instead of having us tonight he is making ready for Tuesday.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      stead ation retro geous contr ourse ultra super ntion under
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy; Seven-letter words (a-f)
+    content: |
+      Dear Annabel,
+
+           My brother and his college friends in the factory decided to arrange an
+      evening exactly as in the old days.  After calling us, they arrived and we
+      carried out the idea.  We used an old college catalog and each girl had an
+      old college dress.
+
+           Further to advance the evening, my brother advised us of an old address
+      near the freight yard where certain college boys brought this or that article
+      and were allowed a few dollars.  As we went in, an old man came a step farther,
+      fell forward and against me.  Brother charged him.  Will you believe this care-
+      ful account I enclose?  Between brother and me lay this old man who did seem
+      dead.  I can't express my feeling.  His head was covered with marks of blows.
+
+           Already we were anxious to go.  Yet his safe was open, as if to furnish us
+      the old books with the many expense charges against the college boys.  When I
+      looked to see who of our company were in them, I read one balance after another
+      paid from the old country to My Dearest Son.  You are correct if you guess we
+      now ran, because we did.  What follows?  Today's paper doesn't have a line.
+
+      Yours sincerely,
+  3: 
+    type: drill
+    intro: | 
+      (4) Seven-letter words (g to o)
+    content: |
+      Dear Mrs. White,
+
+           I have been holding on, but this January I am getting out.
+      My wife herself may have told you of our opening.  However, I go
+      at ten o'clock this morning, and your husband is still out.  He is
+      to do my general work himself, and may not imagine there is any
+      measure of justice in that.  We married men are obliged to do as
+      ordered.
+
+           I am leaving a hundred matters.  He has my opinion on each.
+      Tell him the minutes of the last meeting of the members are on my
+      table.  Tell him I haven't an invoice, but have instead an October
+      bill, for our new machine parts.  He may mention this item to the
+      manager, as he has neither its history nor my letters of inquiry.
+
+           I find nothing else to include.  We shall miss you greatly,
+      and we shall be looking for you at our new home.
+
+      Yours sincerely,
+  4: 
+    type: drill
+    intro: | 
+      (4) Seven-letter words (p to z)
+    content: |
+      Dear Patrick,
+
+           I realize that this letter I am sending may subject you to some trouble.
+      I am writing tonight without waiting to go through various reports on our
+      present program.  If I had thought that you would be willing to give me an
+      extra day, perhaps I would have come myself.
+
+           As soon as this letter has reached you, and you have finished reading the
+      several items about which I have written, I hope you can give extra working
+      time to my request for special records. These items will suggest a new plan as
+      I picture it.  I shall add them to this note.
+
+           It is my purpose to prepare a fast station-to-station service that should
+      be in running order soon.  I suppose it could be started next month.  Let me
+      ask, also, whether we could receipt each payment, as we receive it, on a
+      regular form similar to those in the package shipped you Tuesday.  I am pleased
+      with your showing.  You have been like a soldier on duty in any and all
+      weather.  Success is your teacher.
+
+      With my best regards,

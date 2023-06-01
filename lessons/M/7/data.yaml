@@ -1,3 +1,71 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      Though I don't seem to hear the doctor, I know he is early.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      stat each ning ieve ring side nder emen turn embe llow ours
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      Dear Mr. and Mrs. Blank,
+
+           Your son has not called on me.  If he is to become almost an
+      annual charge upon the county, the church will answer with action.
+      Yet, I am afraid his arrest can not assure his coming around and
+      asking us for advice.  Of course he has to appear before August.
+      He bought on credit, got behind in cash, and the amount became too
+      big.  I shall pay it.
+
+           You are an old couple, and I advise you to accept this.  Any-
+      way, he is not a common boy and must have a chance.  He always does
+      appear to anyone as fit.  I run across copies of his art.  I can
+      advise your son, attend to his credit, and try to help him arrive
+      at a change for the better.
+
+      Sincerely yours,
+  3: 
+    type: drill
+    intro: | 
+      (4) Six-letter words (d to k)
+    content: |
+      Dear Dick
+
+           I have a dollar.  I expect you to follow me and take dinner.
+      Friday I didn't have cash, but a friend of the family had enough
+      for both of us.
+
+           Father is having all the lot, except the garden, filled in
+      during the week.  Giving in to his desire, I intend to work the
+      ground.  Doctor says that my health is hardly an excuse, so I had
+      better decide to make an effort.  Indeed, I am driven either to
+      finish the work in the near future or pay to have it done.
+
+           I am hoping you will happen upon some kindly fellow to whom
+      a flower garden itself is fun, and inform me.  I shall direct him,
+      as the entire effect will lie in the way we handle the ground
+      plan.  Don't forget.
+
+      Yours sincerely,
+  4: 
+    type: drill
+    intro: | 
+      (5) Pointed Paragraph (q z)
+    content: | 
+      I quit the quiz when I saw the quantity of queer hazy
+      questions.  To seize lesser prizes required answers to a
+      dozen queries.  Only a quarter of the quotas qualified with
+      zest.  Many had zero when the quiz asked:  In what zones are
+      Brazil, Switzerland, Arizona, or Texas?  Zebras in our zoos
+      grow to what sizes?  Analyze and quote one great citizen's
+      query as to zeppelins.  Criticize the quality of jazz music.

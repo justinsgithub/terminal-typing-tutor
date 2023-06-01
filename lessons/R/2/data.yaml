@@ -1,3 +1,83 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      It is a good thing to use good habits each time you practice.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      thr pre rec ear ers ure urn gre art ore her are ter ere tru
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      Dad and his son, Dan, are to go east on a great auto trip.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      The phone rings.  Dan hopes the rain has not upset the trip.
+      Soon the pair share a snug rug and start out in our red car.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      On a poor, rough road, Dan dares to rush in the rain.  Soon
+      he sees a horse ahead.  He tries hard to stop.  The car hits
+      and then turns around.  The horse runs east at a great rate.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      In order to raise a poor grade one tries to use good sense.
+      An error is a sure sign not to do the thing that one did.
+      An error seen once does not hurt.  As soon as an error is
+      seen or heard again, note its sort and end it right there.
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      Her error is a sign that this thing or that has upset her.
+      Does she care?  Is it a hard part?  She has to get used to
+      the letters that she has to print.  Is this order upset?
+      Is she tired?  Then she needs a short rest.  Is it the rate?
+      She need not raise her rate too high.  Has she a good touch?
+  7: 
+    type: drill
+    intro: | 
+      (8) Pointed Paragraph (t h)
+    content: | 
+      Hugh thought he ought to start that night although the
+      weather might hurt his health.  Hal thought they ought to go
+      to Arizona together the thirtieth of June.  Both hastened
+      through the streets to their very high hotel.  Hal hesitated
+      to start north without warm clothes.  Although he hated to
+      hurt his health, Hugh started north quickly on the sixteenth.
+  8: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      Dad and his son are to start on a trip in our red car.
+      House cares are the sort that upset Dad and he is so tired
+      that he tries a nap in order to rest.  It rains at a great
+      rate.  Dan is too sure.  He has heard this road is poor in
+      parts.  It is a great error, Dan, to rush a short turn on a
+      grade.  The car turns out and ends on its side.  Hurt?  No.
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      Dad had a short rest in order to start on the hard car trip.

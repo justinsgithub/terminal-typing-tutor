@@ -1,3 +1,97 @@
-total_segments:
+total_segments: 11
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      Next time we must ask to have you make them just as he does.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      ite ith ine nce tio she hou how ime ibl ece muc out oth our
+      ate and een ind oon und one thi lix his ise wer jun ett exp
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy--Review
+    content: |
+      I am going to be lazy this weekend and do just what I want.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Today I quit being vexed with the old job.  I must seize
+      one extra bit of zest and join the exit from the big city.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      To begin with, the same old auto will bear us to the beach
+      where a good-sized boat floats easily in the blue water.
+      Our boat is build for room.  Her cabin has a busy table.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      I know Nan will come if Bill does, and Ted likes to be with
+      Ann.  I would never quite have the nerve to keep my good
+      board back when our club navy moves out into the quiet water.
+      We leave at an early hour when the sun is still under cover.
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      All day will be warm and novel.  The far banks will slide by
+      while we gaze.  She is an out-and-out able boat, heavy but
+      never gives trouble.  She is never taxed in quick water.  I
+      feel the water jump and break.  Queer how I feel the bond
+      that exists between me and my boat.  She is a prize I value.
+  7: 
+    type: drill
+    intro: | 
+      (8) Pointed Paragraph (m w)
+    content: | 
+      Some women swim in the spring.  Some women swim in
+      the warm water of summer.  Women in Brazil may swim even in
+      November.  Some women from Japan will swim tomorrow.  We want
+      to show the women from New Mexico and Wyoming how to swim in
+      winter.  We will work with them for a few weeks.  When they
+      go home we wonder if they will write from time to time.
+  8: 
+    type: drill
+    intro: | 
+      (8A) Pointed Paragraph (i o)
+    content: | 
+      I'm going to obtain oil options tonight and to file my
+      copies without noise, or outside notice.  I am anxious to
+      avoid an action.  If I voice an official opinion, I will omit
+      serious points.  Knowing conditions, I am hoping that I'll
+      be enjoying a glorious addition to my income.  I am going to
+      join society and be social with juniors and seniors alike.
+  9: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      Bound for some place where the sun sets in the west,
+      soon it is the night that I favor.  Next to the night and
+      boat and water, maybe I judge our sail by its excellent bill
+      of fare.  Here I am very exact, as I never set a poor table.
+      I stock an up-to-date table, set out under the first dozen
+      stars.  I enjoy having every boy able to quaff his quota of
+      soup and boast or sing with zeal and make any queer joke.
+      With a moon, I can name no event to equal a boat and water.
+  10: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      It is good drill to keep going in even time for ten minutes.

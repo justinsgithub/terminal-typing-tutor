@@ -1,3 +1,85 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      With that end in view I may soon have to put this question.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      ave hav eve ver ove quo not ive giv qui vis que ved eiv tha
+  2: 
+    type: drill
+    intro: | 
+      (3) Continuous Copy
+    content: |
+      At our new villa a very novel event was given for the navy.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Covers were laid in the unique ivory room.  Even the king
+      and queen were there with a quota of fair and lovely ladies.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      The queen was ready to quaff when her glass fell.  At once
+      all was quiet.  Every one, save one alone, quit the dance.
+      In all their lives, to quote, was never a thing more grave.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      Who was the lady with the vivid hair in the dress of heavy
+      gold?  Who was this queer one who dared so treat the queen?
+      Each guest did quail.  Could such quiet nerve ever avail?
+      With a move quite free and easy the lady let fall her glass.
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      The queen put this query in a quick voice to quell them all:
+      Why does the whole world love a lover?  Why do we value you?
+      All did laugh.  The queen asked that, as a favor, you give us
+      those who have nerve, for they can love and serve.  Quite as
+      one who gave an equal favor, the queen sang over the radio.
+  7: 
+    type: drill
+    intro: | 
+      (8) Pointed Paragraph (l s)
+    content: | 
+      The earliest possible sales lessen the total losses.
+      Please enclose the latest details in those lists yourself.
+      On almost all calls I could save six dollars, especially in
+      July.  Tell the girls all the usual questions asked will be
+      useful shortly.  Use a small-sized envelope to post letters.
+      Last but not least, all else should still go on as usual.
+  8: 
+    type: drill
+    intro: | 
+      (9) Test Paragraph
+    content: | 
+      In our queen city I used to value two covers set every
+      day.  At these I used to serve a young man and a girl.  I did
+      love to see her quiet dress and quick smile favor her so.
+      I have never quite seen her equal, or a girl so very alive.
+      After I had given over this work, I went there to see them.
+      One night I saw a query form on her lips until she gave it
+      up and took leave.  The way she quit the boy was very queer
+      even if the papers did quote his prison term as five years.
+  9: 
+    type: drill
+    intro: | 
+      (10) Rhythmic Review
+    content: |
+      Even her very quick smile never makes us quite at our ease.

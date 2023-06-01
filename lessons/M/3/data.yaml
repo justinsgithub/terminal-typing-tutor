@@ -1,3 +1,87 @@
-total_segments:
+total_segments: 6
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warming-Up Drill
+    content: |
+      He says he hasn't been very blue once in his two weeks here.
+  1: 
+    type: drill
+    intro: | 
+      (2) Balanced Keyboard Drill
+    content: |
+      sus ase sis uni suc epi cor ory tri acy fic ify dom isk ism
+      ante than ance ling para less plea lent leas post rece cata
+  2: 
+    type: drill
+    intro: | 
+      (3) Four-letter words (m to p)
+    content: |
+      Dear "Pie,"
+
+           I open most of my mail and meet the news.  I note that
+      you say Mrs. Page is a mere name but you met the Miss Page.
+
+           You must need the car.  Once the pass is open I can move
+      the car over to you.  Do you mind if I make it part of a nice
+      plan to meet Miss Page, too?  Mrs. Page was only a mile past
+      us.  Her son was my age and I made the mile at noon to play a
+      bit.  She paid us for milk.  She did not mean much to me, but
+      her son did.
+
+           Next we had more fun up the pass near the poor old No.
+      Nine mine.  I can mark many a mile we once ran.  I must mail
+      this note or I may miss the post.
+
+      Yours sincerely,
+  3: 
+    type: drill
+    intro: | 
+      (4) Four-letter words (r to s)
+    content: |
+      Dear Ross,
+
+           It is a real rain.  The road is so soft my car can but
+      roll, stop, and roll on.  Are you on the ship?  If I get as
+      far as the ship, can we sail in such a rain?  If we try to
+      sail, the ship is sure to rock or ride on one side.  If I get
+      sick, it is up to you to stay by and show us how to save the
+      ship.  Ann has some sort of song to sing in the rain.  She
+      said she sent it to you.
+
+           Did you read of our sale?  We set out a big sign.  Now
+      any sort of suit and any size seem to sell.  We are not rich
+      but we can soon step out or be sold out, if any such rate is
+      to rule.
+
+           Ann has not seen the ship as yet.  Rain or no rain, Ann
+      says to send her out.  All the rest of us say the same.  Can
+      you ring me in my room at the shop?
+
+      Yours sincerely,
+  4: 
+    type: drill
+    intro: | 
+      (5) Pointed Paragraph (i u)
+    content: |
+      The public is quite unfair about airing quibbles over 
+      house furniture and fruit juices for the university crew.
+      The alumni inquiry into the failure of equipment figures in
+      the issue.  The alumni attitude is useful but continues to
+      put a premium on a victorious crew.  Only genius can guide
+      this outfit uphill and build a suitable crew that won't quit.
+  5: 
+    type: drill
+    intro: | 
+      (6) Pointed Paragraph (d s -)
+    content: | 
+      Students should be assisted in studying seated at their
+      desks; cross-questioned as to their needs and desires; ad-
+      vised to use up-to-date leads based on studies of standards.
+      By-products of student days, well-bred friends, kindness,
+      self-help, with good grades and degrees, are listed as far-
+      sighted aids.  In Dad's old-fashioned address to his co-
+      workers, he said sadly that ideas are missed less than first-
+      class friends and good-natured wishers.
