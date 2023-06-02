@@ -1,3 +1,97 @@
-total_segments:
+total_segments: 14
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      First a quick review:
+    content: |
+      jkl; fdsa ded fgf jhj k,k kik frf l.l
+  1: 
+    type: drill
+    intro: | 
+      Use your L-finger for the O-key.
+    content: |
+      lll lol lll ooo lll lol
+  2: 
+    type: drill
+    intro: | 
+      Use your L-finger for the O-key.
+    content: |
+      lll log lll rod lll for lll
+      lll load lll roll lll oleo lll
+  3: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the P-key.
+    content: |
+      ;;; ;p; ;;; ppp ;;; ;p; ;;;
+  4: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the P-key.
+    content: | 
+      ;;; pad ;;; peg ;;; ape ;;;
+      ;;; poke ;;; pear ;;; peek ;;;
+      ;;; opera ;;; hope ;;; drape ;;;
+  5: 
+    type: info
+    intro: | 
+      The Left-Shift key.
+    content: | 
+      To capitalize letters on the right-side of the keyboard:
+
+        1.)  Move your A-finger to the LEFT-shift key and hold it down.
+
+        2.)  Strike the key that you want to capitalize with your right hand.
+
+        3.)  Immediately swing your A-finger back to its home position.
+  6: 
+    type: drill
+    intro: | 
+      The Left-Shift key.
+    content: |
+      aaa Pi aaa Lord aaa Jill aaa
+  7: 
+    type: drill
+    intro: | 
+      Try capitalizing each of the keys on the right-side:
+    content: |
+      Joe Kip Leif Peg Olaf Ira Heidi
+  8: 
+    type: drill
+    intro: | 
+      Don't forget to use your right-shift key for letters on the left side:
+    content: |
+      a;a P.S. a;a I.R.S. a;a
+  9: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the ?-key.
+    content: |
+      ;;; ;?; ;;; ??? ;;; ;?; ;;;
+  10: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the ?-key.
+    content: |
+      ;;; He? ;;; She? ;;; I? ;;;
+  11: 
+    type: drill
+    intro: | 
+      Let's try some sentences.
+    content: |
+      Dad fell off a ladder.  Is he safe?
+  12: 
+    type: drill
+    intro: | 
+      Always double space after a question mark.
+    content: |
+      Is he here?  Sal said he fell hard.
+  13: 
+    type: drill
+    intro: | 
+      Always double space after a question mark.
+    content: |
+      Did she see his fall?  Jake heard he is OK.
+      I hope people keep off high ladders.

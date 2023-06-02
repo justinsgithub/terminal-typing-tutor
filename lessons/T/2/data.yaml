@@ -1,3 +1,97 @@
-total_segments:
+total_segments: 13
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      In this lesson, we will review the letters that you have already practiced 
+      and will add the letters E, G, and H and the period.
+    content: |
+      When you reach for any of these keys, be sure to return your finger to its
+      home position.  For example, to hit the H-key, move the first finger of your
+      right hand (the J-finger) slightly to the left.  Tap the H-key and immediately
+      bring your finger back over the J.
+
+      If you lose track of where your fingers are guess.  Don't look!
+  1: 
+    type: drill
+    intro: | 
+      First let's review
+    content: |
+      fff jjj ddd kkk sss lll aaa ;;;
+  2: 
+    type: drill
+    intro: | 
+      First let's review
+    content: |
+      asdf jkl; fdsa ;lkj
+      fjf jfj dkd kdk sls lsl a;a ;a;
+      jkj jlj j;j fdf fsf faf
+      a sad lass; ask dad;
+  3: 
+    type: drill
+    intro: | 
+      Use your J-finger for the H key.
+    content: |
+      jjj jhj jjj jhj jjj jhj
+  4: 
+    type: drill
+    intro: | 
+      Use your J-finger for the H key.
+    content: |
+
+      jjj hhh jjj hhh jj hh j h j h
+      jjj had jjj ash jjj has jjj
+      jjj sash jjj hash jjj hall jjj
+  5: 
+    type: drill
+    intro: | 
+      Use your F-finger for the G-key.
+    content: |
+      fff fgf fff fgf fff fgf
+  6: 
+    type: drill
+    intro: | 
+      Use your F-finger for the G-key.
+    content: |
+      fff ggg fff ggg fff ggg
+      fff gag fff lag fff flag fff
+      fff sag fff slag fff hag fff
+  7: 
+    type: drill
+    intro: | 
+      Use your D-finger for the E-key
+    content: |
+      ddd ded ddd ded ddd ded ddd
+  8: 
+    type: drill
+    intro: | 
+      Use your D-finger for the E-key
+    content: |
+      ddd eee ddd eee dd ee dd ee d e
+      ddd fee ddd see ddd elf ddd
+      lake asked fake gale egg
+  9: 
+    type: drill
+    intro: | 
+      Use your K-finger for the comma.
+    content: |
+      kkk k,k kkk k,k kkk k,k
+  10: 
+    type: drill
+    intro: | 
+      Use your K-finger for the comma.
+    content: |
+      kkk ,,, kkk ,,, kkk ,,, kkk
+  11: 
+    type: drill
+    intro: | 
+      Let's finish with some sentences.
+    content: |
+      a lad had a flask, dad had a keg
+  12: 
+    type: drill
+    intro: | 
+      Let's finish with some sentences.
+    content: |
+      she had a fake egg, he had a salad

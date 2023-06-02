@@ -1,3 +1,139 @@
-total_segments:
+total_segments: 19
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      Let's review first.
+    content: |
+      fff jjj ddd kkk sss lll aaa ;;;
+  1: 
+    type: drill
+    intro: | 
+      Let's review first.
+    content: |
+      fgf jhj ded k,k fgf jhj ded k,k
+  2: 
+    type: drill
+    intro: | 
+      Use your K-finger for the I key.
+    content: |
+      kkk kik kkk kik kkk iii kkk
+  3: 
+    type: drill
+    intro: | 
+      Use your K-finger for the I key.
+    content: |
+      kkk iii kkk iii kk ii kk ii
+      kkk lid kkk hill kkk did kkk
+      kkk kill kkk kid kkk like kkk
+      kkk kiss kkk hide kkk fill kkk
+  4: 
+    type: drill
+    intro: | 
+      Use your F-finger for the R key.
+    content: |
+      fff frf fff frf fff frf
+  5: 
+    type: drill
+    intro: | 
+      Use your F-finger for the R key.
+    content: |
+      fff rrr fff rrr ff rr ff rr
+      fff rake fff rag fff her fff
+      fff red fff read fff rage fff
+      fff far fff red fff jar fff
+  6: 
+    type: drill
+    intro: | 
+      Use your F-finger for the R key.
+    content: |
+      fff fare fff rare fff rake fff
+  7: 
+    type: drill
+    intro: | 
+      Use your F-finger for the R key.
+    content: |
+      fff rid fff ire fff fair fff
+  8: 
+    type: drill
+    intro: | 
+      Use your L-finger for the period.
+    content: |
+      lll l.l lll l.l lll l.l lll
+  9: 
+    type: drill
+    intro: | 
+      Use your L-finger for the period.
+    content: |
+      lll ... lll ... ll .. ll .. l .
+      lll adj. lll id. lll
+      lll eg. lll i.e. lll
+  10: 
+    type: info
+    intro: | 
+      The next key we are going to practice is the right shift key.
+    content: |
+      Whenever you want to capitalize a key on the left side, you must use the
+      right shift-key.  To do so, follow these steps:
+
+        a.)  Without moving your first finger from the J-key, swing the
+             fourth finger of your right hand over to the SHIFT-key and
+             hold it down.
+
+        b.)  Strike the key that you want to type with your left hand.
+
+        c.)  Immediately bring your fourth finger back to the ;-key.
+  11: 
+    type: drill
+    intro: | 
+      Don't look at your fingers!
+    content: |
+      ;;; ;A; ;;; ;F; ;;; ;D; ;;; ;S;
+  12: 
+    type: drill
+    intro: | 
+      Don't look at your fingers!
+    content: |
+      ;;; Dear ;;; Sir ;;;
+  13: 
+    type: drill
+    intro: | 
+      Don't look at your fingers!
+    content: |
+      ;;; Fred ;;; Gail ;;; Alf ;;; Dale ;;;
+  14: 
+    type: drill
+    intro: | 
+      Don't look at your fingers!
+    content: |
+      ;;; Ada ;;; Al ;;; Greg ;;;
+      jjj Dr. jjj Sr. jjj Fr. jjj
+  15: 
+    type: drill
+    intro: | 
+      Let's try some (strange) sentences.
+    content: |
+      Sir, idle disks seek flags.
+  16: 
+    type: drill
+    intro: | 
+      Let's try some (strange) sentences.
+    content: |
+      She sells seashells.
+      Sailfish sail idle seas.
+      She seeks a fig leaf.
+      Red hair is like a fire.
+  17: 
+    type: drill
+    intro: | 
+      Always double space after a period.
+    content: |
+      A free red jade is fake.  Girls like silk.
+  18: 
+    type: drill
+    intro: | 
+      Always double space after a period.
+    content: |
+      She seeks a safe reef, if she sails.  A gale is rare.
+      Alf fed her egg salad.  Gail likes hash.

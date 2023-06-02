@@ -1,3 +1,151 @@
-total_segments:
+total_segments: 19
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      The HOME Keys.
+    content: | 
+      In order to hit the correct keys by touch alone, you must always know where your
+      fingers are.  The way to do this is to have a special place for each finger.
+      This key is called the HOME position.
+
+      Place the first finger of your right hand on the J-key.  Now, place your second
+      finger on the K-key, your third finger on the L-key, and your fourth-finger on
+      the ;-key (the one with the : and ; on it).
+
+      Similarly place the four fingers of your left hand on the F, D, S, and A-keys.
+      Place your right thumb over the SPACE bar.  (Henceforth, always hit the SPACE
+      bar with this thumb.)  Now, lift all your fingers slightly so that they are
+      poised just over the keys.  Each finger should be just barely touching its home
+      key.  This is an electronic keyboard and does not take much pressure to ac-
+      cidentally press the key down.
+
+      Learn these positions well.  Whenever you are about to type a line, look at your
+      fingers and make sure they are in the HOME position.  Then don't look at them
+      again.
+  1: 
+    type: info
+    intro: | 
+      DRILL PATTERNS
+    content: |
+      For the rest of this lesson, I will display a line of text in the middle of the
+      screen and instructions at the top of the screen.
+
+      All you have to do is type in the characters that you see in the middle of
+      the screen.  If you hit the correct key, I will not do anything.  If you make
+      a mistake, I will display a large X under the letter that you got wrong and
+      beep the terminal. In either event, just keep going by typing the next letter.
+
+      When you have finished typing the line, hit the RETURN key.  To do this, extend
+      the little finger of your right hand over to the RETURN key.  Hit the key and
+      zip the finger back to its home position.  Be careful not to let your other
+      fingers move far from their home positions in the process.  Also, be careful
+      not to type an extra space at the end of the line.
+
+      If you made no mistakes on the line, I will display the next drill pattern.  If
+      you did make a mistake, I will beep at you and make you do the line again.  If
+      on the second try you made more than two mistakes, I will beep again and make
+      you try again, etc.  Don't forget to use your right thumb for the SPACE bar.
+  2: 
+    type: drill
+    intro: | 
+      Hit the F-key four times with the first finger of your left hand.
+    content: |
+      ffff
+  3: 
+    type: drill
+    intro: | 
+      Alternately, hit the F-key and the SPACE bar.
+    content: |
+      fff fff fff ff ff ff f f f
+  4: 
+    type: drill
+    intro: | 
+      Don't look at your hands! Hit the J-key with the first finger of your right hand.
+    content: |
+      jjj jjj jjj jj jj jj j j j
+  5: 
+    type: drill
+    intro: | 
+      Use the left hand for the F and the right hand for the J.
+    content: |
+      fff jjj fff jj ff jj f j f j
+  6: 
+    type: drill
+    intro: | 
+      Now intermix them.
+    content: |
+      ffjj jjff fjf fjf jfj jfj
+  7: 
+    type: drill
+    intro: | 
+      Use the second finger of the left hand for the D-key.
+    content: |
+      ddd ddd ddd dd dd dd d d d
+  8: 
+    type: drill
+    intro: | 
+      Use the second finger of the right hand for the K-key.
+    content: |
+      kkk kkk kkk kk kk kk k k k
+  9: 
+    type: drill
+    intro: | 
+      Now both.
+    content: |
+      ddd kkk dd kk dkd kdk ddd kkk
+  10: 
+    type: drill
+    intro: | 
+      Use the third fingers of the each hand for the S and L-keys.
+    content: |
+      sss lll sss lll sss ss ll ss ll s l
+  11: 
+    type: drill
+    intro: | 
+      Use the fourth fingers for the A and ;-keys.
+    content: |
+      aaa ;;; aaa ;;; aa ;; aa ;; a ;
+  12: 
+    type: drill
+    intro: | 
+      That's enough keys for today.  Let's review them.
+    content: |
+      fff jjj ddd kkk sss lll aaa ;;;
+  13: 
+    type: drill
+    intro: | 
+      Again.
+    content: |
+      fff jjj ddd kkk sss lll aaa ;;;
+  14: 
+    type: drill
+    intro: | 
+      Try mixing them together.
+    content: |
+      asdf jkl; asdf jkl; asdf jkl;
+  15: 
+    type: drill
+    intro: | 
+      And still more.
+    content: |
+      fjf kdk sls ;a;
+  16: 
+    type: drill
+    intro: | 
+      Before, we finish, let's try some words.
+    content: |
+      sad add all; alas flask fad
+  17: 
+    type: drill
+    intro: | 
+      How about a sentence.
+    content: |
+      ask a sad lad
+  18: 
+    type: drill
+    intro: | 
+      Sentences are kind of limited with only one vowel!
+    content: |
+      dad asks a lad; a lass falls
