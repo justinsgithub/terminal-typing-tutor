@@ -23,7 +23,6 @@ def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
 lesson_dir = f"./lessons/Q/1"
 data_file = f"{lesson_dir}/data.yaml"
 lesson_data = file_content(data_file, "yaml")
-total_segments = lesson_data["total_segments"]
 segments = lesson_data["segments"]
 content = segments[11]["content"]
 
