@@ -1,3 +1,17 @@
-total_segments:
+total_segments: 2
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Welcome to lesson U1
+    content: |
+      Still don't know how to touch-type?  Let's start from the beginning and
+      drill you starting with the home row.
+  1: 
+    type: drill
+    intro: | 
+      (1) Try this:
+    content: |
+      has half hag gad gash glass sash ash slash shall flash
+      had hall gas gaff gall glad dash ask slag shad ah

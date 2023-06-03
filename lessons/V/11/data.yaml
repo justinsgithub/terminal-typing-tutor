@@ -1,3 +1,88 @@
-total_segments:
+total_segments: 9
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V11
+    content: |
+      (C and Comma)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      fvf jmj fbf jnj fvf jmj fbf jnj fvf jmj fbf jnj
+
+      The Ben Mavis firm submitted the lowest quotation.
+  2: 
+    type: drill
+    intro: | 
+      (2) New Key Review
+    content: |
+      c c c c dcd dcd dcd dcd , , , , k,k k,k k,k k,k
+      dcd k,k dcd k,k dcd k,k dcd k,k dcd k,k dcd k,k
+  3: 
+    type: drill
+    intro: | 
+      (3) Word Drill
+    content: |
+      can, can, can, can, can, cue, cue, cue, cue, cue,
+      can, can, can, can, can, cue, cue, cue, cue, cue,
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      cash, cash, cash, lack, lack, lack, lace, lace, lace,
+      lack, lack, lack, lace, lace, lace, cash, cash, cash,
+
+      could, could, could, clerk, clerk, clerk, camp, camp,
+      clerk, clerk, clerk, could, could, could, cane, cane,
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      If you call before five, the bank will cash your check.
+      Charles Condon, sales manager, was in complete charge.
+      He may, if convenient, have it charged to his account.
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      Space once after a comma.  Space once after a
+      semicolon.  Space twice after a period that ends a
+      sentence.  Strike each key with the same force.
+
+      The tabulator is a device which helps you to type faster.
+      It enables you to skip across the page to any point you
+      desire.
+
+      First, set a tab stop at the point to which you
+      wish the carriage to jump.  Second, move the carriage
+      back to the left margin.  Third, hold the tabulator
+      bar or the tabulator key down until the carriage has
+      stopped.
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      sub sum see sun set sit sin sip she ship shall shame
+      sit sin sip set sub sum see sod sob slip sweep super
+
+      won win who why wet was weak wear west well what when
+      was wet why who win won what well wear west when what
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      lad lid lot let log lie lag lug lip last sate sawn
+      lip lag lug lie log let lot lid lad land lane last
+
+      own out owl old one oak out oil off over oven open
+      off oil out oak one old owl our own open ours over

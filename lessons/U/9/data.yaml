@@ -1,3 +1,46 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson U9
+    content: |
+      (Drill on M-N Combinations)
+  1: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      am em im om um mb mp ment
+      an en in on un ng nk
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      amount damper only singing payment moment
+      emblem camper enter ringing enrollment judgment
+      immense hamper under longing engagement excitement
+      omnibus lumber income banking appointment settlement
+      umbrella bomber answer thinking entertainment employment
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      We are informed that an increase is anticipated.
+      Please inform us if you are interested in an engine.
+      Banks will extend financial aid to the business man.
+      Unless your invoice is paid, no shipment can be made.
+      The amount of your investment in common stocks is $800.
+  4: 
+    type: drill
+    intro: | 
+      (8)
+    content: | 
+      The employer must consider any increase in cost that
+      enters into the manufacture of his product.  Unless he includes
+      such cost in his selling price, he is unlikely to show a profit.
+      The installation of a cost system that enables the employer
+      to break down his costs to a unit basis is a prime necessity.

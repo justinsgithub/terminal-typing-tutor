@@ -1,3 +1,43 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson U6
+    content: |
+      (Drill on R Combinations)
+  1: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      rar rer rir ror rur br cr dr fr gr pr shr tr thr
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      rare rural proper trader drier freer cracker
+      rear broker prefer trapper dresser fresher grammar
+      roar brewer prepare thrower shrewder creamer greater
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Every promise made should be observed.
+      The price of the property is really $2,500.
+      Try to remember to bring your grammar with you.
+      Proof of your brokerage experience will be required.
+      The orange grower must have favorable weather conditions.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: | 
+      Some people break promises as readily as they make them.
+      As a result, they acquire a reputation for unreliability.  It
+      is particularly important to be reliable in the business world.
+      A person or firm that comes to be regarded as unreliable has a
+      poor chance of success.

@@ -1,3 +1,119 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V18
+    content: |
+      (0 and the Hyphen)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      f4f j7j f5f j6j d3d k8k s2s l9l f4f j7j f5f j6j
+      s2s l9l d3d k8k f4f j7j f5f j6j f4f j7j f5f j6j
+
+      The sum of 47 and 65 and 38 and 92 and 16 equals 258.
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      expert...typing...margin...always...before...
+      permits...others...reached...equipped...machines...
+      carriage...typewriter...approaching...you are...
+      of the...for the...on the...you may...before the
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Your typewriter is equipped with a bell which
+      rings to warn you that you are approaching the end
+      of the line
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Your typewriter is equipped with a bell which rings
+      to warn you that you are approaching the end of the
+      line.
+
+      On some machines, the bell rings five spaces before
+      the margin stop is reached; on other machines, it
+      rings when there are six or seven spaces left.
+
+      The ring of the bell permits you to keep your eyes
+      on the copy.  When you hear the bell, finish the
+      word you are typing and throw the carriage for the
+      next line.
+
+      Do not look up to watch for the end of the line; you
+      may lose your place in the copy.  Always keep your
+      eyes on the copy like the expert typist.
+  5: 
+    type: drill
+    intro: | 
+      (5) New Key Tryout
+    content: |
+      ;0; ;0; ;0; ;0; ;0; ;0; ;-; ;-; ;-; ;-; ;-; ;-;
+      ;0; ;-; ;0; ;-; ;0; ;-; ;0; ;-; ;0; ;-; ;0; ;-;
+
+      10-room; 10-room; 10-room; 10-room; 10-room;
+      20-room; 20-room; 20-room; 20-room; 20-room;
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;
+      one-half; one-fourth; one-eighth; three-quarters;
+      one-half; two-thirds; one-fourth; three-sevenths;
+
+      f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;
+      20-room house; 30-room house; 40-room house;
+      50-room house; 60-room house; 70-room house;
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;
+      One-fourth may be typewritten like this:  1/4.
+      One-eighth may be typewritten like this:  1/8.
+
+      f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;
+      Every expert was once a beginner--with ambition.
+      Every expert was once a beginner--with ambition.
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      As you have seen in the above sentence practice, the hyphen is used
+      for typing compound words.  Here are a few more examples:  up-to-date,
+      first-class, by-product.
+
+      The hyphen is used also to divide words between syllables at the end
+      of a line.  When the bell rings, finish the word if it is short--less
+      than six letters.  If the word is longer, divide it at the end of a syllable.
+
+      The hyphens in the following words show where they could be divided
+      at the end of a line:  after-noon, state-ment, hesi-tate, cer-ti-fi-
+      cate, exami-na-tion.
+
+      The sum of 10 and 20 and 30 and 40 and 50 and 60 and 70 and 80 and 90
+      and 100 and 105 and 106 and 107 and 108 and 109 and 110 equals 1,195.
+  9: 
+    type: drill
+    intro: | 
+      (9)
+    content: |
+      Have you seen the new 7-room house at 175 West
+      239th Street?  It is equipped with every up-to-date,
+      labor-saving device for the home.  You may inspect
+      it free of charge any day except Sunday between
+      10 a.m. and 4 p.m.

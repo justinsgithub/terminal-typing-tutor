@@ -1,3 +1,75 @@
-total_segments:
+total_segments: 7
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V9
+    content: |
+      (V and M)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj
+
+      I will pay Joe Quig for the sugar today.
+  2: 
+    type: drill
+    intro: | 
+      (2) New Keys (V, M)
+    content: |
+      v v v v fvf fvf fvf fvf m m m m jmj jmj jmj jmj
+      fvf jmj fvf jmj fvf jmj fvf jmj fvf jmj fvf jmj
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      over over over; gave gave gave; have have have;
+      home home home; seem seem seem; time time time;
+
+      ever ever ever; more more more; item item item;
+      live live live; vast vast vast; five five five;
+
+      You must devote more time to your daily work.
+      You should go over every item with more thought.
+  4: 
+    type: drill
+    intro: | 
+      (4) Paragraph Practice
+    content: |
+      You will surely make good if you give more time to
+      your daily work here.  You must make every effort
+      to make good.
+
+      You will improve your skill every day if you
+      devote some thought to your work.  You will surely
+      progress if you keep at your work regularly.  Just
+      have faith.
+
+      Skillful typists make very good salaries.  All
+      types of firms require them.  So try your utmost to
+      develop your skill.
+  5: 
+    type: drill
+    intro: | 
+      (5) Exercises on G, H, T, and Y
+    content: |
+      go got get gas gag gap gay gig gray greed great;
+      go gig gay gap gas gag get gas gray great greed;
+
+      her has had his hit hot hut hat hay hag had his;
+      his had hag hay hat hut hot hit his had has her;
+  6: 
+    type: drill
+    intro: | 
+      (5) Exercises on G, H, T, and Y
+    content: |
+      to try tip tap two tag too to try tip tap two;
+      to two tap tip try too try to top tap tag try;
+
+      you yes yet yap yell year yoke your yowl yore;
+      yap yet yes you yore yowl your yoke year yell;

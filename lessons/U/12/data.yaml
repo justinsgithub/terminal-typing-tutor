@@ -1,3 +1,46 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson U12
+    content: |
+      (Drill on ter, ther, tor, ture, ster, der Combinations)
+  1: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      ater oter etor utor ider ather other eture uture ister
+      eter uter itor ader oder ether uther iture aster oster
+      iter ator otor eder uder ither ature oture ester uster
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      water later actor order father future faster
+      alter matter motor wider mother nature poster
+      voter better factor reader rather feature master
+      writer letter doctor modern either fixture register
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      The voter was required to register.
+      The reader made a study of the literature.
+      The actor was better in the theatre than in pictures.
+      The writer wrote a letter to his future sister-in-law.
+      The minister received a letter from his father and mother.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: | 
+      The best letter writers express themselves simply.  They
+      avoid long words where shorter words will do.  They have some-
+      thing to say and they say it interestingly and to the point.
+      A business letter should not be a literary masterpiece, but
+      that is not to say that it should not have style.

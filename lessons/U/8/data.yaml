@@ -1,3 +1,46 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson U8
+    content: |
+      (Drill on D-T Combinations)
+  1: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      dad ded did dod dud dr ld nd rd
+      tat tet tit tot tut th tr ct ft lt nt pt st
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      did bend tot total that last rented mended
+      deed lend toot tutor this kept melted handed
+      dude bold tight taught them chest drafted founded
+      dodo board trait treats there first directed doubted
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      The first shall be last.
+      Credit the cost to the estate.
+      Record your thoughts from time to time.
+      An effort should be made to settle the estate.
+      Rest assured you will succeed if you try hard.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: | 
+      To learn to typewrite is not difficult.  The keyboard
+      of the typewriter may be mastered in a few hours, but to
+      get speed in typewriting calls for a good deal of practice.
+      One of the best methods of getting up speed is to write a
+      selection over and over again until it can be written easily
+      and accurately.

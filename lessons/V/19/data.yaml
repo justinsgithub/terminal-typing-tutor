@@ -1,3 +1,88 @@
-total_segments:
+total_segments: 6
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;
+      s2s l9l ;-; ;=; d3d k8k f4f j7j ;0; ;-; ;0; ;-;
+
+      Max Zale made a long-distance flight of 2,590 miles.
+  1: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      called...fourth...typing...letter...always...
+      capital...holding...depress...fingers...release...
+      touching...slightly...position...right-hand...of the
+      for the...all the...with the...you have
+  2: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      You type capital letters by holding down a key
+      called the shift key while you strike the letter key.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      You type capital letters by holding down a key
+      called the shift key while you strike the letter key.
+
+      There are two shift keys.  Hold down the left
+      shift key for typing right-hand capitals; hold down
+      the right shift key for typing left-hand capitals.
+      Always use the fourth finger for the shift key.
+
+      Keep your wrists low but not touching the frame
+      of the machine.  Raise the other fingers slightly as
+      you depress the shift key with the fourth finger.
+
+      Be sure that you hold the shift key all the way
+      down until you have struck the letter key; then re-
+      lease the shift key and return finger to home base.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      Prepare a bill for the following items:  29 lbs. butter
+      @ $0.895; 36 doz. eggs @ $0.695;  28 doz. oranges
+      @ $0.575; 15 bu. potatoes @ $0.795.
+      
+      Our company ordered 15 Ajax Pencil Sharpeners at
+      $0.98; 6 doz. Circular Rubber Erasers at $.43; 24 No.  68
+      Spiral Stenographic Notebooks at $.075.
+
+      Deliver the following order to Mrs. Beverly
+      Vinson at 390 West 135th Street, New York City:  2 lbs.
+      Temple Oranges at $.135; 3 lbs. Red Circle Coffee at
+      $.91; 2 lbs. Lima Beans at $.29.
+
+      The Johnston Hardware Company, Toledo, Ohio has
+      ordered the following supplies:  15 Pruning Shears,
+      10-inch, at $.795; 24 Steel Rakes, 14-inch, at $.815;
+      16 Steel Spades, D-Handle, at $.935.
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      The backspace key is one of the most useful time-
+      saving devices on your typewriter.  You use it to back
+      up a space, to darken a light impression, or to pivot.
+      To pivot means to type a line so that the last letter
+      is at the right margin or other chosen point.
+
+      For example, if you want a date line to end at the
+      right margin, place the carriage with the printing point
+      indicator at the right margin and backspace once for
+      each stroke in the date line.
+
+      The most important use of the backspace key is in
+      centering words or lines.

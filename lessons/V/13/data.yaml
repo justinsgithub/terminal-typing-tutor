@@ -1,3 +1,103 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V13
+    content: |
+      (Z and /)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      fvf jmj fbf jnj dcd k,k sxs l.l dcd k,k sxs l.l
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      touch...learn...above...typing...talent...average
+      special...lessons...you do...for you...is the
+      do the...of the...in this
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Touch typing is easy to learn.  You do not need a
+      mind that is above the average.  You do not even
+      need a special talent for typing.
+
+      All you need is the will to learn.  The lessons in
+      this book do the rest of the job for you; they
+      make touch typing easy for you to learn.
+  4: 
+    type: drill
+    intro: | 
+      (4) New Key Tryout
+    content: |
+      z z z z aza aza aza aza / / / / ;/; ;/; ;/; ;/;
+      aza ;/; aza ;/; aza ;/; aza ;/; aza ;/; aza ;/;
+  5: 
+    type: drill
+    intro: | 
+      (5) Word Drill
+    content: |
+      zip zip zip zip zip c/o c/o c/o c/o c/o c/o
+      zip zip zip zip zip c/o c/o c/o c/o c/o c/o
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      zest zest zest; lazy lazy lazy; size size size; zeal;
+      zero zero zero; zest zest zest; lazy lazy lazy; zeal;
+
+      blaze blaze blaze; amaze amaze amaze; zebra zebra;
+      dizzy dizzy dizzy; blaze blaze blaze; amaze amaze;
+
+      The lazy zebra at the zoo quickly drank the mixture.
+      Ship five dozen boxes of zinc trays by Zale Express.
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      The slant is controlled by the semicolon finger.
+      It is used in such abbreviations as n/c, which means
+      NO CHARGE; and c/o, which means CARE OF.
+
+      If you work with zeal and zest, you will soon be a
+      competent typist.  The ability to type well is a
+      very valuable asset.
+
+      You can develop your typing skill quickly by the proper
+      habits of work.  You should realize that poor work is a
+      mere waste of time.  Try to be exact.
+
+      Every business firm is dependent on the services of
+      competent typists.  You are now equipping yourself with
+      a skill for which there is a constant demand.
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      bag big bug bit bud bed bid bun bale bend bank bask
+      but bid bed bun bid big bag bud bask bale band bank
+
+      not now nut nor note nose none nude noun nine nest
+      now not nor nut nose note nude none nine nest next
+  9: 
+    type: drill
+    intro: | 
+      (9)
+    content: |
+      vim vet van vex vet vast vote veto vase vine vial
+      van vex vet vim vex vial vine vase veto vote vast
+
+      man mix mat mad made mail main make mark mask mine
+      mad met mix men mask mark made main male made mint

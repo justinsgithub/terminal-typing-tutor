@@ -1,3 +1,114 @@
-total_segments:
+total_segments: 10
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V17
+    content: |
+      (2 and 9)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      f4f j7j f5f j6j d3d k8k f4f j7j f5f j6j d3d k8k
+      or4 ru7 it5 by6 ie3 ok8 or4 ru7 it5 by6 ie3 ok8
+
+      The sum of 14 and 16 and 53 and 58 and 174 is 315.
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      strike...center...finger...spring...though...
+      expert...sharply...release...quickly...develop...
+      letting...squarely...practice...familiar...
+      fingertip...important...technique...releasing...
+      instantly...it is...do it...do this...with the...
+      you get.
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Strike each key sharply with the fingertip and squarely
+      in the center.  Strike the key quickly, letting the
+      finger spring back as though the key were red hot.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Strike each key sharply with the fingertip and squarely
+      in the center.  Strike the key quickly, letting the
+      finger spring back as though the key were red hot.
+  5: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      To type fast, it is just as important to release the
+      key quickly as it is to strike it quickly.  Expert
+      typists do this; you too, can do it, with practice.
+
+      One good way to develop this technique is to practice
+      familiar words and phrases.  Type them over and over
+      again until you get the knack of hitting the keys quickly
+      and releasing the fingers instantly.
+  6: 
+    type: drill
+    intro: | 
+      (5) New Key Tryout
+    content: |
+      s2s s2s s2s s2s s2s s2s l9l l9l l9l l9l l9l l9l
+      s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l
+
+      bow 2 bow 2 bow 2 bow 2 two 9 two 9 two 9 two 9
+      bow 2 two 9 bow 2 two 9 bow 2 two 9 bow 2 two 9
+  7: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l
+      12 lbs. coffee; 19 lbs. Cottage Cheese; 9 lbs. peaches;
+      19 lbs. apples; 29 lbs. Cheddar Cheese; 2 lbs. bananas;
+
+      low 2 fro 9 low 2 fro 9 low 2 fro 9 low 2 fro 9 29 192;
+      9 lbs. Smoked Tongue; 2 lbs. tomatoes; 9 lbs. avocados;
+      2 lbs. Cooked Tongue; 9 lbs. avocados; 2 lbs. tomatoes;
+  8: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      s2s l9l s2s l9l 219 921 192 s2s l9l s2s 191 291 129
+      The sum of 29 and 86 and 33 and 92 and 52 is 292.
+      The sum of 52 and 92 and 86 and 33 and 29 is 292.
+
+      ow 2 to 9 ow 2 to 9 we 23 ok 98 we 23 ok 98 s2s l9l
+      George Washington was born on February 22, 1732.
+      Horatio Alger was born in 1834 and died in 1899.
+  9: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      Christopher Latham Sholes was the inventor of the first practical
+      typewriter.  He was born in Columbia County, Pennsylvania,
+      February 14, 1819.
+
+      James Monroe, fifth President of The United States, was born on
+      April 28, 1758.  In 1782 he entered politics.  In 1799 he was appointed
+      Governor of Virginia.  In 1811 he became Secretary of State; in 1814,
+      Secretary of War; in 1816, President of The United States.
+
+      On September 1, 1939, Germany launched undeclared war on Poland.
+      On September 3, 1939, Great Britain declared war on Germany.  On
+      December 8, 1941, The United States declared war against the Axis.
+
+      Samuel F. B. Morse, inventor and artist, was born in 1791 and died in
+      1872.  In 1829 he went to Europe for three years.  For 12 years he
+      worked on perfecting the electrical telegraph, which was exhibited at New
+      York University in 1837.

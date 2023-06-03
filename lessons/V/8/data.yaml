@@ -1,3 +1,65 @@
-total_segments:
+total_segments: 6
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V8
+    content: |
+      (Introducing the Period)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj
+
+      He will pay Jed Squire for the sugar this week;
+  2: 
+    type: drill
+    intro: | 
+      (2) The Period
+    content: |
+      . . . . . . l.l l.l l.l l.l l.l l.l l.l l.l l.l
+      Hit it lightly.  Hit it lightly.  Hit it lightly.
+      Hit it lightly.  Hit it lightly.  Hit it lightly.
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Strike all the keys with pep.  Strike the keys
+      as though they were red hot.  This is just how the
+      fast typist works.
+
+      Type with thought.  Put forth your greatest efforts.
+      Let these two ideas guide you while you type.
+
+      You should follow the daily drills as you are told.
+      These drills will show you that it is quite easy
+      to type well.
+
+      Start your daily work without delay.  Keep at it
+      regularly.  It is steady work that will take you
+      to your goal.
+  4: 
+    type: drill
+    intro: | 
+      (4) Keyboard Review
+    content: |
+      for fat few fur foe fit fed fee for fat fir few fro;
+      fro few fir fat for fee fig foe fop fit fur fat fad;
+
+      jug jig jut jar joy jag jaw jar jet jot jog jug joy;
+      joy jug jog jag jaw jot jig jut jar jig jaw jog jet;
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      rye rut row red rip ray rap rug rig rut rye rug rot;
+      rot rye rut row red rip rat rap rug rig rut rye rug;
+
+      up us use uses urge ugly usage upper uproar upright;
+      us up use urge uses urge urges udder utters upstart;

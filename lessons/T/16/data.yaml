@@ -2,7 +2,7 @@ total_segments: 13
 
 segments:
   0: 
-    type: drill
+    type: info
     intro: | 
       In this lesson 
     content: |
@@ -91,7 +91,7 @@ segments:
     content: |
       j&j you&me j&j he&she j&j M&M j&j
   12: 
-    type: drill
+    type: info
     intro: | 
       THE END
     content: |

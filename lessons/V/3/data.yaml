@@ -1,3 +1,80 @@
-total_segments:
+total_segments: 9
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V3
+    content: |
+      (T Y G H)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      fff jjj ddd kkk frf juj ded kik fff jjj ddd kkk
+      frf juj ded kik fur fur kid kid red red ire ire
+
+      kid kid kid juke juke juke dire dire dire fire
+      rid rid rid rude rude rude ride ride ride feed
+
+      did red ire fee rid deer rude fire feed juke rider
+      rid fee ire red did juke fire rude juke deed freed
+  2: 
+    type: drill
+    intro: | 
+      (2) T and Y
+    content: |
+      t t t t ftf ftf ftf ftf y y y y jyj jyj jyj jyj
+      ftf jyj ftf jyj ftf jyj ftf jyj ftf jyj ftf jyj
+  3: 
+    type: drill
+    intro: | 
+      (3) G and H
+    content: |
+      g g g g fgf fgf fgf fgf h h h h jhj jhj jhj jhj
+      fgf jhj fgf jhj fgf jhj fgf jhj fgf jhj fgf jhj
+  4: 
+    type: drill
+    intro: | 
+      (4) Word Drill
+    content: |
+      hit hit hit hit hit hit get get get get get get
+      yet yet yet yet yet yet try try try try try try
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      the the the try try try get get get yet yet yet
+      try try try the the the yet yet yet get get get
+
+      key key key jit hit hit tie tie tie kit kit kit
+      tie tie tie kit kit kit key key key hit hit hit
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      here here here they they they true true true
+      they they they true true true here here here
+
+      there there there fruit fruit fruit right right right
+      fruit fruit fruit right right right there there there
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      third third third tired tired tired urged urged urged
+      tired tired tired urged urged urged third third third
+      R
+      truth truth truth their their their dried dried dried
+      their their their dried dried dried truth truth truth
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      did they get the right dried fruit there yet
+      did they get the right dried fruit there yet

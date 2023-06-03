@@ -2,7 +2,7 @@ total_segments: 16
 
 segments:
   0: 
-    type: drill
+    type: info
     intro: | 
       In this lesson 
     content: |

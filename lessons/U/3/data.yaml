@@ -1,3 +1,59 @@
-total_segments:
+total_segments: 8
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      Do you live in Scranton, Pennsylvania?
+  1: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      Mary Brown and Nancy Smith are in New York City.
+  2: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Violet, Helen, Dora, Jennie, and Elsie are staying at the Hotel Commodore.
+  3: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      I have lived in Los Angeles, San Francisco, Portland, Chicago, St. Louis, and
+      Denver; Robert has lived in Boston, Philadelphia, Jersey City, and Utica.
+  4: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      j7j k8k l9l ;0; j6j
+      f4f d3d s2s a1a f4f
+  5: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      j&j k*k l(l ;); j^j
+      f$f d#d s@s a!a f%f
+  6: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      Please send me the book "Facts & Figures."
+      Send us the items (3 dozen coats) right away.
+      The amount of the bill is $17,563.49; the discount is 2% 10 days, net 30 days.
+      The cards should be made up in the following sizes: 4 5/16 x 8 3/16 and
+      3 5/8 x 6 7/8.
+  7: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      2's 3's 4's 5's
+      \#' #2 #3 #4 #5

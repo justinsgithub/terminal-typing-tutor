@@ -1,3 +1,90 @@
-total_segments:
+total_segments: 9
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V12
+    content: |
+      (X and .)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ftf jyj fgf jhj fvf jmj fbf jnj fvf jmj
+      ded kik sws lol aqa ;p; dcd k,k dcd k,k fvf jmj
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      touch...learn...above...typing...talent...
+      average...special...that is...You do......
+      You do not
+  3: 
+    type: drill
+    intro: | 
+      (3) Timed Drill:
+    content: |
+      Touch typing is easy to learn.  You do not need
+      a mind that is above the average.  You do not
+      even need a special talent for typing.
+  4: 
+    type: drill
+    intro: | 
+      (4) New Key Tryout
+    content: |
+      x x x x sxs sxs sxs sxs . . . . l.l l.l l.l l.l
+      sxs l.l sxs l.l sxs l.l sxs l.l sxs l.l sxs l.l
+  5: 
+    type: drill
+    intro: | 
+      (5) Word Drill
+    content: |
+      six six six six six six etc. etc. etc. etc. etc.
+      six six six six six six etc. etc. etc. etc. etc.
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      fixes fixes fixes; mixes mixes mixes; taxes taxes;
+      mixes mixes mixes; fixes fixes fixes; boxes boxes;
+
+      expert expert expert; expect expect expect; excels;
+      exceed exceed exceed; excuse excuse excuse; excels;
+
+      Dr. Lux, tax expert, will examine the tax returns.
+      Mr. Cox examined the mixture with extreme care.
+  7: 
+    type: drill
+    intro: | 
+      (7) Practice Paragraph
+    content: |
+      Mr. Roxbury and Mr. Saxton will examine the six
+      boxes of wax with extreme care.  These boxes were
+      returned by Prof. Maxton of Knoxville College.
+
+      The Government tax experts were exceedingly
+      careful in examining the current tax receipts.  The
+      amount showed an excess of six million dollars over
+      the previous year.
+
+      Sixteen boxes of explosives were packed with the
+      most extreme care and shipped by Fox Express Company.
+      These explosives are to be used in secret experiments
+      for the U. S. Government.
+  8: 
+    type: drill
+    intro: | 
+      (8) Drill on A, Q, ;, P
+    content: |
+      act ant and ask apt any art all age anle acid aged
+      age all art any ask act add axe ant aged able acid
+
+      quit quip quote quite queer queen quack quaint quorum
+      quip quit quite quote queen queer quail quorum quaint
+
+      pin pup put; pull palm pant; pint pile push; punch;
+      put pin pup; pant pull palm; push pick pile; paper;

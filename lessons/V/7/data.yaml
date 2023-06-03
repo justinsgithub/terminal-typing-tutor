@@ -1,3 +1,74 @@
-total_segments:
+total_segments: 8
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V7
+    content: |
+      (Shift Lock and :)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj
+  2: 
+    type: drill
+    intro: | 
+      (2) Shift Lock Drill
+    content: |
+      It is GOOD WORK; It is GOOD WORK; It is GOOD WORK;
+      It is GOOD WORK; It is GOOD WORK; It is GOOD WORK;
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      The TITLE of the REPORT is:  HOUSES FOR SALE
+      The TITLE of the REPORT is:  HOUSES FOR SALE
+
+      aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj
+      We quote LOW FIGURES for HIGHEST QUALITY paper;
+      We quote LOW FIGURES for HIGHEST QUALITY paper;
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      The PARK POSTER reads:  KEEP OFF THE GRASS
+      The PARK POSTER reads:  KEEP OFF THE GRASS
+
+      aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj
+      Paul quoted the old adage:  THE THRIFTY ARE WISE
+      Paul quoted the old adage:  THE THRIFTY ARE WISE
+  5: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      You should STRIKE ALL THE KEYS with EQUAL POWER;
+      You should STRIKE ALL THE KEYS with EQUAL POWER;
+  6: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      GOOD WORK will lead to a HAPPY LIFE for you;
+      GOOD WORK will lead to a HAPPY LIFE for you;
+      aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj
+      The DAILY DRILLS will HELP YOU type with EASE;
+      The DAILY DRILLS will HELP YOU type with EASE;
+  7: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      GOOD SALARIES are USUALLY PAID to FAST TYPISTS;
+      GOOD SALARIES are USUALLY PAID to FAST TYPISTS;

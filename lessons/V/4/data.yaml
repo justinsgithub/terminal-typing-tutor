@@ -1,3 +1,70 @@
-total_segments:
+total_segments: 8
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V4
+    content: |
+      (S L W O)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ded kik ftf jyj fgf jhj frf juj ded kik
+      ded kik ftf jyj fgf jhj frf juj ded kik ftf jyj
+  2: 
+    type: drill
+    intro: | 
+      (2) S and L
+    content: |
+      s s s s sss sss sss sss l l l l lll lll lll lll
+      sss lll sss lll sss lll sss lll sss lll sss lll
+  3: 
+    type: drill
+    intro: | 
+      (3) W and O
+    content: |
+      w w w w sws sws sws sws o o o o lol lol lol lol
+      sws lol sws lol sws lol sws lol sws lol sws lol
+  4: 
+    type: drill
+    intro: | 
+      (4) Words Drill
+    content: |
+      sow sow sow sow sow sow low low low low low low
+      row row row row row row how how how how how how
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      is is is so so so of of of do do do go go go to to to
+      go go go to to to do do do of of of so so so is is is
+      R
+      too too too low low low set set set wit wit wit wit
+      sit sit sit lit lit lit wit wit wit low low low low
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      wool wool wool suit suit suit full full full wood wood
+      hole hole hole wool wool wool suit suit suit good good
+      R
+      style style style order order order those those
+      loose loose loose style style style order order
+      R
+      desire desire desire rulers rulers rulers worker
+      worker worker worker desire desire desire rulers
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      hold your wrists low while you strike the keys
+      we desire the right goods for our wool suits
+      if you will go with us you will see the fleet
+      we will try to fill your order for the wool suits
+      if we get the right goods we will fill your order

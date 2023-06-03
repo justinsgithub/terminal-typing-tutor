@@ -1,3 +1,23 @@
-total_segments:
+total_segments: 2
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      r r r r frf frf frf u u u u juj juj juj juj
+      frf juj frf juj frf juj frf juj frf juj frf juj
+  1: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj
+      fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj
+
+      fru fru fru jur jur jur ruj ruj ruj urf urf urf
+      fru fru fru ruf ruf ruf urj urj urj fuj fuj fuj
+
+      urf urf urf juf juf juf fuj fuj fuj fru fru fru
+      fur fur fur ruf ruf ruf urf urf urf jur jur jur

@@ -1,3 +1,83 @@
-total_segments:
+total_segments: 8
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      Lesson V10
+    content: |
+      (B and N)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;
+      fgf jhj fvf jmj fgf jhj fvf jmj fgf jhj fvf jmj
+
+      Paul Quigs will devote more time to his work.
+  2: 
+    type: drill
+    intro: | 
+      (2) New Keys
+    content: |
+      b b b b fbf fbf fbf fbf n n n n jnj jnj jnj jnj
+      fbf jnj fbf jnj fbf jnj fbf jnj fbf jnj fbf jnj
+  3: 
+    type: drill
+    intro: | 
+      (3) Word Drill
+    content: |
+      bin bin bin bin bin bin nib nib nib nib nib nib
+      big big big big big big now now now now now now
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      bun bun bun; nip nip nip; fib fib fib; win win win;
+      fib fib fib; win win win; bun bun bun; nip nip nip;
+
+      bent bent bent; nine nine nine; vent vent vent;
+      mend mend mend; vine vine vine; blow blow blow;
+
+      We require more time to turn out a very good job.
+      Be prompt.  Never shirk.  Make promptness a habit.
+  5: 
+    type: drill
+    intro: | 
+      (5) Practice Paragraph
+    content: |
+      Never put off until tomorrow any job you should
+      finish today.  Try to be prompt at all times.  No one
+      likes to be kept waiting.
+
+      Keep on working just as diligently as you have
+      been doing up to this point.  You will soon be a
+      master of the keyboard.  You will have a valuable
+      skill that will repay you for your efforts.
+
+      Remember this:  every boy and girl is able to
+      learn typing.  All they have to do is to put forth
+      their very best efforts.  This means thinking while
+      training every finger to strike the right key.
+  6: 
+    type: drill
+    intro: | 
+      (6) Words with D, E, K, and I
+    content: |
+      do dot due dye day dew dab den dim dog die dig dry dip
+      do dig dry dip die dog dim dab den dew day dye due dot
+
+      ebb eke err eve end egg ever even edge earn east evil
+      err eke eve end ebb eel evil east earn edge envy easy
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      kid kin kit keg key king kind know knee knot knew
+      key keg kid kit kin knew knot knee knob king kind
+
+      it is in if ire ill ink inn imp idle item isle iron
+      if in is it imp inn ill ire ink item idle iron isle

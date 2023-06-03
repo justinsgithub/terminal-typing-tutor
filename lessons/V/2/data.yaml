@@ -1,3 +1,63 @@
-total_segments:
+total_segments: 7
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V2
+    content: |
+      (D K E I)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj
+      frf juj frf juj frf juj frf juj frf juj frf juj
+
+      fur fur fur ruf ruf ruf jur jur jur ruj ruj ruj
+      urj urj urj juf juf juf fuj fuj fuj fur fur fur
+  2: 
+    type: drill
+    intro: | 
+      (2) New Key Control
+    content: |
+      d d d d ddd ddd ddd ddd k k k k kkk kkk kkk kkk
+      ddd kkk ddd kkk ddd kkk ddd kkk ddd kkk ddd kkk
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      e e e e ded ded ded ded ded i i i i kik kik kik
+      ded kik ded kik ded kik ded kik ded kik ded kik
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      did did did ire ire ire rid rid rid eke eke eke
+      rid rid rid eke eke eke ire ire ire did did did
+
+      kid kid kid fee fee fee red red red fir fir fir
+      red red red fir fir fir fee fee fee kid kid kid
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      free free free juke juke juke fire fire fire juke
+      fire fire fire juke juke juke free free free juke
+
+      deer deer deer rude rude rude dire dire dire ride
+      rude rude rude dire dire dire deer deer deer ride
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      fired fired fired rider rider rider freed freed
+      rider rider rider freed freed freed fired fired
+
+      did red ire fee rid deer rude fire feed juke rider
+      rid fee ire red did juke fire rude juke deed freed

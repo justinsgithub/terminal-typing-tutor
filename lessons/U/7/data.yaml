@@ -1,3 +1,44 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson U7
+    content: |
+      (Drill on L Combinations)
+  1: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      lal lel lil lol lul ly bl cl fl gl pl sl
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      loll play blow clear glass flesh slow fully
+      lisle plow blue class globe fleet sleep silly
+      label please blood claim gleam flail slight really
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      The mill will close in April.
+      It is clear to all who will listen.
+      The clerk sells cloth of fine value.
+      You will rely on them to supply you.
+      He held the floor until a relatively late hour.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: | 
+      Play is most important to a child.  All of us must play
+      a little.  All work and no play makes Jack a dull boy, the
+      old saying goes.  Play affords relaxation.  Some people claim
+      their work is so enthralling that they do not need to play.
+      Psychologists say that the stress of modern life demands that
+      all adults have some hobby away from their daily pursuit.

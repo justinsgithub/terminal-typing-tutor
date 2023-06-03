@@ -1,3 +1,111 @@
-total_segments:
+total_segments: 9
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V16
+    content: |
+      (3 and 8)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      f4f j7j f5f j6j f4f j7j f5f j6j f4f j7j f5f j6j
+      417 147 517 157 617 167 617 171 714 471 651 174
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      never...typing...office...become...getting...
+      acquire...efforts...valuable...personal...
+      possible...business...shorthand...it is...
+      it can...to it...in the...to use...to have
+      if you...from you...why not
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Typing is a very valuable skill to acquire.  It is
+      valuable for personal use and as a means of getting
+      an office job.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: |
+      Typing is a very valuable skill to acquire.  It is
+      valuable for personal use and as a means of getting
+      an office job.  This skill is yours to use; it can
+      never be taken from you.
+
+      So why not put forth your best efforts to become a
+      good typist?  You can become a good typist if you
+      put your mind to it.  You should also, if possible,
+      learn shorthand.  Typing and shorthand are two very
+      valuable skills to have.
+
+      These two skills will help you get a good start
+      in the business world.
+  5: 
+    type: drill
+    intro: | 
+      (5) New Key Tryout
+    content: |
+      d3d k8k d3d k8k d3d k8k d3d k8k d3d k8k d3d k8k
+      131 313 311 181 818 381 381 381 183 138 318 813
+
+      bid 3 bid 3 bid 3 bid 3 oak 8 oak 8 oak 8 oak 8
+      bid 3 bid 3 bid 3 bid 3 oak 8 oak 8 oak 8 oak 8
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      d3d k8k d3d k8k d3d k8k d3d k8k 318 813 138 813 381
+      13 lbs. lamb roast; 38 lbs. lamb chops; 8 lbs. bananas;
+      31 lbs. lamb chops; 83 lbs. lamb roast; 3 lbs. peaches;
+
+      lie 3 dye 3 pie 3 dye 3 Fiji 8 Fiji 8 Fiji 8
+      18 cans grape juice; 138 cans prune juice; 4 lbs. coffee;
+      47 cans prune juice; 143 cans grape juice; 8 lbs. onions;
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      d3d k8k d3d k8k d3d k8k 183 381 813 318 138 381
+      8 lbs. Swiss Cheese; 13 lbs. Kraft Cheese; 4 lbs. pears;
+      5 lbs. Kraft Cheese; 17 lbs. Swiss Cheese; 6 lbs. beans;
+
+      pie 3 dye 3 pie 3 dye 3 Fiji 8 Fiji 8 Fiji 8 Fiji 8
+      The sum of 13 and 83 and 153 and 75 and 47 is 371.
+      The sum of 47 and 75 and 153 and 83 and 13 is 371.
+  8: 
+    type: drill
+    intro: | 
+      (8) Practice Paragraph
+    content: |
+      John Jacob Astor was born in 1763 and died in
+      1848.  He came to America from England in 1784 and
+      set up a prosperous fur trade.  In 1811 he founded
+      the settlement of Astoria near the mouth of the
+      Columbia River.
+
+      Alexander Graham Bell was born in Scotland on
+      March 3, 1847.  He invented the telephone in 1876.
+      The Bell Telephone Company was organized in 1877.
+      Mr. Bell also invented the gramophone in 1887.
+
+      John Quincy Adams, sixth President of the
+      United States, was born in Massachusetts on July 11,
+      1767.  In 1817 he was appointed Secretary of State.
+      He died in 1848.
+
+      Oliver Wendell Holmes, American jurist, was born
+      in Massachusetts on March 8, 1841; graduated from
+      Harvard in 1861; from Harvard Law School in 1866;
+      admitted to the Massachusetts Bar in 1867.

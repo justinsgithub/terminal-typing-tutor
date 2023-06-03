@@ -1,3 +1,45 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson U11
+    content: |
+      (Drill on sion-tion Combinations)
+  1: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      asion esion ision osion usion
+      ation etion ition otion ution
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      action motion quotation session caution ambition
+      nation ration invention division exhibition attention
+      portion station intention possession connection situation
+      location creation condition impression completion commission
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      Information on the invention has been sent you.
+      The cancellation of the exhibition was announced.
+      Your communication of February 16 has been received.
+      Students are taught addition, subtraction, and division.
+      Your attention is called to the action of the Commission.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: | 
+      Concentration is a valuable faculty.  The ability to direct
+      one's attention exclusively along certain lines accounts for
+      the success of some people.  Diffusion of effort is considered
+      an enemy of success.  We are told that this is an age of
+      specialization, and specialization demands concentration.

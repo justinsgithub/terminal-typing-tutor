@@ -1,3 +1,46 @@
-total_segments:
+total_segments: 5
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson U10
+    content: |
+      (Drill on com-con Combinations)
+  1: 
+    type: drill
+    intro: | 
+      (1)
+    content: |
+      com recom decom discom incom uncom
+      con recon decon discon incon uncon
+  2: 
+    type: drill
+    intro: | 
+      (2)
+    content: |
+      common commit decompose conduct consign incomplete
+      comply comment discomfort connect confuse unconvinced
+      combine compose disconnect consist contrast uncontrolled
+      commerce compare discontinue control contrary incomparable
+      commence complete inconvenient contract convince uncomfortable
+  3: 
+    type: drill
+    intro: | 
+      (3)
+    content: |
+      The lawyer consulted the complainant.
+      Please continue to comply with all recommendations.
+      Their income is derived from common stock commitments.
+      The concern communicated its conclusions convincingly.
+      Under the circumstances, the company will command control.
+  4: 
+    type: drill
+    intro: | 
+      (4)
+    content: | 
+      Character shows itself in a man's conduct.  Deeds speak
+      louder than words.  Words sometimes confuse an issue where
+      deeds clarify it.  The test of a man's sincerity is not what
+      he says but what he does.  Consider this well and you will
+      never be confused in estimating a man's worth.

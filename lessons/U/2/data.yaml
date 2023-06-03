@@ -1,3 +1,35 @@
-total_segments:
+total_segments: 4
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      (1) Familiarize yourself with the top row and between the index fingers:
+    content: |
+      juj kik lol ;p; jyj
+      frf ded sws aqa ftf
+  1: 
+    type: drill
+    intro: | 
+      (2) Some words:
+    content: |
+      jug part ye aqua their hearty dry great why whose youth
+      kit free use type last lower drug light wheat proper your
+      lot dear its rear were pretty grip quiet where proud yellow
+      hear sweep old easy writer fresh group equip who please yes
+  2: 
+    type: drill
+    intro: | 
+      (3) Now for the bottom row:
+    content: |
+      jmj k,k l.l ;/; jnj
+      fvf dcd sxs aza fbf
+  3: 
+    type: drill
+    intro: | 
+      (4) Some words:
+    content: |
+      man come body vacant many tax ribbon lining believing
+      name can beam make examine none native baby commission
+      vain sex not cancel even mention woman brick quicken
+      become zero cave lazy benzine opening very branch textile

@@ -1,3 +1,79 @@
-total_segments:
+total_segments: 9
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      Lesson V5
+    content: |
+      (A ; Q P)
+  1: 
+    type: drill
+    intro: | 
+      (1) Warmup
+    content: |
+      frf juj ded kik ftf jyj fgf jhj frf juj ftf jyj fgf jhj
+      ded kik sws lol ded kik sws lol frf juj ftf jyj fgf jhj
+  2: 
+    type: drill
+    intro: | 
+      (2) A and ;
+    content: |
+      a a a a aaa aaa aaa aaa ; ; ; ; ;;; ;;; ;;; ;;;
+      aaa ;;; aaa ;;; aaa ;;; aaa ;;; aaa ;;; aaa ;;;
+  3: 
+    type: drill
+    intro: | 
+      (3) Q and P
+    content: |
+      q q q q aqa aqa aqa aqa p p p p ;p; ;p; ;p; ;p;
+      aqa ;p; aqa ;p; aqa ;p; aqa ;p; aqa ;p; aqa ;p;
+  4: 
+    type: drill
+    intro: | 
+      (4) Word Drill
+    content: |
+      pa; pa; pa; pa; pa; pa; up; up; up; up; up; up;
+      pa; pa; pa; pa; pa; pa; up; up; up; up; up; up;
+  5: 
+    type: drill
+    intro: | 
+      (5)
+    content: |
+      quay quay quay quay quay quip quip quip quip quip
+      quay quay quay quay quay quip quip quip quip quip
+  6: 
+    type: drill
+    intro: | 
+      (6)
+    content: |
+      apt apt apt; put put put; sip sip sip; hip hip hip;
+      sip sip sip; hip hip hip; apt apt apt; put put put;
+
+      quip quip quip; quit quit quit; aqua aqua aqua;
+      aqua aqua aqua; quip quip quip; quit quit quit;
+
+      paid paid paid; pair pair pair; pass pass pass;
+      pair pair pair; pass pass pass; paid paid paid;
+  7: 
+    type: drill
+    intro: | 
+      (7)
+    content: |
+      quote quote quote; paper paper paper; quite quite;
+      paper paper paper; quite quite quite; quote quote;
+
+      prefer prefer prefer; prepay prepay prepay; quires;
+      prepay prepay prepay; prefer prefer prefer; quires;
+
+      postage postage postage; quarter quarter quarter;
+      poultry poultry poultry; quality quality quality;
+  8: 
+    type: drill
+    intro: | 
+      (8)
+    content: |
+      two quires of high quality paper were shipped today;
+      we shall pay you well to prepare the reports for us;
+      we quote a low figure for our high quality paper;
+      we prefer to prepay the postage for the two quires;
