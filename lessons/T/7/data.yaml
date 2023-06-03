@@ -1,3 +1,130 @@
-total_segments:
+total_segments: 17
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      First a review of the letters we've learned before:
+    content: |
+      juj ded kik frf lol fgf ;p; jhj
+  1: 
+    type: drill
+    intro: | 
+      First a review of the letters we've learned before:
+    content: |
+      ftf jnj ftf jnj fbf juj ;?; l.l k,k
+  2: 
+    type: drill
+    intro: | 
+      Use your D-finger for the C-key.
+    content: |
+      ddd dcd ddd ccc ddd dcd
+  3: 
+    type: drill
+    intro: | 
+      Use your D-finger for the C-key.
+    content: |
+      ddd cat ddd cup ddd can
+      dcd duck dcd card dcd pack dcd
+      dcd crate dcd scrap dcd trick dcd
+  4: 
+    type: drill
+    intro: | 
+      Use your J-finger for the M-key
+    content: |
+      jjj jmj jjj mmm jjj jmj jjj
+  5: 
+    type: drill
+    intro: | 
+      Use your J-finger for the M-key
+    content: |
+      jjj met jjj rim jjj map jjj
+      jmj man jmj men jmj ham jjj
+      jmj Mr. jmj Mrs. jmj Ms. jmj
+      jmj number jmj stream jmj mankind jmj
+  6: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the hyphen.
+    content: |
+      ;;; ;-; ;;; --- ;;; ;-; ;;; ;-;
+  7: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the hyphen.
+    content: |
+      ;;; one-third ;;; one-half ;;; three-fifths ;;;
+      ;;; part-time ;;; self-made ;;; all-American ;;;
+  8: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      Peter Piper picked a peck of pickled peppers.
+  9: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      Motion pictures often depict macabre scenes.
+  10: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      Once upon a time, marriages lasted longer than mortgages.
+      There are three uses of the hyphen.  It can be used to combine two words:
+  11: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      She had on a bluish-green dress.  But, no one noticed.
+  12: 
+    type: drill
+    intro: | 
+      To divide a word:
+    content: |
+      At macrame class last night, I made a hanging basket for the philo-
+      dendron in our dining room.
+  13: 
+    type: drill
+    intro: | 
+      Or, to form a dash:
+    content: |
+      Fifteen dollars a month--measured in current dollars--is a good rate.
+  14: 
+    type: drill
+    intro: | 
+      Let's try a speed drill on these sentences:
+    content: |
+      The clock ran out, signaling the end of
+      the second-half.  The game had been lost.
+  15: 
+    type: drill
+    intro: | 
+      Let's try a speed drill on these sentences:
+    content: |
+      The paper just made an announce-
+      ment about a commotion at the
+      college.  Someone has just
+      produced a micro-organism in the
+      DNA-research lab.  It is a
+      special kind of bacteria that
+      consumes crude oil.  The talk is
+      that it is being patented for use
+      on oil spills at sea.
+  16: 
+    type: drill
+    intro: | 
+      Hit the return key twice for blank lines:
+    content: | 
+      Dear Mr. Mandrake:
+
+      All of us appreciated the fine performance of those magic
+      tricks.  Please arrange to come to another of our meet-
+      ings, if possible.  Perhaps our Christmas meeting?
+
+      Thanks,
+
+      Mrs. Carmichael

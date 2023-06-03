@@ -1,3 +1,133 @@
-total_segments:
+total_segments: 16
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      In this lesson 
+    content: |
+      We will be practicing the special symbols which you will need
+      for BASIC or other programming languages.  I won't give you too much practice
+      with these symbols right now.  (You should be able to get plenty of exercise by
+      simply typing in programs.)
+  1: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the equals key.
+    content: |
+      ;;; ;=; ;;; ;=; ;;; ;=; ;;;
+  2: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the equals key.
+    content: |
+      ;=; -=- ;=; '=' ;=; :=: ;=;
+      ;=; X=2 ;=; Y=3 ;=; Z=0 ;=;
+  3: 
+    type: drill
+    intro: | 
+      Use your K-finger for the asterisk key.
+    content: |
+      kkk k*k kkk k*k kkk k*k kkk
+  4: 
+    type: drill
+    intro: | 
+      Use your K-finger for the asterisk key.
+    content: |
+      k*k 3*2 k*k 5*6 k*k 9*7 k*k
+      k*k i*i k*k *,* k*k 8*8 k*k
+  5: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the plus sign.
+    content: |
+      ;;; ;+; ;;; ;+; ;;; ;+; ;;;
+  6: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the plus sign.
+    content: |
+      ;+; 2+4 ;+; 7+5 ;+; 8+0 ;+;
+      ;+; +=+ ;+; -+- ;+; /+/ ;+;
+  7: 
+    type: drill
+    intro: | 
+      Use your L-finger for the greater-than key.
+    content: |
+      lll l>l lll l>l lll l>l lll
+  8: 
+    type: drill
+    intro: | 
+      Use your L-finger for the greater-than key.
+    content: |
+      l>l X>3 l>l Y>7 l>l Z>0 l>l
+      l>l >>> l>l 9>9 l>l .>. l>l
+  9: 
+    type: drill
+    intro: | 
+      Use your K-finger for the less-than key.
+    content: |
+      kkk k<k kkk k<k kkk k<k kkk
+  10: 
+    type: drill
+    intro: | 
+      Use your K-finger for the less-than key.
+    content: |
+      k<k X<0 k<k Y<2 k<k Z<8 k<k
+      k<k <.> k<k >.< k<k <<< k<k
+  11: 
+    type: drill
+    intro: | 
+      Use your J-finger for the up-arrow key.
+    content: |
+      jjj j^j jjj ^^^ jjj j^j jjj
+  12: 
+    type: drill
+    intro: | 
+      Use your J-finger for the up-arrow key.
+    content: |
+      j^j X^2 j^j Y^3 j^j Z^4 j^j
+      j^j <^> j^j .^. j^j "^" j^j
+  13: 
+    type: drill
+    intro: | 
+      Try entering this BASIC program:
+    content: |
+      10 LET x=10
+      20 LET y=20
+      30 PRINT x+y/3
+      40 PRINT y/x*5
+      50 STOP
+  14: 
+    type: drill
+    intro: | 
+      And another:
+    content: |
+      10 REM Program to find square roots with using ^.5 feature
+      20 INPUT "What number do you want the square root of? ";s
+      30 x = 2
+      40 y = s/x
+      50 x = (x+y)/2
+      60 IF ABS(x^2 - s) > s/1000 THEN 40
+      70 PRINT "The square root of ";s;" is ";x
+      80 STOP
+  15: 
+    type: drill
+    intro: | 
+      You can press down the CAPS LOCK key to simplify typing in this BASIC program:
+    content: |
+      100 REM PROGRAM TO SOLVE QUADRATIC EQUATION
+      125 PRINT "ENTER THE VALUES OF A, B, AND C WHERE:"
+      150 PRINT
+      175 PRINT "AX^2 + BX + C = 0"
+      200 INPUT A,B,C
+      210 IF A = 0 THEN 400
+      225 D = B^2 - 4*A*C
+      250 IF D < 0 THEN 500
+      275 PRINT "ONE ROOT IS: ";-B+SQR(D)/2/A
+      300 PRINT "THE OTHER IS: ";-B-SQR(D)/2/A
+      325 STOP
+      400 PRINT "NOT A QUADRATIC.  TRY AGAIN."
+      425 GOTO 100
+      500 PRINT "COMPLEX ROOTS.  TRY AGAIN."
+      525 GOTO 125

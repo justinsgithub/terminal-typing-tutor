@@ -1,3 +1,102 @@
-total_segments:
+total_segments: 12
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      Let's review the numbers that you have already learned.
+    content: |
+      a1a s2s d3d f4f 234 413
+  1: 
+    type: drill
+    intro: | 
+      Let's review the numbers that you have already learned.
+    content: |
+      f4r d3e s2w a1q az1 sx2 dc3 fv4
+  2: 
+    type: drill
+    intro: | 
+      Use your J-finger for the 7-key
+    content: |
+      jjj j7j jjj j7j jjj j7j jjj
+  3: 
+    type: drill
+    intro: | 
+      Use your J-finger for the 7-key
+    content: |
+      jjj j7u jjj 7um jjj u7m jjj
+      777 map 777 jug 777 rum 777
+      Is flight number 377 for Florida a 727, a 737 or a 747?
+      It is a 727 with 4 stops.  With all those stops it takes almost 7 hours.
+  4: 
+    type: drill
+    intro: | 
+      Use your K-finger for the 8-key.
+    content: |
+      kkk k8k kkk k8k kkk k8k kkk
+  5: 
+    type: drill
+    intro: | 
+      Use your K-finger for the 8-key.
+    content: |
+      kkk k8i kkk 8,i kkk ,i8 kkk
+      888 kick 888 sink 888 keep 888
+      Agent 88 was supposed to check in at 8:14.  She is 38 minutes late.
+      Her team was assigned to zone 8 of quadrant 828.  Send 8 more agents.
+  6: 
+    type: drill
+    intro: | 
+      Use your L-finger for the 9-key.
+    content: |
+      lll l9l lll l9l lll l9l lll
+  7: 
+    type: drill
+    intro: | 
+      Use your L-finger for the 9-key.
+    content: |
+      lll 9.o lll o9. lll l9. lll
+      999 Jr. 999 log 999 old 999
+      Oh, 99 bottles of beer on the wall, 99 bottles of beer.
+      If 9 of us take 9 each, there will still be 18 left for the song.
+  8: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the 0-key.
+    content: |
+      ;;; ;0; ;;; ;0; ;;; ;0; ;;;
+  9: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the 0-key.
+    content: |
+      ;;; ;0p ;;; /0p ;;; 0/p ;;;
+      000 a/c 000 pup 000 me? 000
+      Dear Sirs:  The 10:00 meeting on March 10 has been postponed until 10:30.
+      The 10:30 meeting was moved to 11:00 in Room 302.
+      But, Room 302 can only hold 10 people.  We will need Conference Room 10.
+  10: 
+    type: drill
+    intro: | 
+      Let's try some paragraphs.
+    content: |
+      Zip codes are arranged so that the first 3 digits
+      designate the regional office and the last 2
+      digits designate the local branch.  The numbering
+      is roughly east to west.  That is, numbers
+      starting with 0 are in New England, numbers
+      starting with 1 are the New York area, etc.
+      There are notable exceptions to this rule,
+      however.  The Virgin Islands are south of
+      Florida, but their Zip Codes start with 00.
+  11: 
+    type: drill
+    intro: | 
+      Let's try some paragraphs.
+    content: |
+      The new nine digit zip codes have upset quite a
+      few people.  It was bad enough being referred to
+      as 73218.  But now, we will have to remember
+      numbers like 73218-4208.  The worst hit will be
+      the companies whose mailing list programs were
+      poorly designed.  Those unstructured programs
+      will be very difficult to change.

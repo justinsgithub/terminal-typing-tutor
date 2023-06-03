@@ -1,3 +1,18 @@
-total_segments:
+total_segments: 1
 
 segments:
+  0: 
+    type: info
+    intro: | 
+      There is no Lesson 13!  Don't you know that 13 is an unlucky number?
+    content: | 
+      If you have completed Lessons T1 through T12, then you are now ready
+      to call yourself a touch typist.  You have learned to touch type all
+      of the keys which are standardized!  You can now begin the SPEED
+      series of lessons if you would like.  (If you come across a punctua-
+      tion symbol which you have not learned, simply look for it.  Use the
+      appropriate finger for the shifted numeric keys.  Use your ;-finger
+      for all the keys on the right-hand side.)
+
+      We will practice touch typing on the keyboard layout for the remaining
+      lessons.

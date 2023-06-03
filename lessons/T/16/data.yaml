@@ -1,3 +1,113 @@
-total_segments:
+total_segments: 13
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      In this lesson 
+    content: |
+      We will be practicing the shifted numeric keys on the
+      terminal keyboard.  I will only be giving you practice in the keystroke
+      motions.  Very few sentence drills or speed exercises are included, since these
+      keys are used so infrequently.
+
+      If you are typing something which includes one of these special characters and
+      you cannot remember where a key is, look.  But, always make sure to hit the key
+      with the correct finger.  (If you do use the key often, you will eventually
+      learn where it is without looking.)  Since these keys are used infrequently and
+      are in different places on most other keyboards or are totally missing, speed
+      is not important.
+  1: 
+    type: drill
+    intro: | 
+      Use your S-finger for the at-sign.
+    content: |
+      sss s@s sss s@s sss s@s sss
+  2: 
+    type: drill
+    intro: | 
+      Use your S-finger for the at-sign.
+    content: |
+      s@s at@ s@s w@x s@s S@w s@s
+      s@s wax s@s mix s@s @we s@s
+  3: 
+    type: drill
+    intro: | 
+      Use your D-finger for the pound-sign (also called the number-sign).
+    content: |
+      ddd d#d ddd d#d ddd d#d ddd
+  4: 
+    type: drill
+    intro: | 
+      Use your D-finger for the pound-sign (also called the number-sign).
+    content: |
+      d#d d#e d#d 3#c d#d \#c# d#d
+      d#d cat d#d dog d#d eat d#d
+  5: 
+    type: drill
+    intro: | 
+      Use your F-finger for the dollar-sign.
+    content: |
+      fff f$f fff f$f fff f$f fff
+  6: 
+    type: drill
+    intro: | 
+      Use your F-finger for the dollar-sign.
+    content: |
+      f$f r$v f$f v$4 f$f 4$r f$f
+      f$f rave f$f fare f$f $10.00 f$f
+      Joe keeps cryptic inventory bills like:  4# @ $5.00/# or 6# @ $4.50/#.
+  7: 
+    type: drill
+    intro: | 
+      Use your F-finger for the percent sign as well.
+    content: |
+      fff f%f fff f%f fff f%f fff
+  8: 
+    type: drill
+    intro: | 
+      Use your F-finger for the percent sign as well.
+    content: |
+      f%f 12% f%f 10% f%f 20% f%f
+      f%f two f%f ran f%f bug f%f
+      If a $25.00 item is sold at a 10% discount, it will cost $22.50.
+      But, a 10% markup on a item selling for $22.50 is only $24.75!  How come?
+  9: 
+    type: drill
+    intro: | 
+      Use your J-finger for the ampersand.
+    content: |
+      jjj j&j jjj j&j jjj j&j jjj
+  10: 
+    type: drill
+    intro: | 
+      Use your J-finger for the ampersand.
+    content: |
+      j&j 2&4 j&j 9&5 j&j 7&7 j&j
+  11: 
+    type: drill
+    intro: | 
+      Use your J-finger for the ampersand.
+    content: |
+      j&j you&me j&j he&she j&j M&M j&j
+  12: 
+    type: drill
+    intro: | 
+      THE END
+    content: |
+      You have now completed the T-series of these lessons.  If you have not already
+      done so, you should now start the N-series or S-series.
+
+      There are a few keys which we have not studied.  If you decide to touch-type
+      these keys, use the closest finger.  Thus, the ESC, TAB, CAPS LOCK, and SCROLL
+      keys use the A-finger.  And, the keys to the far right (BACKSPACE, DELETE, LINE
+      FEED, RETURN, }, {, etc.) use the ;-finger.  The upper keys (f1, f2, etc.) are
+      not usually touch typed as the reach is too far.  If you can, fine.
+
+      The CONTROL and REPEAT keys are difficult to touch type, but are treated like
+      the SHIFT keys whenever possible.  For example, to REPEAT an exclamation point,
+      hold the REPEAT key down with your ;-finger and then hit the ! with your A-
+      finger.  Certain command sequences, such as Control/S, are hard to do this way.
+      Many people simply hold the CONTROL-key down with their A-finger and then hit
+      the other key with whatever finger is convenient (usually the F-finger in this
+      case).

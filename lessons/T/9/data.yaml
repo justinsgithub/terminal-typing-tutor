@@ -1,3 +1,126 @@
-total_segments:
+total_segments: 19
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      First, a review.
+    content: |
+      a;a sls dkd fjf sws jyj fvf dcd jmj ;-;
+  1: 
+    type: drill
+    intro: | 
+      Notice that the only letters left to go are the Q, X, and Z!
+    content: |
+      abcdefghijklmnoprstuvwy
+  2: 
+    type: drill
+    intro: | 
+      Use your A-finger for the Q-key.
+    content: |
+      aaa aqa aaa qqq aaa aqa aaa
+  3: 
+    type: drill
+    intro: | 
+      Use your A-finger for the Q-key.
+    content: |
+      aaa quit aaa quad aaa quip aaa
+      lacquer inquiry squirt quart
+      quail quiver inquest marquis
+  4: 
+    type: drill
+    intro: |
+
+    content: |
+
+      sss sxs sss xxx sss sxs sss
+  5: 
+    type: drill
+    intro: | 
+      Use your S-finger for the X-key.
+    content: |
+      sss ax sss ox sss vex sss wax xxx
+      examine ex-wife excellent boxer sixteen
+      exactly sphinx oxygen except thorax
+  6: 
+    type: drill
+    intro: |
+
+    content: |
+
+      aaa aza aaa zzz aaa aza aaa
+  7: 
+    type: drill
+    intro: | 
+      Use your A-finger for the Z-key.
+    content: |
+      aaa adz aaa azo aaa coz aaa
+      quiz jazz quartz zinc dozen
+      oxidize squeeze azimuth zoology
+  8: 
+    type: drill
+    intro: | 
+      The big event!!!!!!!!!!!!!!!!!!
+    content: |
+      abcdefghijklmnopqrstuvwxyz
+  9: 
+    type: drill
+    intro: | 
+      The big event!!!!!!!!!!!!!!!!!!
+    content: |
+      zyxwvutsrqponmlkjihgfedcba
+  10: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      A dozen zebras were grazing quietly nearby.
+  11: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      The zeppelin zigzagged quickly from the horizon up to the zenith.
+  12: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      Never trust a quack doctor who cannot distinguish oxygen from nitrogen.
+  13: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      Imagine having a sextet of sexagenarian sextons?
+  14: 
+    type: drill
+    intro: | 
+      Let's try some sentences:
+    content: |
+      Remember when queer used to mean zany?
+      Quartz crystal watches were at one time extremely expensive.
+  15: 
+    type: drill
+    intro: | 
+      Let's try a sentence that contains every letter of the alphabet.
+    content: |
+      A quick brown fox jumped over the lazy dogs.
+  16: 
+    type: drill
+    intro: | 
+      Again,
+    content: |
+      A quick brown fox jumped over the lazy dogs.
+  17: 
+    type: drill
+    intro: | 
+      See how fast you can type it this time:
+    content: |
+      A quick brown fox jumped over the lazy dogs.
+  18: 
+    type: drill
+    intro: | 
+      Again,
+    content: |
+      A quick brown fox jumped over the lazy dogs.

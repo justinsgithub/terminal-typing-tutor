@@ -1,3 +1,81 @@
-total_segments:
+total_segments: 11
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      Let's review the letters we've already learned.
+    content: |
+      jkj fdf jlj fsf j;j faf kik ded frf
+  1: 
+    type: drill
+    intro: | 
+      Let's review the letters we've already learned.
+    content: |
+      fgf jhj k,k l.l A;A F;F E;E
+      lol ;p; JaJ :a: ftf jnj ;:;
+      jug ton knot poison the neither often
+  2: 
+    type: drill
+    intro: | 
+      Use your F-finger for the B-key.
+    content: |
+      fff fbf fff bbb fff fbf fff
+  3: 
+    type: drill
+    intro: | 
+      The B-key is the longest reach we've seen so far.  Let's try it again.
+    content: |
+      fff fbf fff bbb fff fbf fff
+  4: 
+    type: drill
+    intro: | 
+      The B-key is the longest reach we've seen so far.  Let's try it again.
+    content: |
+      frf bar frf rib frf pub frf
+      frf bring frf abort frf brother frf
+  5: 
+    type: drill
+    intro: | 
+      Use your J-finger for the U-key.
+    content: |
+      jjj juj jjj uuu jjj juj jjj
+  6: 
+    type: drill
+    intro: | 
+      Use your J-finger for the U-key.
+    content: |
+      juj jug juj use juj hug juj
+      juj tulip juj turn juj under juj
+      Please pass the butter and salt, but not the pepper.
+  7: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the /-key.
+    content: |
+      ;;; ;/; ;;; /// ;;; ;/; ;;;
+  8: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the /-key.
+    content: |
+      ;/; n/a ;/; and/or ;/; left/right
+      In this era of E.R.A., I hope he/she likes his/her job.
+      He/she should bring his/her spouse at about noon or just before.
+      Should I be here alone?  Is Bernie and/or Julie going to be here, too?
+  9: 
+    type: drill
+    intro: | 
+      Try your speed on some paragraphs:
+    content: |
+      All bills are to be paid in full.  If
+      there is no fee to be paid, return the
+      bill and put n/a in the total due part.
+  10: 
+    type: drill
+    intro: | 
+      You should be aiming for 15 WPM.  (If you did better, work on accuracy.)
+    content: |
+      In baseball, bunting is a kind of hit.  But, bunting also
+      refers to a kind of bird and the stuff that is used in
+      flags.  English sure is a strange language.

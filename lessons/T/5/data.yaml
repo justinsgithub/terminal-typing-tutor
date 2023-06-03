@@ -1,3 +1,109 @@
-total_segments:
+total_segments: 16
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      As always, let's start with a review:
+    content: |
+      ade fgh ijk lop rs; ?.,
+  1: 
+    type: drill
+    intro: | 
+      Again.
+    content: |
+      ade fgh ijk lop rs; ?.,
+  2: 
+    type: drill
+    intro: | 
+      Use your F-finger for the T-key.
+    content: |
+      fff ftf fff ttt fff ftf fff
+  3: 
+    type: drill
+    intro: | 
+      Use your F-finger for the T-key.
+    content: |
+      ftf the ftf top ftf ate ftf
+  4: 
+    type: drill
+    intro: | 
+      Use your F-finger for the T-key.
+    content: |
+      ftf three ftf often ftf there
+  5: 
+    type: drill
+    intro: | 
+      Use your F-finger for the T-key.
+    content: |
+      The talk is that those three are threatening her.
+  6: 
+    type: drill
+    intro: | 
+      Use your J-finger for the N-key.
+    content: |
+      jjj jnj jjj nnn jjj jnj jjj
+  7: 
+    type: drill
+    intro: | 
+      Use your J-finger for the N-key.
+    content: |
+      jnj not jnj ton jnj one jnj
+      jnj neither jnj opening jnj kneeling jnj
+      No one has an interest in it.
+  8: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the :-key.
+    content: |
+      ;;; ;:; ;;; ::: ;;; ;:; ;;;
+  9: 
+    type: drill
+    intro: | 
+      Always double space after a colon.
+    content: |
+      Dear Sirs:  Dear John:  Dear Alfred:
+  10: 
+    type: drill
+    intro: | 
+      Always double space after a colon.
+    content: |
+      Dear Dr. Stone:  To Heathkit:
+  11: 
+    type: drill
+    intro: | 
+      SPEED EXERCISES
+    content: |
+      The next drills are meant to practice your speed
+  12: 
+    type: drill
+    intro: | 
+      Try this sentence:
+    content: |
+      Sarah has liked knitting all her life.
+  13: 
+    type: drill
+    intro: | 
+      Try a little longer sentence.
+    content: |
+      She looked past her garden to the fields and longed to see the other side.
+  14: 
+    type: drill
+    intro: | 
+      When you type a multi-line paragraph, you will have to hit the 
+      RETURN-key at the end of each line.
+    content: |
+      All the sane people in this area sold their gold
+      right at the start.  The insane ones held their
+      gold and later it paid off.
+  15: 
+    type: drill
+    intro: | 
+      When you type a multi-line paragraph, you will have to hit the 
+      RETURN-key at the end of each line.
+    content: |
+      One fine afternoon the king had an idea.  He
+      sent a letter to all the lords and ladies of
+      his land.  He asked for a great feast.  His
+      people prepared roasts.  His jester did a jig.
+      All the people left hoping to do it again.

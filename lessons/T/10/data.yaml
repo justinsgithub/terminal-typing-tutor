@@ -1,3 +1,126 @@
-total_segments:
+total_segments: 16
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      Let's review the entire alphabet before starting the number keys.
+    content: |
+      abcd efg hijk lmnop qrs tuv wx yz
+  1: 
+    type: drill
+    intro: | 
+      Once more
+    content: |
+      abcdefghijklmnopqrstuvwxyz
+  2: 
+    type: drill
+    intro: | 
+      Use the shift key for each letter (Do not use the CAPS LOCK key)
+    content: |
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  3: 
+    type: drill
+    intro: | 
+      Now, review the punctuations that you've had.
+    content: |
+      l;l l:l k,k l.l ;/; ;?; :?: ;-;
+  4: 
+    type: drill
+    intro: | 
+      NUMERIC KEYS
+    content: | 
+      The terminal has two sets of numeric keys.  One set--directly above the
+      alphabetic keys--conforms to the standard for typewriter keyboards.  The other
+      set--to your right--resembles a calculator keypad.  In this typing series we
+      will be concerned only with the standard numeric keys on the main keyboard.
+      (If you would like to learn to touch type on a numeric keypad, use the N-series
+      lessons instead.)
+
+      NOTE - not all terminals have the numeric keys in a separate keypad
+
+      The numeric keys, like all the keys you will be learning from now on, vary
+      somewhat from machine to machine.  The 2 through 0 keys are always in exactly
+      the same place on all typewriter keyboards.  (On keypunch machines and some
+      terminals, however, they are located over the U, I, O, J, K, L, M, comma and
+      period keys.  We will not be concerned with these layouts in this series.)
+      Even if a typewriter or terminal has the standard 2 through 0 keys, it may not
+      have a 1 key.  If it does, the 1 will always be next to the 2.  If it does not,
+      you will have to use the L-key.
+  5: 
+    type: drill
+    intro: | 
+      Let's start by using the 1-key, since we have one.  (Use your A-finger.)
+    content: |
+      aaa a1a aaa 111 aaa a1a
+  6: 
+    type: drill
+    intro: | 
+      Let's start by using the 1-key, since we have one.  (Use your A-finger.)
+    content: |
+      a1q qa1 qz1 az1 aq1 a1z
+      111 and 111 ate 111 any 111
+      If 11 men each catch 11 fish in 11 days, how many fish were caught?
+  7: 
+    type: drill
+    intro: | 
+      Use your S-finger for the 2-key.
+    content: |
+      sss s2s sss s2s sss s2s
+  8: 
+    type: drill
+    intro: | 
+      Use your S-finger for the 2-key.
+    content: |
+      sss s2w sss 2xw sss w2x sss
+      222 saw 222 was 222 wet 222
+      The 2 men were 2 late 2 catch the 2 PM train.
+  9: 
+    type: drill
+    intro: | 
+      Use your D-finger for the 3-key.
+    content: |
+      ddd d3d ddd d3d ddd d3d ddd
+  10: 
+    type: drill
+    intro: | 
+      Use your D-finger for the 3-key.
+    content: |
+      ddd d3e ddd d3c ddd e3c ddd
+      333 did 333 cat 333 eat 333
+      1 plus 2 is 3.  11 plus 22 is 33.  111 plus 222 is 333.
+  11: 
+    type: drill
+    intro: | 
+      The last number we will practice today is the 4-key.  (Use your F-finger.)
+    content: |
+      fff f4f fff f4f fff f4f
+  12: 
+    type: drill
+    intro: | 
+      The last number we will practice today is the 4-key.  (Use your F-finger.)
+    content: |
+      fff f4r fff 4vr fff 4vr fff
+      444 for fff rat 444 vet 444
+      Flight 423 leaves from gate 42 at 4:24.
+      As the 3 musketeers say: 1 4 all, and all 4 1.
+      If 1/4 plus 2/3 is 11/12, what is 1/2 plus 1/3?
+  13: 
+    type: drill
+    intro: | 
+      Try your speed on this line:
+    content: |
+      Our team won 1st, 2nd, and 3rd place at the 12th annual outing.
+  14: 
+    type: drill
+    intro: | 
+      As we stated earlier, many typewriters do not have a 1 key.  Let's practice using the L-key as a 1, so you can use any kind of typewriter.
+    content: |
+      One dozen is l2.  A gross is l2 dozen or l44.
+  15: 
+    type: drill
+    intro: | 
+      As we stated earlier, many typewriters do not have a 1 key.  Let's practice using the L-key as a 1, so you can use any kind of typewriter.
+    content: |
+      In both octal and decimal, ll times ll is l2l.  And, 3 minus 4 is -l.
+      But in octal, l2 is not divisible by 3.

@@ -1,3 +1,62 @@
-total_segments:
+total_segments: 9
 
 segments:
+  0: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the apostrophe.
+    content: |
+      ;;; ;'; ;;; ''' ;;; ;'; ;;;
+  1: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the apostrophe.
+    content: |
+      ;'; it's ;'; 'till ;'; won't ;';
+  2: 
+    type: drill
+    intro: | 
+      Use your ;-finger for the apostrophe.
+    content: |
+      ;'; 'tis ;'; isn't ;'; 'tis too ;';
+      What's this I've got?  Isn't this yesterday's paper?  Where's today's?
+      Can't you find anything?  It's right next to Dad's chair.
+  3: 
+    type: drill
+    intro: | 
+      Shift the apostrophe for the quote key.
+    content: |
+      ;;; ;"; ;;; """ ;;; ;"; ;;;
+  4: 
+    type: drill
+    intro: | 
+      Shift the apostrophe for the quote key.
+    content: |
+      ;"; "." ;"; ":" ;"; "," ;";
+      "What was that I saw you take from the teacher's desk?" asked Tom.
+      "It's the answers to tomorrow's quiz", answered Suzy.
+      "If you promise not to tell," she continued, "I'll give you a copy."
+  5: 
+    type: drill
+    intro: | 
+      Use your A-finger for the exclamation point.
+    content: |
+      aaa a!a aaa !!! aaa a!a aaa
+  6: 
+    type: drill
+    intro: | 
+      Use your A-finger for the exclamation point.
+    content: |
+      a!a Ah! a!a What! a!a Oh! a!a
+  7: 
+    type: drill
+    intro: | 
+      Always double space after an exclamation point.
+    content: |
+      Tomorrow's quiz!  What if we get caught?  We'll be expelled!
+  8: 
+    type: drill
+    intro: | 
+      Always double space after an exclamation point.
+    content: |
+      He'll never suspect a thing!  We'll get some answers wrong to fool him.
