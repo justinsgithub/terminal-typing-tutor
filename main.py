@@ -9,11 +9,19 @@ from constants import MAIN_MENU, MAIN_MENU_TITLE
 from blessed import Terminal
 
 term = Terminal()
+home = term.home
+height = term.height
+width = term.width
+clear = term.clear
+center = term.center
+down = term.move_down
+up = term.move_up
+xy = term.move_xy
+x = term.move_x
+y = term.move_y
+right = term.move_right
 
 TSeries = Literal["M", "Q", "R", "S", "T", "U", "V"]
-
-TAction = Literal["next", "menu"]
-
 
 def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
     with open(file, "r") as f:
@@ -25,6 +33,8 @@ def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
 
 
 def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[str]):
+    action = ''
+    confirm_exit = False
     time_elapsed = max(time.time() - start_time, 1)
     wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
     wpm_string = str(wpm) + " words per minute"
@@ -33,15 +43,31 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
     correct_characters = total_characters - mistyped_characters
     accuracy = round(correct_characters / total_characters * 100, 2)
     accuracy_string = str(accuracy) + "% Accuracy"
-    # print(term.home + term.clear + term.move_y(term.height // 2))
-    print(term.move_xy(0, round(term.height // 2)))
-    # print(term.green_on_black(term.center("Drill Complete")))
-    print(term.green_on_black(term.center(accuracy_string)))
-    print(term.green_on_black(term.center(wpm_string)))
-    print(term.home + term.move_xy(0, term.height - 1))
+    # print(home + clear + term.move_y(height // 2))
+    print(xy(0, round(height // 2)))
+    # print(term.green_on_black(center("Drill Complete")))
+    print(term.green_on_black(center(accuracy_string)))
+    print(term.green_on_black(center(wpm_string)))
+    print(home + xy(0, height), end='', flush=True)
     print(term.black_on_white(" Press R to repeat, N for next exercise or E to exit "))
-    # info_str = "   Stats   "
-    # print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
+
+    while action == '':
+        # exit program if user hits ctrl + c
+        keystroke = term.inkey()
+        if keystroke == "\x03":
+            exit()
+        if keystroke.lower() == 'r':
+            action = 'repeat'
+        if keystroke.lower() == 'n':
+            action = 'next'
+        if keystroke.lower() == 'e':
+            print(home + xy(0, height), end='', flush=True)
+            print(term.black_on_white(" Are you sure you want to exit this lesson? [Y/N] "))
+            action = 'menu'
+
+    return action
+        # info_str = "   Stats   "
+        # print(right(width - (len(info_str))) + term.black_on_white(info_str))
 
 
 def pressed_key(keystroke: Keystroke, test_string: str, correct_pressed_keys: List[str]):
@@ -57,62 +83,66 @@ def pressed_key(keystroke: Keystroke, test_string: str, correct_pressed_keys: Li
     return {"pressed_enter": pressed_enter, "pressed_space": pressed_space, "hit_target": False}
 
 
-def run_drill(content: str) -> TAction:
+def run_drill(content: str) -> Literal['next', 'repeat', 'menu']:
+    action = 'next'
     drill_started = False
     pressed_wrong_key = False
     start_time = 0.0
     test_string = content
-    # test_string2 = "the cat over there just took a pee in the plant my aunt gave me\n"
-    # test_strings = [test_string, test_string2]
-    print(term.home + term.clear)
+    print(home + clear)
     with term.location():
-        print(term.home + term.move_xy(0, term.height))
+        print(home + xy(0, height), end='', flush=True)
         info_str = "   Drill   "
-        print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
-    print(term.cyan(term.center("QUICK TEST")) + term.move_down(1))
-    print(term.white(term.center("(1)")) + term.move_down(2))
-    print(test_string + term.move_up(2))
+        print(right(width - (len(info_str))) + term.black_on_white(info_str), end='', flush=True)
+    # TODO: fix down/move_up with end=''
+    print(term.cyan(center("QUICK TEST")) + down(1))
+    print(term.white(center("(1)")) + down(2))
+    print(test_string + up(2))
     for _ in test_string.split("\n"):
-        print(term.move_up(2))
-    print(term.move_down(1))
+        print(up(2))
+    print(down(1))
     correct_pressed_keys = []
     incorrect_pressed_keys = []
     drill_over = False
 
-    # with term.raw(), term.hidden_cursor(): HIDDEN CURSOR OFF DURING DEBUGGING
+    # with term.raw(), term.hidden_cursor(): HIDDEN CURSOR OFF DURING DEVELOPMENT
     with term.raw():
         while not drill_over:
+            # first check to see if all characters typed, end drill
+            if len(correct_pressed_keys) == len(test_string) - 1:
+                action = end_drill(start_time, test_string, incorrect_pressed_keys)
+                drill_over = True
+
             keystroke = term.inkey()
-            # we want to start the timer after user starts test (after first key is pressed)
+
+            # Set the start time on first key press
             if drill_started == False:
                 start_time = time.time()
                 drill_started = True
-            # end drill after all characters are typed
-            if len(correct_pressed_keys) == len(test_string) - 1:
-                end_drill(start_time, test_string, incorrect_pressed_keys)
-                return
 
-            if keystroke == "\x03":
-                exit()
+            if keystroke.name == 'KEY_ESCAPE':
+                return 'repeat' # start test over
 
             _pressed_key = pressed_key(keystroke, test_string, correct_pressed_keys)
 
             if _pressed_key["hit_target"]:
                 if pressed_wrong_key == False:
-                    if _pressed_key["pressed_enter"]:
-                        # go to beginning of next line after line break
-                        print(term.move_x(0))
-                    else:
-                        print(term.green(keystroke) + term.move_up(1))
+                    if not _pressed_key["pressed_enter"]:
+                         print(term.green(keystroke), end='', flush=True)
+                    # if _pressed_key["pressed_enter"]:
+                    #     # go to beginning of next line after line break
+                    #     print(x(0))
+                    # else:
+                    #     print(term.green(keystroke))
 
                 if pressed_wrong_key == True:
                     if _pressed_key["pressed_space"]:
-                        print(term.red_on_red("x") + term.move_up(1))
+                        print(term.red_on_red("x"), end='', flush=True)
                     elif _pressed_key["pressed_enter"]:
-                        # may not want term.move_down here
-                        print(term.red_on_red("x") + term.move_down(1) + term.move_x(0))
+                        # may not want down here
+                        print(term.red_on_red("x"))
                     else:
-                        print(term.red(keystroke) + term.move_up(1))
+                        print(term.red(keystroke), end='', flush=True)
 
                 correct_pressed_keys.append(keystroke)
                 pressed_wrong_key = False
@@ -120,17 +150,18 @@ def run_drill(content: str) -> TAction:
             else:
                 pressed_wrong_key = True
                 incorrect_pressed_keys.append(keystroke)
+    return action
 
 
 def display_menu_screen(menu_title, selection, menu):
-    print(term.home + term.clear)
-    print(term.cyan(term.center(menu_title)) + term.move_y(term.height // 2))
+    print(home + clear)
+    print(term.cyan(center(menu_title)) + term.move_y(height // 2))
 
     for index, menu_item in enumerate(menu):
         if index == selection:
-            print(term.black_on_cyan(term.center(menu_item["title"])))
+            print(term.black_on_cyan(center(menu_item["title"])))
         else:
-            print(term.center(menu_item["title"]))
+            print(center(menu_item["title"]))
 
 
 def menu_selection(menu_title, menu) -> int:
@@ -141,6 +172,8 @@ def menu_selection(menu_title, menu) -> int:
     with term.cbreak():
         while selection_inprogress:
             key = term.inkey()
+            if key.name == 'KEY_ESCAPE':
+                pass
             down_keys = ["KEY_DOWN", "KEY_TAB"]
             if key.name in down_keys or key == "j":
                 selection += 1
@@ -177,22 +210,22 @@ def run_series_menu() -> TSeries:
     return series_selected
 
 
-def display_info_screen(banner_title: str, intro: str, content: str) -> TAction:
+def display_info_screen(banner_title: str, intro: str, content: str):
     display_info = True
     action = "next"
-    print(term.home + term.clear)
-    print(term.black_on_cyan(term.center(banner_title)) + term.move_down(1))
+    print(home + clear)
+    print(term.black_on_cyan(center(banner_title)) + down(1))
     for line in intro.split("\n"):
-        print(term.center(line))
+        print(center(line))
     for line in content.split("\n"):
         even_line = line
         while len(even_line) < 80:
             even_line += " "
-        print(term.center(even_line))
-    print(term.home + term.move_xy(0, term.height - 1))
-    print(term.black_on_white(" Press RETURN or SPACE to continue, ESC to return to the menu ") + term.move_up(1))
+        print(center(even_line))
+    print(home + xy(0, height), end='', flush=True)
+    print(term.black_on_white(" Press RETURN or SPACE to continue, ESC to return to the menu ") + x(0), end='', flush=True)
     info_str = " Info "
-    print(term.move_right(term.width - len(info_str)) + term.black_on_white(info_str) + term.move_up(1))
+    print(right(width - len(info_str)) + term.black_on_white(info_str), end='', flush=True)
     with term.cbreak():
         while display_info:
             key = term.inkey()
@@ -222,6 +255,7 @@ def run_lesson(series_selected: TSeries):
         content = current_seg["content"]
         title = f"Lesson {series_selected}{str(lesson_selected)}"
         type = current_seg["type"]
+        action = ''
 
         if type == "info":
             action = display_info_screen(title, intro, content)
@@ -229,10 +263,13 @@ def run_lesson(series_selected: TSeries):
             action == run_drill(content)
 
         if action == "next":
-            current += 1
+            current += 1 # if next go to next segment
+        if action == "repeat":
+            continue # if repeat run_drill again with same segment
         if action == "menu":
             show_menu = True
             break
+
 
     return show_menu
 
@@ -242,7 +279,5 @@ def main():
     show_menu = True
     while show_menu:
         show_menu = run_lesson(series_selected)
-        # test()
-
 
 main()

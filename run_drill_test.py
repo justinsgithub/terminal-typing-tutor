@@ -30,14 +30,14 @@ content = segments[11]["content"]
 def end_drill(start_time, test_string, incorrect_pressed_keys):
     time_elapsed = max(time.time() - start_time, 1)
     wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
-    wpm_string = str(wpm) + " words per minute\n"
+    wpm_string = str(wpm) + " words per minute"
     total_characters = len(test_string)
     mistyped_characters = len(incorrect_pressed_keys)
     correct_characters = total_characters - mistyped_characters
     accuracy = round(correct_characters / total_characters * 100, 2)
-    accuracy_string = str(accuracy) + "% Accuracy\n"
+    accuracy_string = str(accuracy) + "% Accuracy"
     print(term.home + term.clear + term.move_y(term.height // 2))
-    print(term.black_on_green(term.center("Test Complete\n")))
+    print(term.black_on_green(term.center("Test Complete")))
     print(term.black_on_green(term.center(accuracy_string)))
     print(term.black_on_green(term.center(wpm_string)))
     return
@@ -53,9 +53,9 @@ def run_drill():
     # test_strings = [test_string, test_string2]
     print(term.home + term.clear)
     with term.location():
-        print(term.home + term.move_xy(0, term.height))
+        print(term.home + term.move_xy(0, term.height), end='', flush=True)
         info_str = "   Drill   "
-        print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
+        print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str), end='', flush=True)
     print(term.cyan(term.center("QUICK TEST")) + term.move_down(1))
     print(term.white(term.center("(1)")) + term.move_down(2))
     print(test_string + term.move_up(2))
@@ -89,8 +89,8 @@ def run_drill():
                 # print(term.green_on_black(term.center("Drill Complete")))
                 print(term.green_on_black(term.center(accuracy_string)))
                 print(term.green_on_black(term.center(wpm_string)))
-                print(term.home + term.move_xy(0, term.height - 1))
-                print(term.black_on_white(" Press R to repeat, N for next exercise or E to exit "))
+                print(term.home + term.move_xy(0, term.height), end='', flush=True)
+                print(term.black_on_white(" Press R to repeat, N for next exercise or E to exit "), end='', flush=True)
                 # info_str = "   Stats   "
                 # print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
                 return
@@ -111,16 +111,16 @@ def run_drill():
                         # go to beginning of next line after line break
                         print(term.move_x(0))
                     else:
-                        print(term.green(pressed_key) + term.move_up(1))
+                        print(term.green(pressed_key), end='', flush=True)
 
                 if pressed_wrong_key == True:
                     if pressed_space:
-                        print(term.red_on_red("x") + term.move_up(1))
+                        print(term.red_on_red("x"), end='', flush=True)
                     elif pressed_enter:
                         # may not want term.move_down here
                         print(term.red_on_red("x") + term.move_down(1) + term.move_x(0))
                     else:
-                        print(term.red(pressed_key) + term.move_up(1))
+                        print(term.red(pressed_key), end='', flush=True)
 
                 correct_pressed_keys.append(pressed_key)
                 pressed_wrong_key = False
