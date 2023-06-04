@@ -44,16 +44,17 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
     # print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
 
 
-def hit_target(keystroke: Keystroke, test_string: str, correct_pressed_keys: List[str]):
+def pressed_key(keystroke: Keystroke, test_string: str, correct_pressed_keys: List[str]):
     # exit program if user hits ctrl + c
     if keystroke == "\x03":
         exit()
     target_character = test_string[len(correct_pressed_keys)]
     line_break = target_character == "\n"
     pressed_enter = keystroke.name == "KEY_ENTER"
+    pressed_space = keystroke == " "
     if (keystroke == target_character) or (line_break and pressed_enter):
-        return True
-    return False
+        return {"pressed_enter": pressed_enter, "pressed_space": pressed_space, "hit_target": True}
+    return {"pressed_enter": pressed_enter, "pressed_space": pressed_space, "hit_target": False}
 
 
 def run_drill(content: str) -> TAction:
@@ -94,21 +95,20 @@ def run_drill(content: str) -> TAction:
             if keystroke == "\x03":
                 exit()
 
-            pressed_enter = keystroke.name == "KEY_ENTER"
-            pressed_space = keystroke == " "
+            _pressed_key = pressed_key(keystroke, test_string, correct_pressed_keys)
 
-            if hit_target(keystroke, test_string, correct_pressed_keys):
+            if _pressed_key["hit_target"]:
                 if pressed_wrong_key == False:
-                    if pressed_enter:
+                    if _pressed_key["pressed_enter"]:
                         # go to beginning of next line after line break
                         print(term.move_x(0))
                     else:
                         print(term.green(keystroke) + term.move_up(1))
 
                 if pressed_wrong_key == True:
-                    if pressed_space:
+                    if _pressed_key["pressed_space"]:
                         print(term.red_on_red("x") + term.move_up(1))
-                    elif pressed_enter:
+                    elif _pressed_key["pressed_enter"]:
                         # may not want term.move_down here
                         print(term.red_on_red("x") + term.move_down(1) + term.move_x(0))
                     else:
@@ -167,6 +167,7 @@ def run_lesson_menu(series_name) -> int:
     # lessons start at 1 not 0
     lesson_selected = menu_selection(menu_title, menu) + 1
     return lesson_selected
+
 
 def run_series_menu() -> TSeries:
     with term.fullscreen(), term.hidden_cursor():
