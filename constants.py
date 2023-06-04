@@ -1,3 +1,5 @@
+from blessed import Terminal
+
 MAIN_MENU_TITLE = 'Series selection menu'
 
 MAIN_MENU = [
@@ -30,3 +32,15 @@ MAIN_MENU = [
         "series": "S",
     },
 ]
+
+TERM = Terminal()
+HOME = TERM.home
+HEIGHT = TERM.height
+WIDTH = TERM.width
+CLEAR = TERM.clear
+CENTER = TERM.center
+DOWN = TERM.move_down
+UP = TERM.move_up
+XY = TERM.move_xy
+X = TERM.move_x
+LEFT = TERM.move_right
