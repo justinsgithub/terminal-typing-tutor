@@ -1,6 +1,6 @@
 from blessed import Terminal
 
-MAIN_MENU_TITLE = 'Series selection menu'
+MAIN_MENU_TITLE = "Series selection menu"
 
 MAIN_MENU = [
     {
@@ -44,3 +44,15 @@ UP = TERM.move_up
 XY = TERM.move_xy
 X = TERM.move_x
 LEFT = TERM.move_right
+
+SEG_DICT = {
+    "accuracy": 0,
+    "wpm": 0,
+    "cpm": 0,
+    "words": 0,
+    "characters": 0,
+}
+
+PB_DICT = {
+        "all_time": SEG_DICT
+}
