@@ -19,9 +19,13 @@ def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
         return f.read()
 
 
+def track_pb():
+    pass
+
+
 def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[str]):
     confirming_exit = False
-    if not start_time == 0.0: # only print stats if drill was started
+    if not start_time == 0.0:  # only print stats if drill was started
         time_elapsed = max(time.time() - start_time, 1)
         wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
         wpm_string = TERM.cyan_on_black(str(wpm)) + TERM.white_on_black(" words per minute")
@@ -71,19 +75,19 @@ def pressed_key(keystroke: Keystroke, test_string: str, correct_pressed_keys: Li
     return {"pressed_enter": pressed_enter, "pressed_space": pressed_space, "hit_target": False}
 
 
-def run_drill(content: str):
+def run_drill(title: str, intro: str, content: str):
     drill_started = False
     pressed_wrong_key = False
     start_time = 0.0
     test_string = content
-    print(HOME + CLEAR)
+    print(HOME + CLEAR, end="", flush=True)
     with TERM.location():
         print(HOME + XY(0, HEIGHT), end="", flush=True)
         info_str = "   Drill   "
         print(LEFT(WIDTH - (len(info_str))) + TERM.black_on_white(info_str), end="", flush=True)
     # TODO: fix down/move_up with end=''
-    print(TERM.cyan(CENTER("QUICK TEST")) + DOWN(1))
-    print(TERM.white(CENTER("(1)")) + DOWN(2))
+    print(TERM.cyan(CENTER(title)) + DOWN(1))
+    print(TERM.white(CENTER(intro)) + DOWN(2))
     print(test_string + UP(2))
     for _ in test_string.split("\n"):
         print(UP(2))
@@ -107,7 +111,6 @@ def run_drill(content: str):
                 else:
                     action = end_drill(start_time, test_string, incorrect_pressed_keys)
                     return action
-
 
             _pressed_key = pressed_key(keystroke, test_string, correct_pressed_keys)
 
@@ -176,7 +179,7 @@ def menu_selection(menu_title, menu) -> int:
 
 
 def run_lesson_menu(series_name) -> int:
-    dir = f"lessons/{series_name}"
+    dir = f"series/{series_name}"
     title_file = f"{dir}/title"
     menu_file = f"{dir}/menu.json"
     print(menu_file)
@@ -209,9 +212,8 @@ def display_info_screen(banner_title: str, intro: str, content: str):
             even_line += " "
         print(CENTER(even_line))
     print(HOME + XY(0, HEIGHT), end="", flush=True)
-    print(
-        TERM.black_on_white(" Press RETURN or SPACE to continue, ESC to return to the menu ") + X(0), end="", flush=True
-    )
+    message = " Press RETURN or SPACE to continue, ESC to return to the menu "
+    print(TERM.black_on_white(message) + X(0), end="", flush=True)
     info_str = " Info "
     print(LEFT(WIDTH - len(info_str)) + TERM.black_on_white(info_str), end="", flush=True)
     while display_info:
@@ -225,21 +227,52 @@ def display_info_screen(banner_title: str, intro: str, content: str):
     return action
 
 
+def prompt_next_lesson(current_series: TSeries, current_lesson: int):
+    print(HOME + XY(0, HEIGHT), end="", flush=True)
+    message = f" Do you want to continue to lesson {current_series}{str(current_lesson + 1)} [Y/N] ? "
+    print(TERM.black_on_white(message) + "      ", end="", flush=True)
+    while True:
+        key = TERM.inkey()
+        if key.lower() == 'y':
+            return 'next'
+        if key.lower() == 'n':
+            return 'menu'
+
+def get_lesson_data(series_selected: TSeries, lesson_selected: int):
+    lesson_dir = f"series/{series_selected}/{str(lesson_selected)}"
+    data_file = f"{lesson_dir}/data.yaml"
+    lesson_data = file_content(data_file, "yaml")
+    return lesson_data
+
 def run_lesson(series_selected: TSeries):
     lesson_selected = run_lesson_menu(series_selected)
     if lesson_selected == 0:
         return 0
-    lesson_dir = f"lessons/{series_selected}/{str(lesson_selected)}"
     show_menu = False
-    data_file = f"{lesson_dir}/data.yaml"
-    lesson_data = file_content(data_file, "yaml")
-    total_segments = lesson_data["total_segments"]
-    segments = lesson_data["segments"]
-
+    lesson_data = get_lesson_data(series_selected, lesson_selected)
     current = 0
+    lc_file = f"series/{series_selected}/lesson_count"
+    lesson_count = int(file_content(lc_file))
 
-    while current < total_segments:
-        current_seg = segments[current]
+    while current <= lesson_data["total_segments"]:
+        is_last_segment = current == lesson_data["total_segments"]
+        if is_last_segment:
+            # check if user is on last lesson, return to menu
+            if lesson_selected == lesson_count:
+                show_menu = True
+                break
+            else:
+                answer = prompt_next_lesson(series_selected, lesson_selected)
+                if answer == "menu":
+                    show_menu = True
+                    break
+                else:
+                    lesson_selected += 1
+                    lesson_data = get_lesson_data(series_selected, lesson_selected)
+                    current = 0
+                    continue
+
+        current_seg = lesson_data["segments"][current]
         intro = current_seg["intro"]
         content = current_seg["content"]
         title = f"Lesson {series_selected}{str(lesson_selected)}"
@@ -249,8 +282,7 @@ def run_lesson(series_selected: TSeries):
         if type == "info":
             action = display_info_screen(title, intro, content)
         else:
-            action = run_drill(content)
-
+            action = run_drill(title, intro, content)
         if action == "next":
             current += 1  # if next go to next segment
         if action == "repeat":
@@ -278,5 +310,6 @@ def main():
                 exit()
             if num == 2:
                 num = run_lesson(series_selected)
+
 
 main()
