@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from typing import List, Literal
+from blessed.keyboard import Keystroke
 import yaml
 import json
 import time
@@ -22,6 +23,7 @@ def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
             return json.load(f)
         return f.read()
 
+
 def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[str]):
     time_elapsed = max(time.time() - start_time, 1)
     wpm = round((len(test_string) / (time_elapsed / 60)) / 5)
@@ -41,6 +43,19 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
     # info_str = "   Stats   "
     # print(term.move_right(term.width - (len(info_str))) + term.black_on_white(info_str))
 
+
+def hit_target(keystroke: Keystroke, test_string: str, correct_pressed_keys: List[str]):
+    # exit program if user hits ctrl + c
+    if keystroke == "\x03":
+        exit()
+    target_character = test_string[len(correct_pressed_keys)]
+    line_break = target_character == "\n"
+    pressed_enter = keystroke.name == "KEY_ENTER"
+    if (keystroke == target_character) or (line_break and pressed_enter):
+        return True
+    return False
+
+
 def run_drill(content: str) -> TAction:
     drill_started = False
     pressed_wrong_key = False
@@ -56,7 +71,7 @@ def run_drill(content: str) -> TAction:
     print(term.cyan(term.center("QUICK TEST")) + term.move_down(1))
     print(term.white(term.center("(1)")) + term.move_down(2))
     print(test_string + term.move_up(2))
-    for _ in test_string.split('\n'):
+    for _ in test_string.split("\n"):
         print(term.move_up(2))
     print(term.move_down(1))
     correct_pressed_keys = []
@@ -66,7 +81,7 @@ def run_drill(content: str) -> TAction:
     # with term.raw(), term.hidden_cursor(): HIDDEN CURSOR OFF DURING DEBUGGING
     with term.raw():
         while not drill_over:
-            pressed_key = term.inkey()
+            keystroke = term.inkey()
             # we want to start the timer after user starts test (after first key is pressed)
             if drill_started == False:
                 start_time = time.time()
@@ -76,23 +91,19 @@ def run_drill(content: str) -> TAction:
                 end_drill(start_time, test_string, incorrect_pressed_keys)
                 return
 
-            if pressed_key == "\x03":
+            if keystroke == "\x03":
                 exit()
 
-            target_character = test_string[len(correct_pressed_keys)]
-            line_break = target_character == "\n"
-            pressed_enter = pressed_key.name == "KEY_ENTER"
-            pressed_space = pressed_key == " "
-            hit_target1 = pressed_key == target_character
-            hit_target2 = line_break and pressed_enter
+            pressed_enter = keystroke.name == "KEY_ENTER"
+            pressed_space = keystroke == " "
 
-            if hit_target1 or hit_target2:
+            if hit_target(keystroke, test_string, correct_pressed_keys):
                 if pressed_wrong_key == False:
                     if pressed_enter:
                         # go to beginning of next line after line break
                         print(term.move_x(0))
                     else:
-                        print(term.green(pressed_key) + term.move_up(1))
+                        print(term.green(keystroke) + term.move_up(1))
 
                 if pressed_wrong_key == True:
                     if pressed_space:
@@ -101,15 +112,14 @@ def run_drill(content: str) -> TAction:
                         # may not want term.move_down here
                         print(term.red_on_red("x") + term.move_down(1) + term.move_x(0))
                     else:
-                        print(term.red(pressed_key) + term.move_up(1))
+                        print(term.red(keystroke) + term.move_up(1))
 
-                correct_pressed_keys.append(pressed_key)
+                correct_pressed_keys.append(keystroke)
                 pressed_wrong_key = False
 
             else:
                 pressed_wrong_key = True
-                incorrect_pressed_keys.append(pressed_key)
-
+                incorrect_pressed_keys.append(keystroke)
 
 
 def display_menu_screen(menu_title, selection, menu):
@@ -121,15 +131,6 @@ def display_menu_screen(menu_title, selection, menu):
             print(term.black_on_cyan(term.center(menu_item["title"])))
         else:
             print(term.center(menu_item["title"]))
-
-
-# def get_lesson_selection(selection, menu):
-#     dir = f"lessons/{menu[selection]['directory']}"
-#     title_file = f"{dir}/title"
-#     with open(title_file, 'r') as f:
-#         banner_title = f.read()
-#         display_menu_screen(banner_title, selection, menu)
-#         test()
 
 
 def menu_selection(menu_title, menu) -> int:
@@ -165,13 +166,7 @@ def run_lesson_menu(series_name) -> int:
 
     # lessons start at 1 not 0
     lesson_selected = menu_selection(menu_title, menu) + 1
-    # lesson_selected = menu[selection]['lesson']
-    # return lesson_selected
     return lesson_selected
-
-    # display_menu_screen(menu_title, lesson_selection, menu)
-    # test()
-
 
 def run_series_menu() -> TSeries:
     with term.fullscreen(), term.hidden_cursor():
@@ -227,7 +222,7 @@ def run_lesson(series_selected: TSeries):
         title = f"Lesson {series_selected}{str(lesson_selected)}"
         type = current_seg["type"]
 
-        if type == 'info':
+        if type == "info":
             action = display_info_screen(title, intro, content)
         else:
             action == run_drill(content)
