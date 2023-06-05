@@ -45,7 +45,7 @@ XY = TERM.move_xy
 X = TERM.move_x
 LEFT = TERM.move_right
 
-SEG_DICT = {
+STATS_DICT = {
     "accuracy": 0,
     "wpm": 0,
     "cpm": 0,
@@ -54,5 +54,11 @@ SEG_DICT = {
 }
 
 PB_DICT = {
-        "all_time": SEG_DICT
+    "all_time": {
+        "accuracy": STATS_DICT,
+        "wpm": STATS_DICT,
+        "cpm": STATS_DICT,
+        "words": STATS_DICT,
+        "characters": STATS_DICT,
+    }
 }

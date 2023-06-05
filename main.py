@@ -6,7 +6,7 @@ import yaml
 import json
 import time
 import os
-from constants import MAIN_MENU, MAIN_MENU_TITLE, TERM, HOME, HEIGHT, WIDTH, CLEAR, CENTER, DOWN, UP, XY, X, LEFT, SEG_DICT, PB_DICT
+from constants import MAIN_MENU, MAIN_MENU_TITLE, TERM, HOME, HEIGHT, WIDTH, CLEAR, CENTER, DOWN, UP, XY, X, LEFT, PB_DICT
 
 TSeries = Literal["M", "Q", "R", "S", "T", "U", "V"]
 
@@ -29,8 +29,7 @@ def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text"):
         return f.read()
 
 
-# track users personal bests (pb)
-def track_pb():
+def stats_files():
     home_directory = os.path.expanduser("~")
     pb_dir = f"{home_directory}/.config/ttt/pb/{series}/{lesson}"
     pb_file = f"{pb_dir}/{segment}.yaml"
@@ -39,10 +38,14 @@ def track_pb():
         os.makedirs(pb_dir)
     if not os.path.exists(pb_file):
         with open(pb_file, "w") as file:
-            file.write(yaml.safe_dump(SEG_DICT))
+            file.write(yaml.safe_dump(PB_DICT))
     if not os.path.exists(all_time_file):
         with open(all_time_file, "w") as file:
             file.write(yaml.safe_dump(PB_DICT))
+
+# track users personal bests (pb)
+def track_pb():
+    stats_files()
 
 
 def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[str]):
@@ -133,7 +136,7 @@ def run_drill(title: str, intro: str, content: str):
                 if drill_started:
                     return "repeat"
                 else:
-                    action = end_drill(start_time, test_string, incorrect_pressed_keys)
+                    action = end_drill(0.0, test_string, incorrect_pressed_keys)
                     return action
 
             _pressed_key = pressed_key(keystroke, test_string, correct_pressed_keys)
@@ -336,6 +339,4 @@ def main():
                 exit()
             if num == 2:
                 num = run_lesson()
-
-
 main()
