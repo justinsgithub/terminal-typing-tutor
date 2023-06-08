@@ -1,4 +1,7 @@
 from blessed import Terminal
+from typing import Literal
+
+
 
 MAIN_MENU_TITLE = "Series selection menu"
 
@@ -44,8 +47,10 @@ UP = TERM.move_up
 XY = TERM.move_xy
 X = TERM.move_x
 LEFT = TERM.move_right
+MIN_PB_CHARS = 200
 
 STATS_DICT = {
+#    "drill": '', not sure of necessary right now, can tell the drill by the file path
     "accuracy": 0,
     "wpm": 0,
     "cpm": 0,
@@ -57,8 +62,8 @@ PB_DICT = {
     "all_time": {
         "accuracy": STATS_DICT,
         "wpm": STATS_DICT,
-        "cpm": STATS_DICT,
         "words": STATS_DICT,
-        "characters": STATS_DICT,
     }
 }
+
+TSeries = Literal["M", "Q", "R", "S", "T", "U", "V"]
