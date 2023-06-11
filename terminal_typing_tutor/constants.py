@@ -46,7 +46,8 @@ DOWN = TERM.move_down
 UP = TERM.move_up
 XY = TERM.move_xy
 X = TERM.move_x
-LEFT = TERM.move_right
+LEFT = TERM.move_left
+RIGHT = TERM.move_right
 MIN_PB_CHARS = 200
 
 STATS_DICT = {

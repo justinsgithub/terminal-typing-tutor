@@ -7,6 +7,7 @@ import os
 from terminal_typing_tutor.constants import (
     MAIN_MENU,
     MAIN_MENU_TITLE,
+    RIGHT,
     STATS_DICT,
     TERM,
     HOME,
@@ -179,11 +180,7 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
     current_chars = 0
 
     print(HOME + XY(0, HEIGHT), end="", flush=True)
-    print(
-        TERM.black_on_white(end_msg),
-        end="",
-        flush=True,
-    )
+    print(TERM.black_on_white(end_msg), end="", flush=True)
 
     while True:
         # exit program if user hits ctrl + c
@@ -208,9 +205,7 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
                 confirming_exit = False
 
 
-def pressed_key(key: Keystroke, test_string: str, correct_pressed_keys: List[str]):
-    # exit program if user hits ctrl + c
-    target_character = test_string[len(correct_pressed_keys)]
+def pressed_key(key: Keystroke, target_character: str):
     line_break = target_character == "\n"
     pressed_enter = key.name == "KEY_ENTER"
     pressed_space = key == " "
@@ -231,23 +226,26 @@ def run_drill(title: str, intro: str, content: str):
     drill_started = False
     pressed_wrong_key = False
     start_time = 0.0
-    test_string = content
+    test_string = content.rstrip()
     print(HOME + CLEAR, end="", flush=True)
     with TERM.location():
         print(HOME + XY(0, HEIGHT), end="", flush=True)
         info_str = "   Drill   "
-        print(
-            LEFT(WIDTH - (len(info_str))) + TERM.black_on_white(info_str),
-            end="",
-            flush=True,
-        )
+        print(RIGHT(WIDTH - (len(info_str))) + TERM.black_on_white(info_str), end="", flush=True)
     # TODO: fix down/move_up with end=''
     print(TERM.black_on_cyan(CENTER(title)) + DOWN(1))
     print(TERM.white(CENTER(intro)) + DOWN(2))
-    print(test_string + UP(2))
-    for _ in test_string.split("\n"):
-        print(UP(2))
-    print(DOWN(1))
+    lines = test_string.split("\n")
+    line_count = len(lines)
+    for index, line in enumerate(lines):
+        if index == line_count - 1:
+            print(f"{RIGHT(20)}{line}", end="", flush=True)
+        else:
+            print(f"{RIGHT(20)}{line}\n", end="", flush=True)
+
+    if line_count > 1:
+        print(UP(line_count))
+    print(X(20), end="", flush=True)
     correct_pressed_keys = []
     incorrect_pressed_keys = []
 
@@ -257,6 +255,8 @@ def run_drill(title: str, intro: str, content: str):
             action = end_drill(start_time, test_string, incorrect_pressed_keys)
             return action
 
+        target_character = test_string[len(correct_pressed_keys)]
+        print(f"{TERM.black_on_white(target_character)}{LEFT(1)}", end="", flush=True)
         key = get_key()
 
         if key.name == "KEY_ESCAPE":
@@ -267,7 +267,7 @@ def run_drill(title: str, intro: str, content: str):
                 action = end_drill(0.0, test_string, incorrect_pressed_keys)
                 return action
 
-        _pressed_key = pressed_key(key, test_string, correct_pressed_keys)
+        _pressed_key = pressed_key(key, target_character)
 
         # Set the start time on first key press
         if drill_started == False:
@@ -279,7 +279,7 @@ def run_drill(title: str, intro: str, content: str):
                 if not _pressed_key["pressed_enter"]:
                     print(TERM.green(key), end="", flush=True)
                 else:
-                    print(TERM.green(key))
+                    print(f"{TERM.green(key)}{RIGHT(20)}", end="", flush=True)
 
             if pressed_wrong_key == True:
                 if _pressed_key["pressed_space"]:
@@ -374,7 +374,7 @@ def display_info_screen(banner_title: str, intro: str, content: str):
     print(TERM.black_on_white(message) + X(0), end="", flush=True)
     info_str = " Info "
     print(
-        LEFT(WIDTH - len(info_str)) + TERM.black_on_white(info_str), end="", flush=True
+        RIGHT(WIDTH - len(info_str)) + TERM.black_on_white(info_str), end="", flush=True
     )
     while display_info:
         key = get_key()
