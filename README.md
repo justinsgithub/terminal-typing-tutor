@@ -19,7 +19,7 @@ It is a tradeoff for speed, but so far the difference has not taken away from th
 
 I tried to stick with the original program layout and how it did things as much as possible, both out of simplicity and respect to the original.
 
-I also want this to be a good starting open-source project for new developers to contribute to.
+I also think this could be a good starting open-source project for new developers to contribute to.
 
 ## Install
 
@@ -64,6 +64,21 @@ This project is built with:
 - [Typer](https://typer.tiangolo.com) for command line functionality (not really doing much at the moment, but future features will incorporate it more)
 
 - [Blessed](https://github.com/jquast/blessed) for the terminal interface, a wrapper around the curses module
+
+## Contributing
+
+I think this project would be an awesome first open source project for new developers looking to contribute.
+
+There are plenty of things to be improved or added to this package, such as:
+
+- refactoring the code, since it has just been me, I did not worry too much about making it super pretty.
+    - there are places where code is repeated and can be extracted into a reusable function
+
+- adding theme options
+- tracking the date of users personal bests to display progress over time
+- adding new lessons for programming, such as an html, python, and javascript lesson
+
+Some of the new features will need to implement [Typer](https://typer.tiangolo.com), the docs are awesome, so are the [Blessed](https://github.com/jquast/blessed) docs
 
 ## License
 
