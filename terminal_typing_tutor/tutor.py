@@ -1,5 +1,8 @@
 from typing import List, Literal, cast
+from pathlib import Path
+from datetime import date
 from blessed.keyboard import Keystroke
+from urllib import request
 import yaml
 import json
 import time
@@ -25,6 +28,7 @@ from terminal_typing_tutor.constants import (
     TSeries,
     TStats,
     TStatsFile,
+    CURRENT_VERSION
 )
 
 # global variables, used in many functions, all should point to the same variable
@@ -59,7 +63,7 @@ def get_key():
         return key
 
 
-def file_content(file: str, parse: Literal["yaml", "json", "text"] = "text") -> str | TStatsFile:
+def file_content(file: Path, parse: Literal["yaml", "json", "text"] = "text") -> str | TStatsFile:
     with open(file, "r") as f:
         if parse == "yaml":
             return yaml.unsafe_load(f)
@@ -72,8 +76,10 @@ def get_stats():
     # make sure stats files exist, create them if not
     home_dir = os.path.expanduser("~")
     pb_dir = f"{home_dir}/.config/terminal-typing-tutor/pb/{series}/{lesson}"
-    pb_file = f"{pb_dir}/{segment}.yaml"
-    all_time_file = f"{home_dir}/.config/terminal-typing-tutor/pb.yaml"
+    pb_fp = f"{pb_dir}/{segment}.yaml"
+    all_time_fp = f"{home_dir}/.config/terminal-typing-tutor/pb.yaml"
+    pb_file = Path(pb_fp)
+    all_time_file = Path(all_time_fp)
     if not os.path.exists(pb_dir):
         os.makedirs(pb_dir)
     if not os.path.exists(pb_file):
@@ -154,22 +160,22 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
         current_cpm = round(current_chars / minutes)
         current_wpm = round(current_words / minutes)
         current_acc = round(correct_characters / current_chars * 100, 2)
-        wpm_string = TERM.cyan_on_black(str(current_wpm)) + TERM.white_on_black( " words per minute")
-        accuracy_string = TERM.cyan_on_black( str(current_acc) + "%") + TERM.white_on_black(" Accuracy")
-        words_string = TERM.cyan_on_black(str(current_words)) + TERM.white_on_black( " words typed")
+        wpm_string = f" {TERM.cyan_on_black(str(current_wpm)) + TERM.white_on_black( ' Words Per Minute ')}"
+        accuracy_string = f" {TERM.cyan_on_black( str(current_acc) + '%') + TERM.white_on_black(' Accuracy ')}"
+        words_string = f" {TERM.cyan_on_black(str(current_words)) + TERM.white_on_black( ' Words Typed ')}"
         if current_acc < 97.00:
             failed_drill = True
             end_msg = " Accuracy not high enough, must hit at least 97% "
         else:
             pbs = track_pb()
             if pbs["new_wpm"]:
-                wpm_string += TERM.red_on_black(" NEW ALL TIME PB")
+                wpm_string += TERM.red_on_black("NEW ALL TIME PB ")
             elif pbs["new_drill_pb"]:
-                wpm_string += TERM.red_on_black(" NEW DRILL PB")
+                wpm_string += TERM.red_on_black("NEW DRILL PB ")
 
         print(XY(0, round(HEIGHT // 3)))
-        print(CENTER(wpm_string))
-        print(CENTER(accuracy_string))
+        print(f"{CENTER(wpm_string)}\n")
+        print(f"{CENTER(accuracy_string)}\n")
         print(CENTER(words_string))
 
     # reset stats after they are tracked and displayed
@@ -221,6 +227,25 @@ def pressed_key(key: Keystroke, target_character: str):
         "hit_target": False,
     }
 
+def print_lines(test_string: str) -> int:
+    lines = test_string.split("\n")
+    line_count = len(lines)
+    longest_line = lines[0]
+    for line in lines:
+        if len(line) > len(longest_line):
+            longest_line = line
+    extra_width = WIDTH - len(longest_line)
+    left_padding = extra_width // 2
+    for index, line in enumerate(lines):
+        if index == line_count - 1:
+            print(f"{RIGHT(left_padding)}{line}", end="", flush=True)
+        else:
+            print(f"{RIGHT(left_padding)}{line}\n", end="", flush=True)
+    if line_count > 1:
+        print(UP(line_count))
+    print(X(left_padding), end="", flush=True)
+    
+    return left_padding
 
 def run_drill(title: str, intro: str, content: str):
     drill_started = False
@@ -235,17 +260,7 @@ def run_drill(title: str, intro: str, content: str):
     # TODO: fix down/move_up with end=''
     print(TERM.black_on_cyan(CENTER(title)) + DOWN(1))
     print(TERM.white(CENTER(intro)) + DOWN(2))
-    lines = test_string.split("\n")
-    line_count = len(lines)
-    for index, line in enumerate(lines):
-        if index == line_count - 1:
-            print(f"{RIGHT(20)}{line}", end="", flush=True)
-        else:
-            print(f"{RIGHT(20)}{line}\n", end="", flush=True)
-
-    if line_count > 1:
-        print(UP(line_count))
-    print(X(20), end="", flush=True)
+    left_padding = print_lines(test_string)
     correct_pressed_keys = []
     incorrect_pressed_keys = []
 
@@ -279,7 +294,7 @@ def run_drill(title: str, intro: str, content: str):
                 if not _pressed_key["pressed_enter"]:
                     print(TERM.green(key), end="", flush=True)
                 else:
-                    print(f"{TERM.green(key)}{RIGHT(20)}", end="", flush=True)
+                    print(f"{TERM.green(key)}{RIGHT(left_padding)}", end="", flush=True)
 
             if pressed_wrong_key == True:
                 if _pressed_key["pressed_space"]:
@@ -339,9 +354,11 @@ def menu_selection(menu_title, menu) -> int:
 
 def run_lesson_menu():
     global lesson
-    dir = f"terminal_typing_tutor/series/{series}"
-    title_file = f"{dir}/title"
-    menu_file = f"{dir}/menu.json"
+    dir = f"series/{series}"
+    title_fp = f"{dir}/title"
+    menu_fp = f"{dir}/menu.json"
+    title_file = Path(__file__).parent.joinpath(title_fp)
+    menu_file = Path(__file__).parent.joinpath(menu_fp)
     menu = file_content(menu_file, "json")
     menu_title = file_content(title_file)
 
@@ -400,8 +417,9 @@ def prompt_next_lesson():
 
 
 def get_lesson_data() -> dict:
-    lesson_dir = f"terminal_typing_tutor/series/{series}/{str(lesson)}"
-    data_file = f"{lesson_dir}/data.yaml"
+    lesson_dir = f"series/{series}/{str(lesson)}"
+    data_fp = f"{lesson_dir}/data.yaml"
+    data_file = Path(__file__).parent.joinpath(data_fp)
     lesson_data = cast(dict, file_content(data_file, "yaml"))
     return lesson_data
 
@@ -414,7 +432,8 @@ def run_lesson():
         return 0
     show_menu = False
     lesson_data = get_lesson_data()
-    lc_file = f"terminal_typing_tutor/series/{series}/lesson_count"
+    lc_fp = f"series/{series}/lesson_count"
+    lc_file = Path(__file__).parent.joinpath(lc_fp)
     lesson_count = int(cast(str,file_content(lc_file)))
 
     while segment <= lesson_data["total_segments"]:
@@ -460,11 +479,45 @@ def run_lesson():
 
     return 2
 
+def days_difference(day1,day2):
+    if day1 == day2:
+        return 0
+    else:
+        return int(str(date.fromisoformat(day2)-date.fromisoformat(day1)).split(' ')[0])
+
+def update_check():
+    today=str(date.today())
+    package_name='terminal_typing_tutor'
+    update_data = Path(__file__).parent.joinpath("update.json").read_text()
+    update = json.loads(update_data)
+    latest_version = CURRENT_VERSION
+    if update["check_date"] == "" or (days_difference(update["check_date"],today) > 7 and not update["available"]):
+        try:
+            url = f"https://pypi.org/pypi/{package_name}/json"
+            data = json.load(request.urlopen(url))
+            versions = sorted(list(data["releases"].keys()))
+            latest_version = versions[-1]
+        except Exception as _:
+            print("Failed getting latest version information to check for update")
+
+        if latest_version > CURRENT_VERSION:
+             update["available"] = True
+             update["number"] = latest_version
+        update["check_date"] = today
+    update_data_to_dump = json.dumps(update)
+    Path(__file__).parent.joinpath("update.json").write_text(update_data_to_dump)
+    if update["available"] and (update["last_shown"] == "" or days_difference(update["last_shown"],today) >= 2):
+        update["last_shown"] = today
+        update_data_to_dump = json.dumps(update)
+        Path(__file__).parent.joinpath("update.json").write_text(update_data_to_dump)
+        print(f"Upgrade available! To upgrade run:")
+        print(f"pip install --user --upgrade terminal-typing-tutor")
 
 def tutor():
     """
     runs typing tutor program
     """
+    update_check()
     # with TERM.fullscreen(), TERM.hidden_cursor():
     with TERM.fullscreen(), TERM.cbreak(), TERM.hidden_cursor():  # hidden cursor off during development
         num = 0
