@@ -3,7 +3,10 @@
 A port of GNU Typist (GTypist)
 
 
-![](https://github.com/justinsgithub/terminal-typing-tutor/assets/74565194/3ca47f50-047a-41a4-a330-8cbbe5ee3470)
+
+https://github.com/justinsgithub/terminal-typing-tutor/assets/74565194/c299740b-a2f2-47f5-b244-1ca41fa48295
+
+
 
 
 
