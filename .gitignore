@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+deploy.zsh
 
 # C extensions
 *.so

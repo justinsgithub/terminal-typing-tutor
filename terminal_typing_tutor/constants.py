@@ -1,5 +1,5 @@
 from blessed import Terminal
-from typing import Literal
+from typing import Literal, TypedDict
 
 
 
@@ -51,7 +51,7 @@ MIN_PB_CHARS = 200
 
 STATS_DICT = {
 #    "drill": '', not sure of necessary right now, can tell the drill by the file path
-    "accuracy": 0,
+    "accuracy": 0.00,
     "wpm": 0,
     "cpm": 0,
     "words": 0,
@@ -59,11 +59,9 @@ STATS_DICT = {
 }
 
 PB_DICT = {
-    "all_time": {
-        "accuracy": STATS_DICT,
-        "wpm": STATS_DICT,
-        "words": STATS_DICT,
-    }
+    "all_time": STATS_DICT
 }
 
+TStats = TypedDict("Tstats", {"accuracy": float, "wpm": int, "cpm": int, "words": int, "characters": int}) 
+TStatsFile = TypedDict("TStatsFile", {"all_time": TStats}) 
 TSeries = Literal["M", "Q", "R", "S", "T", "U", "V"]
