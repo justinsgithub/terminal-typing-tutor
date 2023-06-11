@@ -510,9 +510,8 @@ def update_check():
         update["last_shown"] = today
         update_data_to_dump = json.dumps(update)
         Path(__file__).parent.joinpath("update.json").write_text(update_data_to_dump)
-        print(f"Upgrade available! To upgrade run:")
-        print(f"pip install --user --upgrade terminal-typing-tutor")
-
+        print(f"\n\n{TERM.green('Upgrade available!')} To upgrade run:\n")
+        print(f"pip install --user --upgrade terminal-typing-tutor\n\n")
 def tutor():
     """
     runs typing tutor program
