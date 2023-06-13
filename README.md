@@ -28,7 +28,7 @@ in your terminal:
 ```
 $ pip install --user terminal-typing-tutor
 ---> 100%
-Successfully installed typer
+Successfully installed terminal-typing-tutor
 
 $ ttt
 ```
