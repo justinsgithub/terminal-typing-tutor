@@ -1,0 +1,454 @@
+total_segments: 6
+
+segments:
+  0: 
+    type: info
+    intro: | 
+      HTML reference
+    content: |
+      This HTML reference describes all elements and attributes of HTML, including global attributes that apply to all elements.
+  1: 
+    type: drill
+    intro: | 
+      <a>: The Anchor element
+    content: |
+      <p>You can reach Michael at:</p>
+
+      <ul>
+        <li><a href="https://example.com">Website</a></li>
+        <li><a href="mailto:m.bluth@example.com">Email</a></li>
+        <li><a href="tel:+123456789">Phone</a></li>
+      </ul>
+  2:
+    type: drill
+    intro: |
+      <abbr>: The Abbreviation element
+    content: |
+      <p>You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language). 
+      Using style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content layer separate. 
+      This is called "separation of concerns."</p>
+  3:
+    type: drill
+    intro: |
+      <address>: The Contact Address element
+    content: |
+      <p>Contact the author of this page:</p>
+
+      <address>
+        <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+        <a href="tel:+13115552368">(311) 555-2368</a>
+      </address>
+  4:
+    type: drill
+    intro: |
+      <area>: The Image Map Area element
+    content: |
+      <map name="primary">
+        <area
+          shape="circle"
+          coords="75,75,75"
+          href="left.html"
+          alt="Click to go Left" />
+        <area
+          shape="circle"
+          coords="275,75,75"
+          href="right.html"
+          alt="Click to go Right" />
+      </map>
+      <img
+        usemap="#primary"
+        src="https://via.placeholder.com/350x150"
+        alt="350 x 150 pic" />
+  5:
+    type: drill
+    intro: |
+      <article>: The Article Contents element
+    content: |
+          <article class="user_review">
+            <h4>Love the dinos!</h4>
+            <p>I agree, dinos are my favorite.</p>
+            <footer>
+              <p>
+                Posted on
+                <time datetime="2015-05-17 19:00">May 17</time>
+                by Tom.
+              </p>
+            </footer>
+          </article>
+  6:
+    type: drill
+    intro: |
+      <aside>: The Aside element
+    content: |
+      <article>
+        <aside>
+          <p>The movie earned $87 million during its initial release.</p>
+        </aside>
+      </article>
+  7:
+    type: drill
+    intro: |
+      <audio>: The Embed Audio element
+    content: |
+      <!-- Simple audio playback -->
+      <audio src="AudioTest.ogg" autoplay>
+        <a href="AudioTest.ogg">Download OGG audio</a>.
+      </audio>
+  8:
+    type: drill
+    intro: |
+      <b>element, likely in bold.</b>
+    content: |
+      <base href="https://www.example.com/" />
+      <base target="_blank" />
+      <base target="_top" href="https://example.com/" />
+  9:
+    type: drill
+    intro: |
+      <bdi>: The Bidirectional Isolate element
+    content: |
+      <ul>
+        <li><bdi class="name">Joe Smith</bdi> - 1st place</li>
+        <li><bdi class="name">Jerry Cruncher</bdi> - 2nd place</li>
+      </ul>
+  10:
+    type: drill
+    intro: |
+      <bdo>: The Bidirectional Text Override element
+    content: |
+      <!-- Switch text direction -->
+      <p>This text will go left to right.</p>
+      <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+  11:
+    type: drill
+    intro: |
+        <big>: The Bigger Text element
+    content: |
+  12:
+    type: drill
+    intro: |
+    content: |
+  13:
+    type: drill
+    intro: |
+    content: |
+  14:
+    type: drill
+    intro: |
+    content: |
+  15:
+    type: drill
+    intro: |
+    content: |
+  16:
+    type: drill
+    intro: |
+    content: |
+  17:
+    type: drill
+    intro: |
+    content: |
+  18:
+    type: drill
+    intro: |
+    content: |
+  19:
+    type: drill
+    intro: |
+    content: |
+  20:
+    type: drill
+    intro: |
+    content: |
+  21:
+    type: drill
+    intro: |
+    content: |
+  22:
+    type: drill
+    intro: |
+    content: |
+  23:
+    type: drill
+    intro: |
+    content: |
+  24:
+    type: drill
+    intro: |
+    content: |
+  25:
+    type: drill
+    intro: |
+    content: |
+  26:
+    type: drill
+    intro: |
+    content: |
+  27:
+    type: drill
+    intro: |
+    content: |
+  28:
+    type: drill
+    intro: |
+    content: |
+  29:
+    type: drill
+    intro: |
+    content: |
+  30:
+    type: drill
+    intro: |
+    content: |
+  31:
+    type: drill
+    intro: |
+    content: |
+  32:
+    type: drill
+    intro: |
+    content: |
+  33:
+    type: drill
+    intro: |
+    content: |
+  34:
+    type: drill
+    intro: |
+    content: |
+  35:
+    type: drill
+    intro: |
+    content: |
+  36:
+    type: drill
+    intro: |
+    content: |
+  37:
+    type: drill
+    intro: |
+    content: |
+  38:
+    type: drill
+    intro: |
+    content: |
+  39:
+    type: drill
+    intro: |
+    content: |
+  40:
+    type: drill
+    intro: |
+    content: |
+  41:
+    type: drill
+    intro: |
+    content: |
+  42:
+    type: drill
+    intro: |
+    content: |
+  43:
+    type: drill
+    intro: |
+    content: |
+  44:
+    type: drill
+    intro: |
+    content: |
+  45:
+    type: drill
+    intro: |
+    content: |
+  46:
+    type: drill
+    intro: |
+    content: |
+  47:
+    type: drill
+    intro: |
+    content: |
+  48:
+    type: drill
+    intro: |
+    content: |
+  49:
+    type: drill
+    intro: |
+    content: |
+  50:
+    type: drill
+    intro: |
+    content: |
+  51:
+    type: drill
+    intro: |
+    content: |
+  52:
+    type: drill
+    intro: |
+    content: |
+  53:
+    type: drill
+    intro: |
+    content: |
+  54:
+    type: drill
+    intro: |
+    content: |
+  55:
+    type: drill
+    intro: |
+    content: |
+  56:
+    type: drill
+    intro: |
+    content: |
+  57:
+    type: drill
+    intro: |
+    content: |
+  58:
+    type: drill
+    intro: |
+    content: |
+  59:
+    type: drill
+    intro: |
+    content: |
+  60:
+    type: drill
+    intro: |
+    content: |
+  61:
+    type: drill
+    intro: |
+    content: |
+  62:
+    type: drill
+    intro: |
+    content: |
+  63:
+    type: drill
+    intro: |
+    content: |
+  64:
+    type: drill
+    intro: |
+    content: |
+  65:
+    type: drill
+    intro: |
+    content: |
+  66:
+    type: drill
+    intro: |
+    content: |
+  67:
+    type: drill
+    intro: |
+    content: |
+  68:
+    type: drill
+    intro: |
+    content: |
+  69:
+    type: drill
+    intro: |
+    content: |
+  70:
+    type: drill
+    intro: |
+    content: |
+  71:
+    type: drill
+    intro: |
+    content: |
+  72:
+    type: drill
+    intro: |
+    content: |
+  73:
+    type: drill
+    intro: |
+    content: |
+  74:
+    type: drill
+    intro: |
+    content: |
+  75:
+    type: drill
+    intro: |
+    content: |
+  76:
+    type: drill
+    intro: |
+    content: |
+  77:
+    type: drill
+    intro: |
+    content: |
+  78:
+    type: drill
+    intro: |
+    content: |
+  79:
+    type: drill
+    intro: |
+    content: |
+  80:
+    type: drill
+    intro: |
+    content: |
+  81:
+    type: drill
+    intro: |
+    content: |
+  82:
+    type: drill
+    intro: |
+    content: |
+  83:
+    type: drill
+    intro: |
+    content: |
+  84:
+    type: drill
+    intro: |
+    content: |
+  85:
+    type: drill
+    intro: |
+    content: |
+  86:
+    type: drill
+    intro: |
+    content: |
+  87:
+    type: drill
+    intro: |
+    content: |
+  88:
+    type: drill
+    intro: |
+    content: |
+  89:
+    type: drill
+    intro: |
+    content: |
+  90:
+    type: drill
+    intro: |
+    content: |
+  91:
+    type: drill
+    intro: |
+    content: |
+  92:
+    type: drill
+    intro: |
+    content: |
+  93:
+    type: drill
+    intro: |
+    content: |

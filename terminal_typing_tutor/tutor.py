@@ -222,8 +222,8 @@ def pressed_info(key: Keystroke, target_char: str):
             "hit_target": hit_target,
             }
 
-def print_lines(test_string: str) -> int:
-    lines = test_string.split("\n")
+def print_lines(content_str: str) -> int:
+    lines = content_str.split("\n")
     line_count = len(lines)
     longest_line = lines[0]
     for line in lines:
@@ -252,9 +252,10 @@ def run_drill(title: str, intro: str, content: str):
         print(HOME + XY(0, HEIGHT), end="", flush=True)
         info_str = "   Drill   "
         print(RIGHT(WIDTH - (len(info_str))) + TERM.black_on_white(info_str), end="", flush=True)
-    # TODO: fix down/move_up with end=''
     print(TERM.black_on_cyan(CENTER(title)) + DOWN(1))
-    print(TERM.white(CENTER(intro)) + DOWN(2))
+    # print(TERM.white(CENTER(intro)) + DOWN(2))
+    print_lines(intro)
+    print(DOWN(2))
     left_padding = print_lines(test_string)
     correct_pressed_keys = []
     incorrect_pressed_keys = []

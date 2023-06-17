@@ -34,6 +34,10 @@ MAIN_MENU = [
         "title": "Series S    Speed drills  (S1 - S4)        ",
         "series": "S",
     },
+    {
+        "title": "Series W    Web Development                ",
+        "series": "W",
+    }
 ]
 
 TERM = Terminal()
@@ -65,4 +69,4 @@ PB_DICT = {
 
 TStats = TypedDict("Tstats", {"accuracy": float, "wpm": int, "cpm": int, "words": int, "characters": int}) 
 TStatsFile = TypedDict("TStatsFile", {"all_time": TStats}) 
-TSeries = Literal["M", "Q", "R", "S", "T", "U", "V"]
+TSeries = Literal["M", "Q", "R", "S", "T", "U", "V", "W"]
