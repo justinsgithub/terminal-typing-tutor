@@ -1,7 +1,7 @@
 from blessed import Terminal
 from typing import Literal, TypedDict
 
-CURRENT_VERSION = "0.3.0"
+CURRENT_VERSION = "0.3.1"
 
 MAIN_MENU_TITLE = "Series selection menu"
 

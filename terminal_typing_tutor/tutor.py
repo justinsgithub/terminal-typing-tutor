@@ -211,21 +211,16 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
                 confirming_exit = False
 
 
-def pressed_key(key: Keystroke, target_character: str):
-    line_break = target_character == "\n"
-    pressed_enter = key.name == "KEY_ENTER"
-    pressed_space = key == " "
-    if (key == target_character) or (line_break and pressed_enter):
-        return {
+def pressed_info(key: Keystroke, target_char: str):
+    pressed_space = key == ' '
+    pressed_enter = key.name == 'KEY_ENTER' 
+    hit_target = key == target_char or (pressed_enter and target_char == '\n') 
+
+    return {
             "pressed_enter": pressed_enter,
             "pressed_space": pressed_space,
-            "hit_target": True,
-        }
-    return {
-        "pressed_enter": pressed_enter,
-        "pressed_space": pressed_space,
-        "hit_target": False,
-    }
+            "hit_target": hit_target,
+            }
 
 def print_lines(test_string: str) -> int:
     lines = test_string.split("\n")
@@ -271,7 +266,10 @@ def run_drill(title: str, intro: str, content: str):
             return action
 
         target_character = test_string[len(correct_pressed_keys)]
-        print(f"{TERM.black_on_white(target_character)}{LEFT(1)}", end="", flush=True)
+        if target_character == '\n':
+            print(f"{TERM.white_on_white('x')}{LEFT(1)}", end="", flush=True)
+        else:
+            print(f"{TERM.black_on_white(target_character)}{LEFT(1)}", end="", flush=True)
         key = get_key()
 
         if key.name == "KEY_ESCAPE":
@@ -282,26 +280,26 @@ def run_drill(title: str, intro: str, content: str):
                 action = end_drill(0.0, test_string, incorrect_pressed_keys)
                 return action
 
-        _pressed_key = pressed_key(key, target_character)
+        pressed_key = pressed_info(key, target_character)
 
         # Set the start time on first key press
         if drill_started == False:
             start_time = time.time()
             drill_started = True
 
-        if _pressed_key["hit_target"]:
+        if pressed_key["hit_target"]:
             if pressed_wrong_key == False:
-                if not _pressed_key["pressed_enter"]:
-                    print(TERM.green(key), end="", flush=True)
+                if pressed_key["pressed_enter"]:
+                    print(f" \n{X(left_padding)}", end="", flush=True)
                 else:
-                    print(f"{TERM.green(key)}{RIGHT(left_padding)}", end="", flush=True)
+                    print(TERM.green(key), end="", flush=True)
 
             if pressed_wrong_key == True:
-                if _pressed_key["pressed_space"]:
+                if pressed_key["pressed_space"]:
                     print(TERM.red_on_red("x"), end="", flush=True)
-                elif _pressed_key["pressed_enter"]:
+                elif pressed_key["pressed_enter"]:
                     # may not want down here
-                    print(TERM.red_on_red("x"))
+                    print(f"{TERM.red_on_red('x')}\n{X(left_padding)}", end="", flush=True)
                 else:
                     print(TERM.red(key), end="", flush=True)
 
@@ -512,13 +510,14 @@ def update_check():
         Path(__file__).parent.joinpath("update.json").write_text(update_data_to_dump)
         print(f"\n\n{TERM.green('Upgrade available!')} To upgrade run:\n")
         print(f"pip install --user --upgrade terminal-typing-tutor\n\n")
+
 def tutor():
     """
     runs typing tutor program
     """
     update_check()
-    # with TERM.fullscreen(), TERM.hidden_cursor():
-    with TERM.fullscreen(), TERM.cbreak(), TERM.hidden_cursor():  # hidden cursor off during development
+    with TERM.fullscreen(), TERM.cbreak():  # hidden cursor off during development
+    # with TERM.fullscreen(), TERM.cbreak(), TERM.hidden_cursor():
         num = 0
         while True:
             if num == 0:
