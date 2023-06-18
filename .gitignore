@@ -1,3 +1,7 @@
+# Project Specific
+./terminal_typing_tutor/update.json
+*.typ
+
 # Byte-compiled / optimized / DLL files
 ._vim
 __pycache__/
