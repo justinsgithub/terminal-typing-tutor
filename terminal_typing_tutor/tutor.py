@@ -521,8 +521,8 @@ def tutor():
     runs typing tutor program
     """
     update_check()
-    with TERM.fullscreen(), TERM.cbreak():  # hidden cursor off during development
-    # with TERM.fullscreen(), TERM.cbreak(), TERM.hidden_cursor():
+    # with TERM.fullscreen(), TERM.cbreak():  # hidden cursor off during development
+    with TERM.fullscreen(), TERM.cbreak(), TERM.hidden_cursor():
         num = 0
         while True:
             if num == 0:
