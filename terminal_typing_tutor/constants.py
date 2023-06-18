@@ -1,7 +1,7 @@
 from blessed import Terminal
 from typing import Literal, TypedDict
 
-CURRENT_VERSION = "0.3.1"
+CURRENT_VERSION = "0.4.1"
 
 MAIN_MENU_TITLE = "Series selection menu"
 
@@ -33,10 +33,6 @@ MAIN_MENU = [
     {
         "title": "Series S    Speed drills  (S1 - S4)        ",
         "series": "S",
-    },
-    {
-        "title": "Series W    Web Development                ",
-        "series": "W",
     }
 ]
 
