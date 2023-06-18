@@ -148,7 +148,7 @@ def track_pb():
 def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[str]):
     confirming_exit = False
     failed_drill = False
-    end_msg = " Press R to repeat, N for next exercise or E to exit " 
+    end_msg = " Press R to repeat, N for next exercise or E to exit "
     global current_wpm, current_acc, current_chars, current_words, current_cpm
     if not start_time == 0.0:  # only print stats if drill was started
         time_elapsed = max(time.time() - start_time, 1)
@@ -207,14 +207,14 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
                 return "menu"
             if key.lower() == "n" and confirming_exit:
                 print(HOME + XY(0, HEIGHT), end="", flush=True)
-                print( TERM.black_on_white( " Press R to repeat, N for next exercise or E to exit "), end="", flush=True,)
+                print( TERM.black_on_white(" Press R to repeat, N for next exercise or E to exit "), end="", flush=True,)
                 confirming_exit = False
 
 
 def pressed_info(key: Keystroke, target_char: str):
     pressed_space = key == ' '
-    pressed_enter = key.name == 'KEY_ENTER' 
-    hit_target = key == target_char or (pressed_enter and target_char == '\n') 
+    pressed_enter = key.name == 'KEY_ENTER'
+    hit_target = key == target_char or (pressed_enter and target_char == '\n')
 
     return {
             "pressed_enter": pressed_enter,
@@ -239,7 +239,7 @@ def print_lines(content_str: str) -> int:
     if line_count > 1:
         print(UP(line_count))
     print(X(left_padding), end="", flush=True)
-    
+
     return left_padding
 
 def run_drill(title: str, intro: str, content: str):
@@ -325,6 +325,10 @@ def display_menu_screen(menu_title: str, selection, menu):
             print(TERM.black_on_white(CENTER(menu_item["title"])))
         else:
             print(CENTER(menu_item["title"]))
+
+    print(HOME + XY(0, HEIGHT), end="", flush=True)
+    print(TERM.black_on_white(" Press J or DOWN-KEY for next, K or UP-KEY for previous, RETURN to select, ESC to return.")
+          + DOWN(1), end="", flush=True)
 
 
 def menu_selection(menu_title, menu) -> int:
@@ -517,8 +521,8 @@ def tutor():
     runs typing tutor program
     """
     update_check()
-    with TERM.fullscreen(), TERM.cbreak():  # hidden cursor off during development
-    # with TERM.fullscreen(), TERM.cbreak(), TERM.hidden_cursor():
+    # with TERM.fullscreen(), TERM.cbreak():  # hidden cursor off during development
+    with TERM.fullscreen(), TERM.cbreak(), TERM.hidden_cursor():
         num = 0
         while True:
             if num == 0:
