@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "terminal-typing-tutor"
-version = "0.4.0"
+version = "0.5.0"
 description = "Improve your touch-typing skills in the terminal, based on the GNU Typist program"
 authors = ["Justin Angeles <justinaawd@gmail.com>"]
 readme = "README.md"
