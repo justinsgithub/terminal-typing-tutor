@@ -1,0 +1,1473 @@
+total_segments: 124
+segments:
+  0:
+    type: info
+    intro: |
+      HTML reference
+    content: |
+      This HTML reference describes all elements and attributes of HTML, including global attributes that apply to all elements.
+  1:
+    type: drill
+    intro: |
+      <a>: The Anchor element
+    content: |
+      <p>You can reach Michael at:</p>
+
+      <ul>
+        <li><a href="https://example.com">Website</a></li>
+        <li><a href="mailto:m.bluth@example.com">Email</a></li>
+        <li><a href="tel:+123456789">Phone</a></li>
+      </ul>
+  2:
+    type: drill
+    intro: |
+      <abbr>: The Abbreviation element
+    content: "<p>You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup Language). \nUsing style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr> content layer separate. \nThis is called \"separation of concerns.\"</p>\n"
+  3:
+    type: drill
+    intro: |
+      <address>: The Contact Address element
+    content: |
+      <p>Contact the author of this page:</p>
+
+      <address>
+        <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+        <a href="tel:+13115552368">(311) 555-2368</a>
+      </address>
+  4:
+    type: drill
+    intro: |
+      <area>: The Image Map Area element
+    content: |
+      <map name="primary">
+        <area
+          shape="circle"
+          coords="75,75,75"
+          href="left.html"
+          alt="Click to go Left" />
+        <area
+          shape="circle"
+          coords="275,75,75"
+          href="right.html"
+          alt="Click to go Right" />
+      </map>
+      <img
+        usemap="#primary"
+        src="https://via.placeholder.com/350x150"
+        alt="350 x 150 pic" />
+  5:
+    type: drill
+    intro: |
+      <article>: The Article Contents element
+    content: |
+      <article class="user_review">
+        <h4>Love the dinos!</h4>
+        <p>I agree, dinos are my favorite.</p>
+        <footer>
+          <p>
+            Posted on
+            <time datetime="2015-05-17 19:00">May 17</time>
+            by Tom.
+          </p>
+        </footer>
+      </article>
+  6:
+    type: drill
+    intro: |
+      <aside>: The Aside element
+    content: |
+      <article>
+        <aside>
+          <p>The movie earned $87 million during its initial release.</p>
+        </aside>
+      </article>
+  7:
+    type: drill
+    intro: |
+      <audio>: The Embed Audio element
+    content: |
+      <!-- Simple audio playback -->
+      <audio src="AudioTest.ogg" autoplay>
+        <a href="AudioTest.ogg">Download OGG audio</a>.
+      </audio>
+  8:
+    type: drill
+    intro: |
+      <b>element, likely in bold.</b>
+    content: |
+      <base href="https://www.example.com/" />
+      <base target="_blank" />
+      <base target="_top" href="https://example.com/" />
+  9:
+    type: drill
+    intro: |
+      <bdi>: The Bidirectional Isolate element
+    content: |
+      <ul>
+        <li><bdi class="name">Joe Smith</bdi> - 1st place</li>
+        <li><bdi class="name">Jerry Cruncher</bdi> - 2nd place</li>
+      </ul>
+  10:
+    type: drill
+    intro: |
+      <bdo>: The Bidirectional Text Override element
+    content: |
+      <!-- Switch text direction -->
+      <p>This text will go left to right.</p>
+      <p><bdo dir="rtl">This text will go right to left.</bdo></p>
+  11:
+    type: drill
+    intro: |
+      <big>: The Bigger Text element
+    content: |
+      <p>
+        This is the first sentence.
+        <big>This whole sentence is in bigger letters.</big>
+      </p>
+  12:
+    type: drill
+    intro: |
+      <blockquote>: The Block Quotation element
+    content: |
+      <blockquote cite="https://datatracker.ietf.org/doc/html/rfc1149">
+        <p>
+          Avian carriers can provide high delay, low throughput, and low altitude
+          service. The connection topology is limited to a single point-to-point path
+          for each carrier, used with standard carriers, but many carriers can be used
+          without significant interference with each other, outside early spring. This
+          is because of the 3D ether space available to the carriers, in contrast to
+          the 1D ether used by IEEE802.3. The carriers have an intrinsic collision
+          avoidance system, which increases availability.
+        </p>
+      </blockquote>
+  13:
+    type: drill
+    intro: |
+      <body>: The Document Body element
+    content: |
+      <html lang="en">
+        <head>
+          <title>Document title</title>
+        </head>
+        <body>
+          <p>
+            The <code>&lt;body&gt;</code> HTML element represents the content of an
+            HTML document. There can be only one <code>&lt;body&gt;</code> element in
+            a document.
+          </p>
+        </body>
+      </html>
+  14:
+    type: drill
+    intro: |
+      <br>: The Line Break element
+    content: |
+      Mozilla<br />
+      331 E. Evelyn Avenue<br />
+      Mountain View, CA<br />
+      94041<br />
+      USA<br />
+  15:
+    type: drill
+    intro: |
+      <button>: The Button element
+    content: |
+      <button name="button">Press me</button>
+  16:
+    type: drill
+    intro: |
+      <canvas>: The Graphics Canvas element
+    content: |
+      <canvas width="300" height="300">
+        An alternative text describing what your canvas displays.
+      </canvas>
+  17:
+    type: drill
+    intro: |
+      <caption>: The Table Caption element
+    content: |
+      <table>
+        <caption>
+          Example Caption
+        </caption>
+        <tr>
+          <th>Login</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>user1</td>
+          <td>user1@sample.com</td>
+        </tr>
+        <tr>
+          <td>user2</td>
+          <td>user2@sample.com</td>
+        </tr>
+      </table>
+  18:
+    type: drill
+    intro: |
+      <center>: The Centered Text element
+    content: |
+      <center>
+        This text will be centered.
+        <p>So will this paragraph.</p>
+      </center>
+  19:
+    type: drill
+    intro: |
+      <cite>: The Citation element
+    content: |
+      <p>More information can be found in <cite>[ISO-0000]</cite>.</p>
+  20:
+    type: drill
+    intro: |
+      <code>: The Inline Code element
+    content: |
+      <p>
+        The function <code>selectAll()</code> highlights all the text in the input
+        field so the user can, for example, copy or delete the text.
+      </p>
+  21:
+    type: drill
+    intro: |
+      <data>: The Data element
+    content: |
+      <p>New Products</p>
+      <ul>
+        <li><data value="398">Mini Ketchup</data></li>
+        <li><data value="399">Jumbo Ketchup</data></li>
+        <li><data value="400">Mega Jumbo Ketchup</data></li>
+      </ul>
+  22:
+    type: drill
+    intro: |
+      <datalist>: The HTML Data List element
+    content: |
+      <label for="myBrowser">Choose a browser from this list:</label>
+      <input list="browsers" id="myBrowser" name="myBrowser" />
+      <datalist id="browsers">
+        <option value="Chrome"></option>
+        <option value="Firefox"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+        <option value="Microsoft Edge"></option>
+      </datalist>
+  23:
+    type: drill
+    intro: |
+      <del>: The Deleted Text element
+    content: |
+      <p><del>This text has been deleted</del>, here is the rest of the paragraph.</p>
+      <del><p>This paragraph has been deleted.</p></del>
+  24:
+    type: drill
+    intro: |
+      <details>: The Details disclosure element
+    content: |
+      <details>
+        <summary>System Requirements</summary>
+        <p>
+          Requires a computer running an operating system. The computer must have some
+          memory and ideally some kind of long-term storage. An input device as well
+          as some form of output device is recommended.
+        </p>
+      </details>
+  25:
+    type: drill
+    intro: |
+      <dfn>: The Definition element
+    content: |
+      <p>
+        The <strong>HTML Definition element (<dfn>&lt;dfn&gt;</dfn>)</strong> is used
+        to indicate the term being defined within the context of a definition phrase
+        or sentence.
+      </p>
+  26:
+    type: drill
+    intro: |
+      <dialog>: The Dialog element
+    content: |
+      <dialog open>
+        <p>Greetings, one and all!</p>
+        <form method="dialog">
+          <button>OK</button>
+        </form>
+      </dialog>
+  27:
+    type: drill
+    intro: |
+      <div>: The Content Division element
+    content: |
+      <div>
+        <p>
+          Any kind of content here. Such as &lt;p&gt;, &lt;table&gt;. You name it!
+        </p>
+      </div>
+  28:
+    type: drill
+    intro: |
+      <dl>: The Description List element
+    content: |
+      <dl>
+        <dt>Firefox</dt>
+        <dd>
+          A free, open source, cross-platform, graphical web browser developed by the
+          Mozilla Corporation and hundreds of volunteers.
+        </dd>
+
+        <!-- Other terms and descriptions -->
+      </dl>
+  29:
+    type: drill
+    intro: |
+      <em>: The Emphasis element
+    content: |
+      <p>
+        In HTML 5, what was previously called
+        <em>block-level</em> content is now called <em>flow</em> content.
+      </p>
+  30:
+    type: drill
+    intro: |
+      <embed>: The Embed External Content element
+    content: |
+      <embed
+        type="video/quicktime"
+        src="movie.mov"
+        width="640"
+        height="480"
+        title="Title of my video" />
+  31:
+    type: drill
+    intro: |
+      <fieldset>: The Field Set element
+    content: |
+      <form action="#">
+        <fieldset>
+          <legend>Do you agree?</legend>
+          <input type="checkbox" id="chbx" name="agree" value="Yes!" />
+          <label for="chbx">I agree</label>
+        </fieldset>
+      </form>
+  32:
+    type: drill
+    intro: |
+      pages/tabbed/footer.html
+    content: |
+      <body>
+        <h3>FIFA World Cup top goalscorers</h3>
+        <ol>
+          <li>Miroslav Klose, 16</li>
+          <li>Ronaldo Nazário, 15</li>
+          <li>Gerd Müller, 14</li>
+        </ol>
+
+        <footer>
+          <small>
+            Copyright © 2023 Football History Archives. All Rights Reserved.
+          </small>
+        </footer>
+      </body>
+  33:
+    type: drill
+    intro: |
+      <form>: The Form element
+    content: |
+      <!-- Form which will send a GET request to the current URL -->
+      <form method="get">
+        <label>
+          Name:
+          <input name="submitted-name" autocomplete="name" />
+        </label>
+        <button>Save</button>
+      </form>
+
+      <!-- Form which will send a POST request to the current URL -->
+      <form method="post">
+        <label>
+          Name:
+          <input name="submitted-name" autocomplete="name" />
+        </label>
+        <button>Save</button>
+      </form>
+
+      <!-- Form with fieldset, legend, and label -->
+      <form method="post">
+        <fieldset>
+          <legend>Do you agree to the terms?</legend>
+          <label><input type="radio" name="radio" value="yes" /> Yes</label>
+          <label><input type="radio" name="radio" value="no" /> No</label>
+        </fieldset>
+      </form>
+  34:
+    type: drill
+    intro: |
+      frameset
+    content: |
+      <!DOCTYPE html>
+      <html lang="en-US">
+        <head>
+          <!-- Document metadata goes here -->
+        </head>
+        <frameset cols="400, 500">
+          <frame src="https://developer.mozilla.org/en/HTML/Element/iframe" />
+          <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+        </frameset>
+      </html>
+  35:
+    type: drill
+    intro: |
+      frame
+    content: |
+      <!DOCTYPE html>
+      <html lang="en-US">
+        <head>
+          <!-- Document metadata goes here -->
+        </head>
+        <frameset cols="50%, 50%">
+          <frame src="https://developer.mozilla.org/en/HTML/Element/iframe" />
+          <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+        </frameset>
+      </html>
+  36:
+    type: drill
+    intro: |
+      <head>: The Document Metadata (Header) element
+    content: |
+      <!DOCTYPE html>
+      <html lang="en-US">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width" />
+          <title>Document title</title>
+        </head>
+      </html>
+  37:
+    type: drill
+    intro: |
+      <h1>–<h6>: The HTML Section Heading elements
+    content: |
+      <h1>Heading level 1</h1>
+      <h2>Heading level 2</h2>
+      <h3>Heading level 3</h3>
+      <h4>Heading level 4</h4>
+      <h5>Heading level 5</h5>
+      <h6>Heading level 6</h6>
+  38:
+    type: drill
+    intro: |
+      pages/tabbed/hgroup.html
+    content: |
+      <!DOCTYPE html>
+      <title>HTML Standard</title>
+      <body>
+        <hgroup id="document-title">
+          <h1>HTML: Living Standard</h1>
+          <p>Last Updated 12 July 2022</p>
+        </hgroup>
+        <p>Some intro to the document.</p>
+        <h2>Table of contents</h2>
+        <ol id="toc">
+          …
+        </ol>
+        <h2>First section</h2>
+        <p>Some intro to the first section.</p>
+      </body>
+  39:
+    type: drill
+    intro: |
+      <hr>: The Thematic Break (Horizontal Rule) element
+    content: |
+      <p>
+        This is the first paragraph of text. This is the first paragraph of text. This
+        is the first paragraph of text. This is the first paragraph of text.
+      </p>
+
+      <hr />
+
+      <p>
+        This is the second paragraph of text. This is the second paragraph of text.
+        This is the second paragraph of text. This is the second paragraph of text.
+      </p>
+  40:
+    type: drill
+    intro: |
+      <i>: The Idiomatic Text element
+    content: |
+      <p>
+        The Latin phrase <i lang="la">Veni, vidi, vici</i> is often mentioned in
+        music, art, and literature.
+      </p>
+  41:
+    type: drill
+    intro: |
+      <iframe>: The Inline Frame element
+    content: |
+      <iframe
+        src="https://example.org"
+        title="iframe Example 1"
+        width="400"
+        height="300">
+      </iframe>
+  42:
+    type: drill
+    intro: |
+      button
+    content: |
+      <input type="button" value="Click Me" />
+  43:
+    type: drill
+    intro: |
+      checkbox
+    content: |
+      <fieldset>
+        <legend>Choose your interests</legend>
+        <div>
+          <input type="checkbox" id="coding" name="interest" value="coding" />
+          <label for="coding">Coding</label>
+        </div>
+        <div>
+          <input type="checkbox" id="music" name="interest" value="music" />
+          <label for="music">Music</label>
+        </div>
+      </fieldset>
+  44:
+    type: drill
+    intro: |
+      color
+    content: |
+      <input type="color" value="#ff0000" />
+  45:
+    type: drill
+    intro: |
+      date
+    content: |
+      <input type="date" value="2017-06-01" />
+  46:
+    type: drill
+    intro: |
+      datetime-local
+    content: |
+      <label for="party">Enter a date and time for your party booking:</label>
+      <input
+        id="party"
+        type="datetime-local"
+        name="partydate"
+        value="2017-06-01T08:30" />
+  47:
+    type: drill
+    intro: |
+      email
+    content: |
+      <input id="emailAddress" type="email" />
+  48:
+    type: drill
+    intro: |
+      file
+    content: |
+      <input
+        type="file"
+        id="docpicker"
+        accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+  49:
+    type: drill
+    intro: |
+      hidden
+    content: |
+      <form>
+        <div>
+          <label for="title">Post title:</label>
+          <input type="text" id="title" name="title" value="My excellent blog post" />
+        </div>
+        <div>
+          <label for="content">Post content:</label>
+          <textarea id="content" name="content" cols="60" rows="5">
+            This is the content of my excellent blog post. I hope you enjoy it!
+          </textarea>
+        </div>
+        <div>
+          <button type="submit">Update post</button>
+        </div>
+        <input type="hidden" id="postId" name="postId" value="34657" />
+      </form>
+  50:
+    type: drill
+    intro: |
+      image
+    content: |
+      <input
+        id="image"
+        type="image"
+        width="100"
+        height="30"
+        alt="Login"
+        src="https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png" />
+  51:
+    type: drill
+    intro: |
+      month
+    content: |
+      <label for="bday-month">What month were you born in?</label>
+  52:
+    type: drill
+    intro: |
+      number
+    content: |
+      <input id="number" type="number" value="42" />
+  53:
+    type: drill
+    intro: |
+      password
+    content: |
+      <label for="userPassword">Password: </label>
+      <input id="userPassword" type="password" />
+  54:
+    type: drill
+    intro: |
+      radio
+    content: |
+      <form>
+        <fieldset>
+          <legend>Please select your preferred contact method:</legend>
+          <div>
+            <input type="radio" id="contactChoice1" name="contact" value="email" />
+            <label for="contactChoice1">Email</label>
+
+            <input type="radio" id="contactChoice2" name="contact" value="phone" />
+            <label for="contactChoice2">Phone</label>
+
+            <input type="radio" id="contactChoice3" name="contact" value="mail" />
+            <label for="contactChoice3">Mail</label>
+          </div>
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+  55:
+    type: drill
+    intro: |
+      range
+    content: |
+      <input type="range" min="-10" max="10" />
+  56:
+    type: drill
+    intro: |
+      reset
+    content: |
+      <input type="reset" value="Reset the form" />
+  57:
+    type: drill
+    intro: |
+      search
+    content: |
+      <form>
+        <div>
+          <input type="search" id="mySearch" name="q" />
+          <button>Search</button>
+        </div>
+      </form>
+  58:
+    type: drill
+    intro: |
+      submit
+    content: |
+      <input type="submit" value="Send Request" />
+  59:
+    type: drill
+    intro: |
+      tel
+    content: |
+      <label for="telNo">Phone number:</label>
+      <input id="telNo" name="telNo" type="tel" />
+  60:
+    type: drill
+    intro: |
+      text
+    content: |
+      <form>
+        <div>
+          <label for="uname">Choose a username: </label>
+          <input type="text" id="uname" name="name" />
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+  61:
+    type: drill
+    intro: |
+      time
+    content: |
+      <label for="appt-time">Choose an appointment time: </label>
+      <input id="appt-time" type="time" name="appt-time" value="13:30" />
+  62:
+    type: drill
+    intro: |
+      url
+    content: |
+      <input id="myURL" name="myURL" type="url" />
+  63:
+    type: drill
+    intro: |
+      week
+    content: |
+      <label for="week">What week would you like to start?</label>
+      <input id="week" type="week" name="week" value="2017-W01" />
+  64:
+    type: drill
+    intro: |
+      del
+    content: |
+      <ins>This text has been inserted</ins>
+  65:
+    type: drill
+    intro: |
+      <kbd>: The Keyboard Input element
+    content: |
+      <p>
+        Use the command <kbd>help mycommand</kbd> to view documentation for the
+        command "mycommand".
+      </p>
+  66:
+    type: drill
+    intro: |
+      <label>: The Label element
+    content: |
+      <label>
+        Do you like peas?
+        <input type="checkbox" name="peas" />
+      </label>
+  67:
+    type: drill
+    intro: |
+      <li>: The List Item element
+    content: |
+      <ol>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ol>
+  68:
+    type: drill
+    intro: |
+      <link>: The External Resource Link element
+    content: |
+      <link href="main.css" rel="stylesheet" />
+  69:
+    type: drill
+    intro: |
+      body
+    content: |
+      <!-- other content -->
+
+      <main>
+        <h1>Apples</h1>
+        <p>The apple is the pomaceous fruit of the apple tree.</p>
+
+        <article>
+          <h2>Red Delicious</h2>
+          <p>
+            These bright red apples are the most common found in many supermarkets.
+          </p>
+          <p>…</p>
+          <p>…</p>
+        </article>
+
+        <article>
+          <h2>Granny Smith</h2>
+          <p>These juicy, green apples make a great filling for apple pies.</p>
+          <p>…</p>
+          <p>…</p>
+        </article>
+      </main>
+
+      <!-- other content -->
+  70:
+    type: drill
+    intro: |
+      <map>: The Image Map element
+    content: |
+      <!-- Photo by Juliana e Mariana Amorim on Unsplash -->
+      <map name="primary">
+        <area
+          shape="circle"
+          coords="75,75,75"
+          href="https://developer.mozilla.org/docs/Web/JavaScript"
+          target="_blank"
+          alt="JavaScript" />
+        <area
+          shape="circle"
+          coords="275,75,75"
+          href="https://developer.mozilla.org/docs/Web/CSS"
+          target="_blank"
+          alt="CSS" />
+      </map>
+      <img
+        usemap="#primary"
+        src="parrots.jpg"
+        alt="350 x 150 picture of two parrots" />
+  71:
+    type: drill
+    intro: |
+      <mark>: The Mark Text element
+    content: |
+      <blockquote>
+        It is a period of civil war. Rebel spaceships, striking from a hidden base,
+        have won their first victory against the evil Galactic Empire. During the
+        battle, <mark>Rebel spies managed to steal secret plans</mark> to the Empire's
+        ultimate weapon, the DEATH STAR, an armored space station with enough power to
+        destroy an entire planet.
+      </blockquote>
+  72:
+    type: drill
+    intro: |
+      <marquee>: The Marquee element
+    content: |
+      <marquee>This text will scroll from right to left</marquee>
+
+      <marquee direction="up">This text will scroll from bottom to top</marquee>
+
+      <marquee
+        direction="down"
+        width="250"
+        height="200"
+        behavior="alternate"
+        style="border:solid">
+        <marquee behavior="alternate"> This text will bounce </marquee>
+      </marquee>
+  73:
+    type: drill
+    intro: |
+      <menu>: The Menu element
+    content: |
+      <menu>
+        <li><button onclick="copy()">Copy</button></li>
+        <li><button onclick="cut()">Cut</button></li>
+        <li><button onclick="paste()">Paste</button></li>
+      </menu>
+  74:
+    type: drill
+    intro: |
+      checkbox
+    content: |
+      <!-- A <div> element with a context menu -->
+      <div contextmenu="popup-menu">Right-click to see the adjusted context menu</div>
+
+      <menu type="context" id="popup-menu">
+        <menuitem type="checkbox" checked>Checkbox</menuitem>
+        <hr />
+        <menuitem
+          type="command"
+          label="This command does nothing"
+          icon="favicon-192x192.png">
+          Commands don't render their contents.
+        </menuitem>
+        <menuitem
+          type="command"
+          label="This command has javascript"
+          onclick="alert('command clicked')">
+          Commands don't render their contents.
+        </menuitem>
+        <hr />
+        <menuitem type="radio" radiogroup="group1">Radio Button 1</menuitem>
+        <menuitem type="radio" radiogroup="group1">Radio Button 2</menuitem>
+      </menu>
+  75:
+    type: drill
+    intro: |
+      <meter>: The HTML Meter element
+    content: |
+      <p>
+        Heat the oven to <meter min="200" max="500" value="350">350 degrees</meter>.
+      </p>
+  76:
+    type: drill
+    intro: |
+      <nav>: The Navigation Section element
+    content: |
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+  77:
+    type: drill
+    intro: |
+      <nobr>: The Non-Breaking Text element
+    content: |
+      <span style="white-space: nowrap;">Long line with no breaks</span>
+  78:
+    type: drill
+    intro: |
+      <noembed>: The Embed Fallback element
+    content: |
+      <embed type="vide/webm" src="/media/examples/flower.mp4" width="200" height="200">
+        <noembed>
+          <h1>Alternative content</h1>
+        </noembed>
+      </embed>
+  79:
+    type: drill
+    intro: |
+      <noframes>: The Frame Fallback element
+    content: |
+      <!DOCTYPE html>
+      <html lang="en-US">
+        <head>
+          <!-- Document metadata goes here -->
+        </head>
+        <frameset rows="45%, 55%">
+          <frame src="https://developer.mozilla.org/en/HTML/Element/frameset" />
+          <frame src="https://developer.mozilla.org/en/HTML/Element/frame" />
+          <noframes>
+            <p>
+              It seems your browser does not support frames or is configured to not
+              allow them.
+            </p>
+          </noframes>
+        </frameset>
+      </html>
+  80:
+    type: drill
+    intro: |
+      <noscript>: The Noscript element
+    content: |
+      <noscript>
+        <!-- anchor linking to external file -->
+        <a href="https://www.mozilla.org/">External Link</a>
+      </noscript>
+      <p>Rocks!</p>
+  81:
+    type: drill
+    intro: |
+      <object>: The External Object element
+    content: |
+      <object
+        type="video/mp4"
+        data="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+        width="600"
+        height="140">
+        <img src="path/image.jpg" alt="useful image description" />
+      </object>
+  82:
+    type: drill
+    intro: |
+      <ol>: The Ordered List element
+    content: |
+      <ol>
+        <li>Fee</li>
+        <li>Fi</li>
+        <li>Fo</li>
+        <li>Fum</li>
+      </ol>
+  83:
+    type: drill
+    intro: |
+      <optgroup>: The Option Group element
+    content: |
+      <select>
+        <optgroup label="Group 1">
+          <option>Option 1.1</option>
+        </optgroup>
+        <optgroup label="Group 2">
+          <option>Option 2.1</option>
+          <option>Option 2.2</option>
+        </optgroup>
+        <optgroup label="Group 3" disabled>
+          <option>Option 3.1</option>
+          <option>Option 3.2</option>
+          <option>Option 3.3</option>
+        </optgroup>
+      </select>
+  84:
+    type: drill
+    intro: |
+      <output>: The Output element
+    content: |
+      <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="b" name="b" value="50" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+      </form>
+  85:
+    type: drill
+    intro: |
+      <p>: The Paragraph element
+    content: |
+      <p>
+        This is the first paragraph of text. This is the first paragraph of text. This
+        is the first paragraph of text. This is the first paragraph of text.
+      </p>
+      <p>
+        This is the second paragraph. This is the second paragraph. This is the second
+        paragraph. This is the second paragraph.
+      </p>
+  86:
+    type: drill
+    intro: |
+      <picture>: The Picture element
+    content: |
+      <picture>
+        <source srcset="mdn-logo-wide.png" media="(min-width: 600px)" />
+        <img src="mdn-logo-narrow.png" alt="MDN" />
+      </picture>
+  87:
+    type: drill
+    intro: |
+      <portal>: The Portal element
+    content: |
+      <portal id="exampleportal" src="https://example.com/"></portal>
+  88:
+    type: drill
+    intro: |
+      <pre>: The Preformatted Text element
+    content: |
+      <figure>
+        <pre role="img" aria-label="ASCII COW">
+            ___________________________
+        &lt; I'm an expert in my field. &gt;
+            ---------------------------
+                \   ^__^
+                 \  (oo)\_______
+                    (__)\       )\/\
+                        ||----w |
+                        ||     ||
+        </pre>
+        <figcaption id="cow-caption">
+          A cow saying, "I'm an expert in my field." The cow is illustrated using
+          preformatted text characters.
+        </figcaption>
+      </figure>
+  89:
+    type: drill
+    intro: |
+      <progress>: The Progress Indicator element
+    content: |
+      <progress value="70" max="100">70 %</progress>
+  90:
+    type: drill
+    intro: |
+      <q>: The Inline Quotation element
+    content: |
+      <p>
+        According to Mozilla's website,
+        <q cite="https://www.mozilla.org/en-US/about/history/details/">
+          Firefox 1.0 was released in 2004 and became a big success.
+        </q>
+      </p>
+  91:
+    type: drill
+    intro: |
+      <rb>: The Ruby Base element
+    content: |
+      <ruby>
+        <rb>漢</rb><rb>字 </rb><rp>(</rp><rt>kan</rt><rt>ji</rt><rp>)</rp>
+      </ruby>
+  92:
+    type: drill
+    intro: |
+      <rp>: The Ruby Fallback Parenthesis element
+    content: |
+      <ruby>
+        漢 <rp>(</rp><rt>Kan</rt><rp>)</rp> 字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+      </ruby>
+  93:
+    type: drill
+    intro: |
+      <rt>: The Ruby Text element
+    content: |
+      <ruby> 漢 <rt>Kan</rt> 字 <rt>ji</rt> </ruby>
+  94:
+    type: drill
+    intro: |
+      <rtc>: The Ruby Text Container element
+    content: |
+      <div class="info">
+        <ruby>
+          <rtc>
+            <rb>旧</rb><rt>jiù</rt>
+            <rb>金</rb><rt>jīn</rt>
+            <rb>山</rb><rt>shān</rt>
+          </rtc>
+          <rtc>San Francisco</rtc>
+        </ruby>
+      </div>
+  95:
+    type: drill
+    intro: |
+      <ruby>: The Ruby Annotation element
+    content: |
+      <ruby>
+        漢 <rp>(</rp><rt>Kan</rt><rp>)</rp> 字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+      </ruby>
+  96:
+    type: drill
+    intro: |
+      <s>: The Strikethrough element
+    content: |
+      <s>Today's Special: Salmon</s> SOLD OUT<br />
+      <span class="sold-out">Today's Special: Salmon</span> SOLD OUT
+  97:
+    type: drill
+    intro: |
+      <samp>: The Sample Output element
+    content: |
+      <p>
+        When the process is complete, the utility will output the text
+        <samp>Scan complete. Found <em>N</em> results.</samp> You can then proceed to
+        the next step.
+      </p>
+  98:
+    type: drill
+    intro: |
+      <section>: The Generic Section element
+    content: |
+      <div>
+        <h2>Heading</h2>
+        <p>Bunch of awesome content</p>
+      </div>
+  99:
+    type: drill
+    intro: |
+      <select>: The HTML Select element
+    content: |
+      <!-- The second value will be selected initially -->
+      <select name="choice">
+        <option value="first">First Value</option>
+        <option value="second" selected>Second Value</option>
+        <option value="third">Third Value</option>
+      </select>
+  100:
+    type: drill
+    intro: |
+      <slot>: The Web Component Slot element
+    content: |
+      <template id="element-details-template">
+        <style>
+          details {
+            font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
+          }
+          .name {
+            font-weight: bold;
+            color: #217ac0;
+            font-size: 120%;
+          }
+          h4 {
+            margin: 10px 0 -8px 0;
+            background: #217ac0;
+            color: white;
+            padding: 2px 6px;
+            border: 1px solid #cee9f9;
+            border-radius: 4px;
+          }
+          .attributes {
+            margin-left: 22px;
+            font-size: 90%;
+          }
+          .attributes p {
+            margin-left: 16px;
+            font-style: italic;
+          }
+        </style>
+        <details>
+          <summary>
+            <code class="name">
+              &lt;<slot name="element-name">NEED NAME</slot>&gt;
+            </code>
+            <span class="desc"><slot name="description">NEED DESCRIPTION</slot></span>
+          </summary>
+          <div class="attributes">
+            <h4>Attributes</h4>
+            <slot name="attributes"><p>None</p></slot>
+          </div>
+        </details>
+        <hr />
+      </template>
+  101:
+    type: drill
+    intro: |
+      <small>: the side comment element
+    content: |
+      <p>
+        This is the first sentence.
+        <small>This whole sentence is in small letters.</small>
+      </p>
+  102:
+    type: drill
+    intro: |
+      <source>: The Media or Image Source element
+    content: |
+      <video controls>
+        <source src="foo.webm" type="video/webm" />
+        <source src="foo.ogg" type="video/ogg" />
+        <source src="foo.mov" type="video/quicktime" />
+        I'm sorry; your browser doesn't support HTML video.
+      </video>
+  103:
+    type: drill
+    intro: |
+      <span>: The Content Span element
+    content: |
+      <p><span>Some text</span></p>
+  104:
+    type: drill
+    intro: |
+      del
+    content: |
+      &lt;strike&gt;: <strike>Today's Special: Salmon</strike> SOLD OUT<br />
+      &lt;s&gt;: <s>Today's Special: Salmon</s> SOLD OUT
+  105:
+    type: drill
+    intro: |
+      <strong>: The Strong Importance element
+    content: |
+      <p>
+        Before proceeding, <strong>make sure you put on your safety goggles</strong>.
+      </p>
+  106:
+    type: drill
+    intro: |
+      <style>: The Style Information element
+    content: |
+      <!DOCTYPE html>
+      <html lang="en-US">
+        <head>
+          <meta charset="UTF-8" />
+          <title>Test page</title>
+          <style>
+            p {
+              color: red;
+            }
+          </style>
+        </head>
+        <body>
+          <p>This is my paragraph.</p>
+        </body>
+      </html>
+  107:
+    type: drill
+    intro: |
+      <sub>: The Subscript element
+    content: |
+      <p>
+        According to the computations by Nakamura, Johnson, and Mason<sub>1</sub> this
+        will result in the complete annihilation of both particles.
+      </p>
+  108:
+    type: drill
+    intro: |
+      <summary>: The Disclosure Summary element
+    content: |
+      <details open>
+        <summary>Overview</summary>
+        <ol>
+          <li>Cash on hand: $500.00</li>
+          <li>Current invoice: $75.30</li>
+          <li>Due date: 5/6/19</li>
+        </ol>
+      </details>
+  109:
+    type: drill
+    intro: |
+      <sup>: The Superscript element
+    content: |
+      <p>
+        One of the most common equations in all of physics is <var>E</var>=<var>m</var
+        ><var>c</var><sup>2</sup>.
+      </p>
+  110:
+    type: drill
+    intro: |
+      <table>: The Table element
+    content: |
+      <table>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Doe</td>
+        </tr>
+      </table>
+  111:
+    type: drill
+    intro: |
+      <tbody>: The Table Body element
+    content: |
+      <table>
+        <thead>
+          <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Major</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3741255</td>
+            <td>Jones, Martha</td>
+            <td>Computer Science</td>
+          </tr>
+          <tr>
+            <td>3971244</td>
+            <td>Nim, Victor</td>
+            <td>Russian Literature</td>
+          </tr>
+          <tr>
+            <td>4100332</td>
+            <td>Petrov, Alexandra</td>
+            <td>Astrophysics</td>
+          </tr>
+        </tbody>
+      </table>
+  112:
+    type: drill
+    intro: |
+      <template>: The Content Template element
+    content: |
+      <table id="producttable">
+        <thead>
+          <tr>
+            <td>UPC_Code</td>
+            <td>Product_Name</td>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- existing data could optionally be included here -->
+        </tbody>
+      </table>
+
+      <template id="productrow">
+        <tr>
+          <td class="record"></td>
+          <td></td>
+        </tr>
+      </template>
+  113:
+    type: drill
+    intro: |
+      <textarea>: The Textarea element
+    content: |
+      <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+  114:
+    type: drill
+    intro: |
+      pages/tabbed/time.html
+    content: |
+      <p>The concert starts at <time datetime="2018-07-07T20:00:00">20:00</time>.</p>
+  115:
+    type: drill
+    intro: |
+      <title>: The Document Title element
+    content: |
+      <title>Grandma's Heavy Metal Festival Journal</title>
+  116:
+    type: drill
+    intro: |
+      <tr>: The Table Row element
+    content: |
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>ID</th>
+          <th>Member Since</th>
+          <th>Balance</th>
+        </tr>
+        <tr>
+          <td>Margaret Nguyen</td>
+          <td>427311</td>
+          <td><time datetime="2010-06-03">June 3, 2010</time></td>
+          <td>0.00</td>
+        </tr>
+        <tr>
+          <td>Edvard Galinski</td>
+          <td>533175</td>
+          <td><time datetime="2011-01-13">January 13, 2011</time></td>
+          <td>37.00</td>
+        </tr>
+        <tr>
+          <td>Hoshi Nakamura</td>
+          <td>601942</td>
+          <td><time datetime="2012-07-23">July 23, 2012</time></td>
+          <td>15.00</td>
+        </tr>
+      </table>
+  117:
+    type: drill
+    intro: |
+      <track>: The Embed Text Track element
+    content: |
+      <video controls poster="/images/sample.gif">
+        <source src="sample.mp4" type="video/mp4" />
+        <source src="sample.ogv" type="video/ogv" />
+        <track kind="captions" src="sampleCaptions.vtt" srclang="en" />
+        <track kind="descriptions" src="sampleDescriptions.vtt" srclang="en" />
+        <track kind="chapters" src="sampleChapters.vtt" srclang="en" />
+        <track kind="subtitles" src="sampleSubtitles_de.vtt" srclang="de" />
+        <track kind="subtitles" src="sampleSubtitles_en.vtt" srclang="en" />
+        <track kind="subtitles" src="sampleSubtitles_ja.vtt" srclang="ja" />
+        <track kind="subtitles" src="sampleSubtitles_oz.vtt" srclang="oz" />
+        <track kind="metadata" src="keyStage1.vtt" srclang="en" label="Key Stage 1" />
+        <track kind="metadata" src="keyStage2.vtt" srclang="en" label="Key Stage 2" />
+        <track kind="metadata" src="keyStage3.vtt" srclang="en" label="Key Stage 3" />
+        <!-- Fallback -->
+        …
+      </video>
+  118:
+    type: drill
+    intro: |
+      <tt>: The Teletype Text element
+    content: |
+      <p>
+        Enter the following at the telnet command prompt:
+        <code>set localecho</code><br />
+
+        The telnet client should display: <tt>Local Echo is on</tt>
+      </p>
+  119:
+    type: drill
+    intro: |
+      <u>: The Unarticulated Annotation (Underline) element
+    content: |
+      <p>This paragraph includes a <u class="spelling">wrnogly</u> spelled word.</p>
+  120:
+    type: drill
+    intro: |
+      <ul>: The Unordered List element
+    content: |
+      <ul>
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+      </ul>
+  121:
+    type: drill
+    intro: |
+      <var>: The Variable element
+    content: |
+      <p>A simple equation: <var>x</var> = <var>y</var> + 2</p>
+  122:
+    type: drill
+    intro: |
+      <video>: The Video Embed element
+    content: |
+      <video controls>
+        <source src="myVideo.webm" type="video/webm" />
+        <source src="myVideo.mp4" type="video/mp4" />
+        <p>
+          Your browser doesn't support HTML video. Here is a
+          <a href="myVideo.mp4">link to the video</a> instead.
+        </p>
+      </video>
+  123:
+    type: drill
+    intro: |
+      <wbr>: The Line Break Opportunity element
+    content: |
+      <p>
+        http://this<wbr />.is<wbr />.a<wbr />.really<wbr />.long<wbr />.example<wbr />.com/With<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages<wbr />/deeper<wbr />/level<wbr />/pages
+      </p>
