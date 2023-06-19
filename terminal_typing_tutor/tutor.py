@@ -7,6 +7,7 @@ import yaml
 import json
 import time
 import os
+from ._version import CURRENT_VERSION
 from terminal_typing_tutor.constants import (
     MAIN_MENU,
     MAIN_MENU_TITLE,
@@ -27,8 +28,7 @@ from terminal_typing_tutor.constants import (
     MIN_PB_CHARS,
     TSeries,
     TStats,
-    TStatsFile,
-    CURRENT_VERSION
+    TStatsFile
 )
 
 # global variables, used in many functions, all should point to the same variable
