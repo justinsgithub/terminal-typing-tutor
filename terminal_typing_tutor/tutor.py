@@ -300,8 +300,8 @@ def run_drill(title: str, intro: str, content: str):
                 if pressed_key["pressed_enter"]:
                     print(f" \n{X(left_padding)}", end="", flush=True)
                 else:
-                    # changed correct key to blue (red/green colorblind friendly)
-                    print(TERM.blue(key), end="", flush=True)
+                    # changed correct key to gray (red/green colorblind friendly)
+                    print(TERM.gray(key), end="", flush=True)
 
             if pressed_wrong_key == True:
                 if pressed_key["pressed_space"]:
@@ -530,7 +530,7 @@ def update_check():
         update["last_shown"] = today
         update_data_to_dump = json.dumps(update)
         Path(__file__).parent.joinpath("update.json").write_text(update_data_to_dump)
-        print(f"\n\n{TERM.blue('Upgrade available!')} To upgrade run:\n")
+        print(f"\n\n{TERM.gray('Upgrade available!')} To upgrade run:\n")
         print(f"pip install --user --upgrade terminal-typing-tutor\n\n")
 
 def tutor():
