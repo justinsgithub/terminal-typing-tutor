@@ -3,6 +3,7 @@ from pathlib import Path
 from datetime import date
 from blessed.keyboard import Keystroke
 from urllib import request
+from .qotd import *
 import yaml
 import json
 import time
@@ -214,7 +215,13 @@ def end_drill(start_time: float, test_string: str, incorrect_pressed_keys: List[
 def pressed_info(key: Keystroke, target_char: str):
     pressed_space = key == ' '
     pressed_enter = key.name == 'KEY_ENTER'
-    hit_target = key == target_char or (pressed_enter and target_char == '\n')
+    hit_target = key == target_char
+
+    # this wraps lines with space instead of CR which is more intuitive bahavior
+    if key == ' ' and target_char == '\n':
+        pressed_space = False
+        pressed_enter = True
+        hit_target = True
 
     return {
             "pressed_enter": pressed_enter,
@@ -293,7 +300,8 @@ def run_drill(title: str, intro: str, content: str):
                 if pressed_key["pressed_enter"]:
                     print(f" \n{X(left_padding)}", end="", flush=True)
                 else:
-                    print(TERM.green(key), end="", flush=True)
+                    # changed correct key to gray (red/green colorblind friendly)
+                    print(TERM.gray(key), end="", flush=True)
 
             if pressed_wrong_key == True:
                 if pressed_key["pressed_space"]:
@@ -367,6 +375,15 @@ def run_lesson_menu():
 
     # lessons start at 1 not 0
     lesson = menu_selection(menu_title, menu) + 1
+
+    # initialize quote of the day lessons if selected
+    if series == 'D':
+        if lesson == 1:
+            qotd()
+        elif lesson == 2:
+            rand_quote()
+        elif lesson == 3:
+            edison()
 
 
 def run_series_menu():
@@ -513,7 +530,7 @@ def update_check():
         update["last_shown"] = today
         update_data_to_dump = json.dumps(update)
         Path(__file__).parent.joinpath("update.json").write_text(update_data_to_dump)
-        print(f"\n\n{TERM.green('Upgrade available!')} To upgrade run:\n")
+        print(f"\n\n{TERM.gray('Upgrade available!')} To upgrade run:\n")
         print(f"pip install --user --upgrade terminal-typing-tutor\n\n")
 
 def tutor():

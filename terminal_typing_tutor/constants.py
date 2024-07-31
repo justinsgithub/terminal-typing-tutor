@@ -35,6 +35,10 @@ MAIN_MENU = [
     {
         "title": "Series W    Web Development  (HTML)         ",
         "series": "W",
+    },
+    {
+        "title": "QOTD        Quote of the Day (Wikiquote)    ",
+        "series": "D",
     }
 ]
 
@@ -67,4 +71,4 @@ PB_DICT = {
 
 TStats = TypedDict("Tstats", {"accuracy": float, "wpm": int, "cpm": int, "words": int, "characters": int}) 
 TStatsFile = TypedDict("TStatsFile", {"all_time": TStats}) 
-TSeries = Literal["M", "Q", "R", "S", "T", "U", "V", "W"]
+TSeries = Literal["M", "Q", "R", "S", "T", "U", "V", "W", "D"]
